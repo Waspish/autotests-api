@@ -1,8 +1,6 @@
-# gRPC Service Project
+# Api Automation Project
 
-Простой gRPC сервис с клиентом и сервером на Python.
-
-## Быстрый старт
+## Предусловия
 
 ```bash
 # 1. Создание и активация виртуального окружения
@@ -11,12 +9,20 @@ python -m venv .venv
 
 # 2. Установка зависимостей
 pip install -r requirements.txt
+```
 
-# 3. Запуск сервера
+
+## Быстрый старт для gRPC сервиса
+
+```bash
+# 1. Переходв папку gRPC
+cd .\gRPC\
+
+# 2. Запуск сервера
 python -m grpc_server
 
-# 4. В другом терминале - запуск клиента
-python grpc_client.py
+# 3. В другом терминале - запуск клиента
+python -m grpc_client
 ```
 
 ## Установка и настройка protoc
@@ -33,3 +39,16 @@ python grpc_client.py
 5. Проверьте установку:
    ```cmd
    protoc --version
+   
+## Быстрый старт для WebSocket сервиса
+
+```bash
+# 1. Переходв папку WebSocket
+cd .\WebSocket\  
+
+# 2. Запуск сервера
+python -m websocket_server
+
+# 3. В другом терминале - запуск клиента
+python -m websocket_client
+```
