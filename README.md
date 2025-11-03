@@ -52,3 +52,22 @@ python -m websocket_server
 # 3. В другом терминале - запуск клиента
 python -m websocket_client
 ```
+
+## Быстрый старт для TCP-IP сервиса
+
+```bash
+# 1. Переходв папку WebSocket
+cd .\TCP-IP\  
+
+# 2. Запуск сервера
+python -m tcp_server
+
+# 3. В другом терминале - запуск клиента
+python -m tcp_client
+```
+
+## Все остальное (в соответсвующих папках)
+
+```bash
+python -m {название_файла}
+```
