@@ -3,41 +3,45 @@ from typing import TypedDict
 from httpx import Response
 
 from clients.api_client import APIClient
+from clients.private_http_builder import AuthenticationUserDict, get_private_http_client
+
+
+class CreateExerciseRequestDict(TypedDict):
+    """
+    Описание структуры запроса на создание упражнения для курса.
+    """
+    title: str
+    courseId: str
+    maxScore: int
+    minScore: int
+    orderIndex: int
+    description: str
+    estimatedTime: str
+
+
+class UpdateExerciseRequestDict(TypedDict):
+    """
+    Описание структуры запроса на обновление упражнения из курса.
+    """
+    title: str
+    maxScore: int
+    minScore: int
+    orderIndex: int
+    description: str
+    estimatedTime: str
+
+
+class GetExercisesRequestDict(TypedDict):
+    """
+    Описание структуры запроса на получение упражнений из курса.
+    """
+    courseId: str
 
 
 class ExerciseClient(APIClient):
     """
     Клиент для работы с /api/v1/exercises
     """
-
-    class CreateExerciseRequestDict(TypedDict):
-        """
-        Описание структуры запроса на создание упражнения для курса.
-        """
-        title: str
-        courseId: str
-        maxScore: int
-        minScore: int
-        orderIndex: int
-        description: str
-        estimatedTime: str
-
-    class UpdateExerciseRequestDict(TypedDict):
-        """
-        Описание структуры запроса на обновление упражнения из курса.
-        """
-        title: str
-        maxScore: int
-        minScore: int
-        orderIndex: int
-        description: str
-        estimatedTime: str
-
-    class GetExercisesRequestDict(TypedDict):
-        """
-        Описание структуры запроса на получение упражнений из курса.
-        """
-        courseId: str
 
     def create_exercise_api(self, request: CreateExerciseRequestDict) -> Response:
         """
@@ -84,3 +88,12 @@ class ExerciseClient(APIClient):
         :return: Ответ от сервера в виде объекта httpx.Response
         """
         return self.patch(url=f"/api/v1/exercise/{exercise_id}", json=request)
+
+
+def get_private_users_client(user: AuthenticationUserDict) -> ExerciseClient:
+    """
+    Фунция создает экземпляр ExerciseClient с уже настроенным HTTP-клиентом.
+
+    :return: Готовый к использованию ExerciseClient.
+    """
+    return ExerciseClient(client=get_private_http_client(user))
