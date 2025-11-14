@@ -15,12 +15,29 @@ class UploadFileRequestDict(TypedDict):
     upload_file: str
 
 
-class FilesClient(APIClient):
+class File(TypedDict):
+    """
+    Описание структуры файла.
+    """
+    id: str
+    filename: str
+    directory: str
+    url: str
+
+
+class CreateFileResponseDict(TypedDict):
+    """
+    Описание структуры ответа размещения файла.
+    """
+    file: File
+
+
+class FileClient(APIClient):
     """
     Клиент для работы с /api/v1/files
     """
 
-    def get_file(self, file_id: str) -> Response:
+    def get_file_api(self, file_id: str) -> Response:
         """
         Метод на получение файла по идентификатору.
 
@@ -29,7 +46,7 @@ class FilesClient(APIClient):
         """
         return self.get(url=f"/api/v1/files/{file_id}")
 
-    def delete_file(self, file_id: str) -> Response:
+    def delete_file_api(self, file_id: str) -> Response:
         """
         Метод на удаление файла по идентификатору.
 
@@ -38,7 +55,7 @@ class FilesClient(APIClient):
         """
         return self.delete(url=f"/api/v1/files/{file_id}")
 
-    def upload_file(self, request: UploadFileRequestDict) -> Response:
+    def create_file_api(self, request: UploadFileRequestDict) -> Response:
         """
         Метод размещения файла.
 
@@ -51,11 +68,15 @@ class FilesClient(APIClient):
             files={"upload_file": open(request['upload_file'], "rb")}
         )
 
+    def create_file(self, request: UploadFileRequestDict) -> CreateFileResponseDict:
+        response = self.create_file_api(request=request)
+        return response.json()
 
-def get_private_users_client(user: AuthenticationUserDict) -> FilesClient:
+
+def get_file_client(user: AuthenticationUserDict) -> FileClient:
     """
     Фунция создает экземпляр FilesClient с уже настроенным HTTP-клиентом.
 
     :return: Готовый к использованию FilesClient.
     """
-    return FilesClient(client=get_private_http_client(user))
+    return FileClient(client=get_private_http_client(user))
