@@ -12,9 +12,9 @@ from tools.fakers import get_random_email
 create_user_request = CreateUserRequestSchema(
     email=get_random_email(),
     password="string",
-    lastName="string",
-    firstName="string",
-    middleName="string"
+    last_name="string",
+    first_name="string",
+    middle_name="string"
 )
 public_users_client = get_public_users_client()
 create_user_response = public_users_client.create_user(create_user_request)
@@ -37,10 +37,10 @@ print("Create file data: ", create_file_response)
 create_course_request = CreateCourseRequestSchema(
     created_by_user_id=create_user_response.user.id,
     preview_file_id=create_file_response.file.id,
-    maxScore=100,
-    minScore=10,
+    max_score=100,
+    min_score=10,
     description="Python Course Api with CI/CD, Pydantic, HTTPX",
-    estimatedTime="3 weeks",
+    estimated_time="3 weeks",
     title="Python API Course"
 )
 courses_client = get_courses_client(authentication_user)
