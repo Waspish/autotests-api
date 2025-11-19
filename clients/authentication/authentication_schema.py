@@ -1,5 +1,7 @@
 from pydantic import BaseModel, Field, ConfigDict, EmailStr
 
+from tools.fakers import fake
+
 
 class RefreshRequestSchema(BaseModel):
     """
@@ -29,5 +31,5 @@ class LoginRequestSchema(BaseModel):
     """
     model_config = ConfigDict(populate_by_name=True)
 
-    email: EmailStr
-    password: str
+    email: EmailStr = Field(default_factory=fake.email)
+    password: str = Field(default_factory=fake.password)

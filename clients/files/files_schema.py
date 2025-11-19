@@ -1,4 +1,6 @@
-from pydantic import BaseModel, ConfigDict, HttpUrl
+from pydantic import BaseModel, ConfigDict, HttpUrl, Field
+
+from tools.fakers import fake
 
 
 class FileSchema(BaseModel):
@@ -19,8 +21,8 @@ class CreateFileRequestSchema(BaseModel):
     """
     model_config = ConfigDict(populate_by_name=True)
 
-    filename: str
-    directory: str
+    filename: str = Field(default_factory=fake.png_file_name)
+    directory: str = Field(default="tests")
     upload_file: str
 
 

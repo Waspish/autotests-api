@@ -84,7 +84,7 @@ class Fake:
         :param end: Конец диапазона (включительно).
         :return: Случайное целое число.
         """
-        return self.faker.integer(start, end)
+        return self.faker.random_int(start, end)
 
     def estimated_time(self) -> str:
         """
@@ -109,6 +109,14 @@ class Fake:
         :return: Случайный балл.
         """
         return self.integer(1, 30)
+
+    def png_file_name(self):
+        """
+        Генерирует случайное имя для файла с расширением ".png".
+
+        :return: Случайное имя .png файла.
+        """
+        return f'{self.uuid4()}.png'
 
 
 # Создаем экземпляр класса Fake с использованием Faker
