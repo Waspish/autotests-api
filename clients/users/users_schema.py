@@ -12,7 +12,7 @@ class UserSchema(BaseModel):
     id: str
     email: EmailStr
     last_name: str = Field(alias="lastName")
-    firs_name: str = Field(alias="firstName")
+    first_name: str = Field(alias="firstName")
     middle_name: str = Field(alias="middleName")
 
 
