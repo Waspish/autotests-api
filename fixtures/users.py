@@ -23,6 +23,10 @@ class UserFixture(BaseModel):
     def authentication_user(self) -> AuthenticationUserSchema:
         return AuthenticationUserSchema(email=self.email, password=self.password)
 
+    @property
+    def id(self):
+        return self.response.user.id
+
 
 @pytest.fixture
 def public_users_client() -> PublicUsersClient:
