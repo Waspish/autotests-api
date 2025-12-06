@@ -33,3 +33,15 @@ class CreateFileResponseSchema(BaseModel):
     model_config = ConfigDict(populate_by_name=True)
 
     file: FileSchema
+
+
+class GetFileRequestSchema(BaseModel):
+    model_config = ConfigDict(populate_by_name=True)
+
+    file_id: str = Field(default_factory=fake.uuid4())
+
+
+class GetFileResponseSchema(BaseModel):
+    model_config = ConfigDict(populate_by_name=True)
+
+    file: FileSchema
