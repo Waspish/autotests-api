@@ -2,7 +2,7 @@ from http import HTTPStatus
 
 import pytest
 
-from clients.errors_schema import ValidationErrorResponseSchema, HTTPValidationErrorSchema
+from clients.errors_schema import ValidationErrorResponseSchema, InternalErrorResponseSchema
 from clients.files.files_client import FileClient
 from clients.files.files_schema import CreateFileRequestSchema, CreateFileResponseSchema, GetFileRequestSchema, \
     GetFileResponseSchema
@@ -63,10 +63,12 @@ class TestFiles:
         assert_status_code(delete_response.status_code, HTTPStatus.OK)
 
         get_response = files_client.get_file_api(function_file.id)
-        get_response_data = HTTPValidationErrorSchema.model_validate_json(get_response.text)
+        get_response_data = InternalErrorResponseSchema.model_validate_json(get_response.text)
+        
+        assert_status_code(get_response.status_code, HTTPStatus.NOT_FOUND)
         assert_file_not_found_response(get_response_data)
 
-        validate_json_schema(get_response.json(), HTTPValidationErrorSchema.model_json_schema())
+        validate_json_schema(get_response.json(), InternalErrorResponseSchema.model_json_schema())
 
     def test_get_file_with_incorrect_file_id(self, files_client: FileClient, function_file: FileFixture):
         response = files_client.get_file_api(file_id="incorrect-file-id")
