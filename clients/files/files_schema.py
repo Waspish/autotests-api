@@ -36,12 +36,18 @@ class CreateFileResponseSchema(BaseModel):
 
 
 class GetFileRequestSchema(BaseModel):
+    """
+    Описание структуры запроса получения файла.
+    """
     model_config = ConfigDict(populate_by_name=True)
 
     file_id: str = Field(default_factory=fake.uuid4())
 
 
 class GetFileResponseSchema(BaseModel):
+    """
+    Описание структуры ответа получения файла.
+    """
     model_config = ConfigDict(populate_by_name=True)
 
     file: FileSchema

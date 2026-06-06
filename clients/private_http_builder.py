@@ -7,6 +7,9 @@ from clients.authentication.authentication_client import get_authentications_cli
 
 
 class AuthenticationUserSchema(BaseModel, frozen=True):
+    """
+    Модель для аутентификации пользователя.
+    """
     email: EmailStr
     password: str
 

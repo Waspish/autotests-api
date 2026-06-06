@@ -12,6 +12,9 @@ class RefreshRequestSchema(BaseModel):
 
 
 class TokenSchema(BaseModel):
+    """
+    Описание структуры токена.
+    """
     model_config = ConfigDict(populate_by_name=True)
 
     token_type: str = Field(alias="tokenType")
@@ -20,6 +23,9 @@ class TokenSchema(BaseModel):
 
 
 class LoginResponseSchema(BaseModel):
+    """
+    Описание структуры ответа на аутентификацию.
+    """
     model_config = ConfigDict(populate_by_name=True)
 
     token: TokenSchema
