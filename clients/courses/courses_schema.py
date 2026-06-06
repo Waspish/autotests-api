@@ -74,3 +74,12 @@ class UpdateCourseResponseSchema(BaseModel):
     model_config = ConfigDict(populate_by_name=True)
 
     course: CourseSchema
+
+
+class GetCourseResponseSchema(BaseModel):
+    """
+    Описание структуры ответа получения курса.
+    """
+    model_config = ConfigDict(populate_by_name=True)
+
+    course: CourseSchema
