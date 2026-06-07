@@ -6,7 +6,7 @@ from clients.courses.courses_schema import CreateCourseRequestSchema, GetCourses
 from clients.private_http_builder import get_private_http_client, AuthenticationUserSchema
 
 
-class CourseClient(APIClient):
+class CoursesClient(APIClient):
     """
     Клиент для работы с /api/v1/courses
     """
@@ -62,10 +62,10 @@ class CourseClient(APIClient):
         return CreateCourseResponseSchema.model_validate_json(response.text)
 
 
-def get_courses_client(user: AuthenticationUserSchema) -> CourseClient:
+def get_courses_client(user: AuthenticationUserSchema) -> CoursesClient:
     """
-    Фунция создает экземпляр CourseClient с уже настроенным HTTP-клиентом.
+    Фунция создает экземпляр CoursesClient с уже настроенным HTTP-клиентом.
 
-    :return: Готовый к использованию CourseClient.
+    :return: Готовый к использованию CoursesClient.
     """
-    return CourseClient(client=get_private_http_client(user))
+    return CoursesClient(client=get_private_http_client(user))

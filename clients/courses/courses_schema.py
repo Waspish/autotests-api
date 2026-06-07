@@ -83,3 +83,13 @@ class GetCourseResponseSchema(BaseModel):
     model_config = ConfigDict(populate_by_name=True)
 
     course: CourseSchema
+
+
+class GetCoursesResponseSchema(BaseModel):
+    """
+    Описание структуры ответа получения курсов.
+    """
+
+    model_config = ConfigDict(populate_by_name=True)
+
+    courses: list[CourseSchema]
