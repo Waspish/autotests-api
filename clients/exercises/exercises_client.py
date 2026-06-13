@@ -2,7 +2,7 @@ from httpx import Response
 
 from clients.api_client import APIClient
 from clients.exercises.exercises_schema import CreateExerciseRequestSchema, GetExercisesRequestSchema, \
-    UpdateExerciseRequestSchema, GetExerciseResponseSchema
+    UpdateExerciseRequestSchema, GetExerciseResponseSchema, CreateExerciseResponseSchema
 from clients.private_http_builder import get_private_http_client, AuthenticationUserSchema
 
 
@@ -57,9 +57,9 @@ class ExerciseClient(APIClient):
         """
         return self.patch(url=f"/api/v1/exercises/{exercise_id}", json=request.model_dump(by_alias=True))
 
-    def create_exercise(self, request: CreateExerciseRequestSchema) -> GetExerciseResponseSchema:
+    def create_exercise(self, request: CreateExerciseRequestSchema) -> CreateExerciseResponseSchema:
         response = self.create_exercise_api(request=request)
-        return GetExerciseResponseSchema.model_validate_json(response.text)
+        return CreateExerciseResponseSchema.model_validate_json(response.text)
 
     def get_exercises(self, query: GetExercisesRequestSchema) -> GetExercisesRequestSchema:
         response = self.get_exercises_api(query=query)

@@ -45,7 +45,7 @@ class TestCourses:
         response_data = UpdateCourseResponseSchema.model_validate_json(response.text)
 
         assert_status_code(response.status_code, HTTPStatus.OK)
-        assert_update_course_response(request=request, response=response_data)
+        assert_update_course_response(request=request, response=response_data, course_id=function_course.id)
 
         validate_json_schema(response.json(), UpdateCourseResponseSchema.model_json_schema())
 

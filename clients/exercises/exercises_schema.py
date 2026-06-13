@@ -12,13 +12,13 @@ class ExerciseSchema(BaseModel):
     model_config = ConfigDict(populate_by_name=True)
 
     id: str
-    title: str
-    description: str
+    title: str | None
+    description: str | None
     course_id: str = Field(alias="courseId")
-    max_score: int = Field(alias="maxScore")
-    min_score: int = Field(alias="minScore")
-    order_index: int = Field(alias="orderIndex")
-    estimated_time: str = Field(alias="estimatedTime")
+    max_score: int | None = Field(alias="maxScore")
+    min_score: int | None = Field(alias="minScore")
+    order_index: int | None = Field(alias="orderIndex")
+    estimated_time: str | None = Field(alias="estimatedTime")
 
 
 class CreateExerciseRequestSchema(BaseModel):
@@ -60,6 +60,15 @@ class GetExercisesRequestSchema(BaseModel):
     course_id: str = Field(alias="courseId", default_factory=fake.uuid4)
 
 
+class GetExerciseRequestSchema(BaseModel):
+    """
+    Описание структуры запроса на получение упражнения из курса.
+    """
+    model_config = ConfigDict(populate_by_name=True)
+
+    exercise_id: str = Field(default_factory=fake.uuid4)
+
+
 class GetExercisesResponseSchema(BaseModel):
     """
     Описание структуры ответа на список упражнений из курса.
@@ -72,6 +81,24 @@ class GetExercisesResponseSchema(BaseModel):
 class GetExerciseResponseSchema(BaseModel):
     """
     Описание структуры ответа на упражнение из курса.
+    """
+    model_config = ConfigDict(populate_by_name=True)
+
+    exercise: ExerciseSchema
+
+
+class CreateExerciseResponseSchema(BaseModel):
+    """
+    Описание структуры ответа на создание упражнения.
+    """
+    model_config = ConfigDict(populate_by_name=True)
+
+    exercise: ExerciseSchema
+
+
+class UpdateExerciseResponseSchema(BaseModel):
+    """
+    Описание структуры ответа на обновление упражнения.
     """
     model_config = ConfigDict(populate_by_name=True)
 
