@@ -12,7 +12,7 @@ class ExerciseSchema(BaseModel):
     model_config = ConfigDict(populate_by_name=True)
 
     id: str
-    title: str | None
+    title: str
     description: str | None
     course_id: str = Field(alias="courseId")
     max_score: int | None = Field(alias="maxScore")
