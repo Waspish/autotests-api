@@ -2,3 +2,6 @@
 __pycache__/
 .idea/
 test_crabs.py
+wheels
+allure-results
+requirements-android.txt
