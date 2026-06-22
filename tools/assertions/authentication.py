@@ -1,6 +1,9 @@
+import allure
+
 from tools.assertions.base import assert_equal, assert_is_true
 
 
+@allure.step("Check login response")
 def assert_login_response(response):
     """
     Проверяет, что ответ аутентификации содержит корректные поля:

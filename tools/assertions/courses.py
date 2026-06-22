@@ -1,3 +1,5 @@
+import allure
+
 from clients.courses.courses_schema import UpdateCourseRequestSchema, UpdateCourseResponseSchema, CourseSchema, \
     GetCourseResponseSchema, CreateCourseResponseSchema, GetCoursesResponseSchema, CreateCourseRequestSchema
 from tools.assertions.base import assert_equal, assert_is_true, assert_length
@@ -5,6 +7,7 @@ from tools.assertions.files import assert_file
 from tools.assertions.users import assert_user
 
 
+@allure.step("Check course")
 def assert_course(actual: CourseSchema, expected: CourseSchema):
     """
     Проверяет, что фактические данные курса соответствуют ожидаемым.
@@ -24,6 +27,7 @@ def assert_course(actual: CourseSchema, expected: CourseSchema):
     assert_user(actual.created_by_user, expected.created_by_user)
 
 
+@allure.step("Check get course response")
 def assert_get_course_response(create_course_response: CreateCourseResponseSchema,
                                get_course_response: GetCourseResponseSchema):
     """
@@ -36,6 +40,7 @@ def assert_get_course_response(create_course_response: CreateCourseResponseSchem
     assert_course(expected=create_course_response.course, actual=get_course_response.course)
 
 
+@allure.step("Check get courses response")
 def assert_get_courses_response(create_course_responses: list[CreateCourseResponseSchema],
                                 get_courses_response: GetCoursesResponseSchema):
     """
@@ -51,6 +56,7 @@ def assert_get_courses_response(create_course_responses: list[CreateCourseRespon
         assert_course(actual=get_courses_response.courses[index], expected=create_course_response.course)
 
 
+@allure.step("Check update course response")
 def assert_update_course_response(
         request: UpdateCourseRequestSchema,
         response: UpdateCourseResponseSchema,
@@ -75,6 +81,7 @@ def assert_update_course_response(
     assert_is_true(response.course.preview_file, name='created_by_user')
 
 
+@allure.step("Check create course response")
 def assert_create_course_response(request: CreateCourseRequestSchema, response: CreateCourseResponseSchema):
     """
     Проверяет, что ответ на создание курса соответствует запросу.

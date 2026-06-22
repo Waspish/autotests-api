@@ -1,5 +1,7 @@
 from typing import List
 
+import allure
+
 from clients.errors_schema import InternalErrorResponseSchema
 from clients.exercises.exercises_schema import CreateExerciseResponseSchema, CreateExerciseRequestSchema, \
     GetExerciseResponseSchema, UpdateExerciseRequestSchema, UpdateExerciseResponseSchema, ExerciseSchema, \
@@ -8,6 +10,7 @@ from tools.assertions.base import assert_equal, assert_is_true, assert_length
 from tools.assertions.errors import assert_internal_error_response
 
 
+@allure.step("Check exercise")
 def assert_exercise(actual: ExerciseSchema, expected: ExerciseSchema):
     """
     Проверяет, что фактические данные упражнения соответствуют ожидаемым.
@@ -27,6 +30,7 @@ def assert_exercise(actual: ExerciseSchema, expected: ExerciseSchema):
     assert_equal(actual.id, expected.id, name="id")
 
 
+@allure.step("Check create exercise response")
 def assert_create_exercise_response(response: CreateExerciseResponseSchema, request: CreateExerciseRequestSchema):
     """
     Проверяет, что ответ на создание упражнения соответствует запросу.
@@ -47,6 +51,7 @@ def assert_create_exercise_response(response: CreateExerciseResponseSchema, requ
     assert_is_true(response.exercise.id, name="exercise_id")
 
 
+@allure.step("Check get exercise response")
 def assert_get_exercise_response(create_exercise_response: CreateExerciseResponseSchema,
                                  get_exercise_response: GetExerciseResponseSchema):
     """
@@ -59,6 +64,7 @@ def assert_get_exercise_response(create_exercise_response: CreateExerciseRespons
     assert_exercise(actual=get_exercise_response.exercise, expected=create_exercise_response.exercise)
 
 
+@allure.step("Check get exercises response")
 def assert_get_exercises_response(
         create_exercise_responses: List[CreateExerciseResponseSchema],
         get_exercises_response: GetExercisesResponseSchema
@@ -76,6 +82,7 @@ def assert_get_exercises_response(
         assert_exercise(actual=get_exercises_response.exercises[index], expected=exercise.exercise)
 
 
+@allure.step("Check update exercise response")
 def assert_update_exercise_response(
         request: UpdateExerciseRequestSchema,
         response: UpdateExerciseResponseSchema,
@@ -101,6 +108,7 @@ def assert_update_exercise_response(
     assert_is_true(response.exercise.course_id, name="course_id")
 
 
+@allure.step("Check exercise not found response")
 def assert_exercise_not_found_response(actual: InternalErrorResponseSchema):
     """
     Функция для проверки ошибки, если упражнение не найдено на сервере.
