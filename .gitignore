@@ -1,7 +1,7 @@
 .venv/
 __pycache__/
 .idea/
-test_crabs.py
+StudyFiles/
 wheels
 allure-results
 requirements-android.txt
