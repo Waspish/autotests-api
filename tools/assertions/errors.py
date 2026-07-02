@@ -2,6 +2,9 @@ import allure
 
 from clients.errors_schema import ValidationErrorResponseSchema, ValidationErrorSchema, InternalErrorResponseSchema
 from tools.assertions.base import assert_length, assert_equal
+from tools.logger import get_logger
+
+logger = get_logger("ERRORS_ASSERTIONS")
 
 
 @allure.step("Check validation error")
@@ -13,6 +16,8 @@ def assert_validation_error(actual: ValidationErrorSchema, expected: ValidationE
     :param expected: Ожидаемая ошибка.
     :raises AssertionError: Если значения полей не совпадают.
     """
+    logger.info("Check validation error")
+
     assert_equal(actual.type, expected.type, "type")
     assert_equal(actual.message, expected.message, "message")
     assert_equal(actual.input, expected.input, "input")
@@ -29,6 +34,8 @@ def assert_validation_error_response(actual: ValidationErrorResponseSchema, expe
     :param expected: Ожидаемый ответ API.
     :raises AssertionError: Если значения полей не совпадают.
     """
+    logger.info("Check validation error response")
+
     assert_length(actual=actual.details, expected=expected.details, name="details")
 
     for index, detail in enumerate(expected.details):
@@ -44,4 +51,6 @@ def assert_internal_error_response(actual: InternalErrorResponseSchema, expected
     :param expected: Ожидаемый ответ API.
     :raises AssertionError: Если значения полей не совпадают.
     """
+    logger.info("Check internal error response")
+
     assert_equal(actual=actual.details, expected=expected.details, name='details')

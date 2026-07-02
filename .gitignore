@@ -5,3 +5,5 @@ StudyFiles/
 wheels
 allure-results
 requirements-android.txt
+.geminiignore
+GEMINI.md
