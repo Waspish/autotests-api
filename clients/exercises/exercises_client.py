@@ -5,6 +5,7 @@ from clients.api_client import APIClient
 from clients.exercises.exercises_schema import CreateExerciseRequestSchema, GetExercisesRequestSchema, \
     UpdateExerciseRequestSchema, GetExerciseResponseSchema, CreateExerciseResponseSchema
 from clients.private_http_builder import get_private_http_client, AuthenticationUserSchema
+from tools.routes import APIRoutes
 
 
 class ExerciseClient(APIClient):
@@ -20,7 +21,7 @@ class ExerciseClient(APIClient):
         :param request: Словарь с title, courseId, maxScore, minScore, orderIndex, description, estimatedTime.
         :return: Ответ от сервера в виде объекта httpx.Response
         """
-        return self.post(url="/api/v1/exercises", json=request.model_dump(by_alias=True))
+        return self.post(url=APIRoutes.EXERCISES, json=request.model_dump(by_alias=True))
 
     @allure.step("Get exercises")
     def get_exercises_api(self, query: GetExercisesRequestSchema) -> Response:
@@ -30,7 +31,7 @@ class ExerciseClient(APIClient):
         :param query: Словарь с courseId.
         :return: Ответ от сервера в виде объекта httpx.Response
         """
-        return self.get(url="/api/v1/exercises", params=query.model_dump(by_alias=True))
+        return self.get(url=APIRoutes.EXERCISES, params=query.model_dump(by_alias=True))
 
     @allure.step("Get exercise by id {exercise_id}")
     def get_exercise_api(self, exercise_id: str) -> Response:
@@ -40,7 +41,7 @@ class ExerciseClient(APIClient):
         :param exercise_id: Идентификатор упражнения.
         :return: Ответ от сервера в виде объекта httpx.Response
         """
-        return self.get(url=f"/api/v1/exercises/{exercise_id}")
+        return self.get(url=f"{APIRoutes.EXERCISES}/{exercise_id}")
 
     @allure.step("Delete exercise by id {exercise_id}")
     def delete_exercise_api(self, exercise_id: str) -> Response:
@@ -50,7 +51,7 @@ class ExerciseClient(APIClient):
         :param exercise_id: Идентификатор упражнения.
         :return: Ответ от сервера в виде объекта httpx.Response
         """
-        return self.delete(url=f"/api/v1/exercises/{exercise_id}")
+        return self.delete(url=f"{APIRoutes.EXERCISES}/{exercise_id}")
 
     @allure.step("Update exercise by id {exercise_id}")
     def update_exercise_api(self, exercise_id: str, request: UpdateExerciseRequestSchema) -> Response:
@@ -61,7 +62,7 @@ class ExerciseClient(APIClient):
         :param exercise_id: Идентификатор упражнения.
         :return: Ответ от сервера в виде объекта httpx.Response
         """
-        return self.patch(url=f"/api/v1/exercises/{exercise_id}", json=request.model_dump(by_alias=True))
+        return self.patch(url=f"{APIRoutes.EXERCISES}/{exercise_id}", json=request.model_dump(by_alias=True))
 
     def create_exercise(self, request: CreateExerciseRequestSchema) -> CreateExerciseResponseSchema:
         response = self.create_exercise_api(request=request)
