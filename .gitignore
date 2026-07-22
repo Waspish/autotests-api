@@ -1,9 +1,21 @@
-.venv/
-__pycache__/
-.idea/
-StudyFiles/
-wheels
+# pycharm
+.idea
+
+# python
+venv
+__pycache__
+
+# allure
 allure-results
-requirements-android.txt
+allure-report
+
+# study files
+StudyFiles
+
+# ai helper context
 .geminiignore
 GEMINI.md
+
+# android launch files
+wheels
+requirements-android.txt
