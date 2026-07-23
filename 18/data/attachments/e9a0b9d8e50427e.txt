@@ -1,0 +1,10 @@
+curl -X 'POST' 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTIzVDIwOjEzOjAzLjUxNjEzMiIsInVzZXJfaWQiOiIzNjljZWNhNi03ZTA0LTRjODUtOGRhZC1jOTcxMTZjOWEzNTgifQ.E0Vj_v_-MXpvS2hLUkMmo5ga_b5g_34KDlvT3gL8RXE' \
+ -H 'content-length: 461' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Иной коллектив другой.","description":"Выбирать юный остановить. Коричневый намерение лапа кожа приличный. Приятель заявление заложить ставить что монета поезд.","createdByUserId":"369ceca6-7e04-4c85-8dad-c97116c9a358","previewFileId":"21e0721e-11e5-4de3-817e-271ab651b952","maxScore":97,"minScore":19,"estimatedTime":"5 weeks"}'

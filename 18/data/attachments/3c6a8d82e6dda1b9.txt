@@ -1,0 +1,21 @@
+INFO     HTTP_LOGGER:event_hooks.py:31 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:40 Got response 200 OK
+INFO     HTTP_LOGGER:event_hooks.py:31 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:40 Got response 200 OK
+INFO     HTTP_LOGGER:event_hooks.py:31 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:40 Got response 200 OK
+INFO     HTTP_LOGGER:event_hooks.py:31 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGGER:event_hooks.py:40 Got response 200 OK
+INFO     HTTP_LOGGER:event_hooks.py:31 Make PATCH request to http://localhost:8000/api/v1/courses/cbd78764-a944-4949-a78f-b6e0a4fe93eb
+INFO     HTTP_LOGGER:event_hooks.py:40 Got response 200 OK
+INFO     BASE_ASSERTIONS:base.py:12 Check that response status code equals to '200'
+INFO     COURSES_ASSERTIONS:courses.py:82 Check update course response
+INFO     BASE_ASSERTIONS:base.py:21 Check that 'title' equals to 'Уничтожение райком построить да тута.'
+INFO     BASE_ASSERTIONS:base.py:21 Check that 'description' equals to 'Применяться покидать дошлый салон находить рассуждение задрать. Протягивать низкий тяжелый заплакать. Недостаток уточнить смелый мотоцикл.'
+INFO     BASE_ASSERTIONS:base.py:21 Check that 'min_score' equals to '7'
+INFO     BASE_ASSERTIONS:base.py:21 Check that 'max_score' equals to '64'
+INFO     BASE_ASSERTIONS:base.py:21 Check that 'estimated_time' equals to '3 weeks'
+INFO     BASE_ASSERTIONS:base.py:21 Check that 'id' equals to 'cbd78764-a944-4949-a78f-b6e0a4fe93eb'
+INFO     BASE_ASSERTIONS:base.py:39 Check that 'created_by_user' is true.
+INFO     BASE_ASSERTIONS:base.py:39 Check that 'created_by_user' is true.
+INFO     SCHEMA_ASSERTIONS:schema.py:21 Validating JSON schema

@@ -1,0 +1,33 @@
+INFO     HTTP_LOGGER:event_hooks.py:31 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:40 Got response 200 OK
+INFO     HTTP_LOGGER:event_hooks.py:31 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:40 Got response 200 OK
+INFO     HTTP_LOGGER:event_hooks.py:31 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:40 Got response 200 OK
+INFO     HTTP_LOGGER:event_hooks.py:31 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGGER:event_hooks.py:40 Got response 200 OK
+INFO     HTTP_LOGGER:event_hooks.py:31 Make GET request to http://localhost:8000/api/v1/courses?userId=f068787f-758f-4c16-9603-2bd110202f2b
+INFO     HTTP_LOGGER:event_hooks.py:40 Got response 200 OK
+INFO     BASE_ASSERTIONS:base.py:12 Check that response status code equals to '200'
+INFO     COURSES_ASSERTIONS:courses.py:60 Check get courses response
+INFO     BASE_ASSERTIONS:base.py:57 Check that length of 'courses' equals to '1'
+INFO     COURSES_ASSERTIONS:courses.py:22 Check course
+INFO     BASE_ASSERTIONS:base.py:21 Check that 'id' equals to '4e253e7d-9cbf-44f2-b276-3d3313ae5e61'
+INFO     BASE_ASSERTIONS:base.py:21 Check that 'title' equals to 'Инфекция возбуждение крыса рассуждение развернуться товар.'
+INFO     BASE_ASSERTIONS:base.py:21 Check that 'description' equals to 'Князь сверкающий очко тяжелый ложиться. Тесно вариант налоговый художественный поезд идея ставить.
+Команда кожа сходить полностью плод белье. Жить запретить полюбить аж выраженный степь пища.'
+INFO     BASE_ASSERTIONS:base.py:21 Check that 'min_score' equals to '24'
+INFO     BASE_ASSERTIONS:base.py:21 Check that 'max_score' equals to '85'
+INFO     BASE_ASSERTIONS:base.py:21 Check that 'estimated_time' equals to '2 weeks'
+INFO     FILES_ASSERTIONS:files.py:43 Check file
+INFO     BASE_ASSERTIONS:base.py:21 Check that 'id' equals to 'ada6dd7d-96ac-4b01-872c-37dacb5320bb'
+INFO     BASE_ASSERTIONS:base.py:21 Check that 'filename' equals to '1a088bf4-bbb1-400b-b349-ba224c451a50.png'
+INFO     BASE_ASSERTIONS:base.py:21 Check that 'url' equals to 'http://localhost:8000/static/tests/1a088bf4-bbb1-400b-b349-ba224c451a50.png'
+INFO     BASE_ASSERTIONS:base.py:21 Check that 'directory' equals to 'tests'
+INFO     USERS_ASSERTIONS:users.py:20 Check user response
+INFO     BASE_ASSERTIONS:base.py:21 Check that 'email' equals to 'evse1994@example.org'
+INFO     BASE_ASSERTIONS:base.py:21 Check that 'first_name' equals to 'Тихон'
+INFO     BASE_ASSERTIONS:base.py:21 Check that 'last_name' equals to 'Петухова'
+INFO     BASE_ASSERTIONS:base.py:21 Check that 'middle_name' equals to 'Тихонович'
+INFO     BASE_ASSERTIONS:base.py:39 Check that 'user_id' is true.
+INFO     SCHEMA_ASSERTIONS:schema.py:21 Validating JSON schema

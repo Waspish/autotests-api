@@ -1,0 +1,10 @@
+curl -X 'POST' 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTIzVDIwOjEzOjAxLjA4NzIxMSIsInVzZXJfaWQiOiI0NTZiOTE3Yi05MWJlLTRlZWItODI1Yi0yMjhmOTdjZDI5OTIifQ.oQ4GIX8QH4qVTmSK4ZKEbDye1KNdor07_EceF9q1D8c' \
+ -H 'content-length: 388' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Выражаться отметить присесть.","description":"Необычный палец слишком приятель. Боец наслаждение второй поезд пробовать.","createdByUserId":"456b917b-91be-4eeb-825b-228f97cd2992","previewFileId":"31e08e20-57a0-4232-94cd-3c463e4d89c3","maxScore":95,"minScore":11,"estimatedTime":"6 weeks"}'

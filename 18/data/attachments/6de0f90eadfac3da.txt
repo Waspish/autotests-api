@@ -1,0 +1,10 @@
+curl -X 'POST' 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTIzVDIwOjEyOjU3LjQwMzIxMiIsInVzZXJfaWQiOiJmMDY4Nzg3Zi03NThmLTRjMTYtOTYwMy0yYmQxMTAyMDJmMmIifQ.0dDRoUHbH-1qITbZGK-tKFNlH8DVYzZ9btAO9T5Pks0' \
+ -H 'content-length: 660' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Инфекция возбуждение крыса рассуждение развернуться товар.","description":"Князь сверкающий очко тяжелый ложиться. Тесно вариант налоговый художественный поезд идея ставить.\nКоманда кожа сходить полностью плод белье. Жить запретить полюбить аж выраженный степь пища.","createdByUserId":"f068787f-758f-4c16-9603-2bd110202f2b","previewFileId":"ada6dd7d-96ac-4b01-872c-37dacb5320bb","maxScore":85,"minScore":24,"estimatedTime":"2 weeks"}'

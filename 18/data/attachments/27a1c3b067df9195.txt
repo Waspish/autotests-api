@@ -1,0 +1,10 @@
+curl -X 'POST' 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTIzVDIwOjEzOjAwLjgxMTQ0NiIsInVzZXJfaWQiOiJkNDUwYjc5ZC1lY2E5LTQxOTAtODUyNC1kZjBlZDFiYjlhZjkifQ.Cjrf0FeV21neGumOpSzOr7HEpYF6OrcnNXBZao802vc' \
+ -H 'content-length: 453' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Ответить порядок степь видимо.","description":"Мелькнуть отдел кпсс редактор выразить цепочка. Зарплата умолять нервно инструкция. Витрина триста банк плод.","createdByUserId":"d450b79d-eca9-4190-8524-df0ed1bb9af9","previewFileId":"89f5a872-f6ed-4d66-8a5f-559ff23f918b","maxScore":80,"minScore":19,"estimatedTime":"8 weeks"}'

@@ -1,0 +1,10 @@
+curl -X 'POST' 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTIzVDIwOjEzOjAyLjAzNzUwMyIsInVzZXJfaWQiOiI5NTZjOWU0ZS0yOGFiLTQ4NTItYjM5My02YWU5ZWVhM2QwZWYifQ.zkkqJ8XL4MgGYEEArp3uoOb_1sCWZYJOvbL0jMDe7yg' \
+ -H 'content-length: 553' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Выражение манера смелый блин бак.","description":"Покидать промолчать мгновение висеть правление выраженный. Господь выкинуть снимать кожа. Помолчать танцевать появление юный собеседник трубка художественный.","createdByUserId":"956c9e4e-28ab-4852-b393-6ae9eea3d0ef","previewFileId":"06ff21f8-69e5-4426-9e31-ba1e312d19e6","maxScore":67,"minScore":15,"estimatedTime":"6 weeks"}'

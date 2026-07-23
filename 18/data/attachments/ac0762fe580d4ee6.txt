@@ -1,0 +1,10 @@
+curl -X 'POST' 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTIzVDIwOjEyOjU5LjU0MDcxNiIsInVzZXJfaWQiOiJjZjk3NDBiNy0wYWU2LTQyNTUtOWVjZi1mOTU2MmQ1MDQwYjMifQ.E2QzuGymvN9jUD7ak6lzTXMjWziC9byLQFR1150ID8U' \
+ -H 'content-length: 638' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Присесть желание степь помолчать правый невозможно заплакать.","description":"Труп белье спорт прежде сверкающий скользить. О пламя даль.\nШлем неожиданно строительство выгнать палка провал а. Помимо премьера поколение разнообразный отметить граница грудь.","createdByUserId":"cf9740b7-0ae6-4255-9ecf-f9562d5040b3","previewFileId":"39c8880f-7dac-42e4-a657-4e0d7dbe62b6","maxScore":60,"minScore":6,"estimatedTime":"7 weeks"}'

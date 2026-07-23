@@ -1,0 +1,47 @@
+INFO     HTTP_LOGGER:event_hooks.py:31 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:40 Got response 200 OK
+INFO     HTTP_LOGGER:event_hooks.py:31 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:40 Got response 200 OK
+INFO     HTTP_LOGGER:event_hooks.py:31 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:40 Got response 200 OK
+INFO     HTTP_LOGGER:event_hooks.py:31 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGGER:event_hooks.py:40 Got response 200 OK
+INFO     HTTP_LOGGER:event_hooks.py:31 Make POST request to http://localhost:8000/api/v1/exercises
+INFO     HTTP_LOGGER:event_hooks.py:40 Got response 200 OK
+INFO     HTTP_LOGGER:event_hooks.py:31 Make POST request to http://localhost:8000/api/v1/exercises
+INFO     HTTP_LOGGER:event_hooks.py:40 Got response 200 OK
+INFO     HTTP_LOGGER:event_hooks.py:31 Make POST request to http://localhost:8000/api/v1/exercises
+INFO     HTTP_LOGGER:event_hooks.py:40 Got response 200 OK
+INFO     HTTP_LOGGER:event_hooks.py:31 Make GET request to http://localhost:8000/api/v1/exercises?courseId=9c5ae4c1-63f4-40ef-ba3c-6c73c63d0515
+INFO     HTTP_LOGGER:event_hooks.py:40 Got response 200 OK
+INFO     BASE_ASSERTIONS:base.py:12 Check that response status code equals to '200'
+INFO     EXERCISES_ASSERTIONS:exercises.py:86 Check get exercises response
+INFO     BASE_ASSERTIONS:base.py:57 Check that length of 'exercises' equals to '3'
+INFO     EXERCISES_ASSERTIONS:exercises.py:25 Check exercise
+INFO     BASE_ASSERTIONS:base.py:21 Check that 'title' equals to 'Роса армейский передо белье господь.'
+INFO     BASE_ASSERTIONS:base.py:21 Check that 'course_id' equals to '9c5ae4c1-63f4-40ef-ba3c-6c73c63d0515'
+INFO     BASE_ASSERTIONS:base.py:21 Check that 'max_score' equals to '53'
+INFO     BASE_ASSERTIONS:base.py:21 Check that 'min_score' equals to '3'
+INFO     BASE_ASSERTIONS:base.py:21 Check that 'order_index' equals to '95'
+INFO     BASE_ASSERTIONS:base.py:21 Check that 'description' equals to 'Чем проход голубчик понятный. Металл грустный налево неудобно доставать растеряться дорогой чем. Смелый пропадать налоговый сверкающий жестокий появление спалить строительство.'
+INFO     BASE_ASSERTIONS:base.py:21 Check that 'estimated_time' equals to '10 weeks'
+INFO     BASE_ASSERTIONS:base.py:21 Check that 'id' equals to '604a6b28-efa7-4785-81c4-f6c72d19560d'
+INFO     EXERCISES_ASSERTIONS:exercises.py:25 Check exercise
+INFO     BASE_ASSERTIONS:base.py:21 Check that 'title' equals to 'Роса армейский передо белье господь.'
+INFO     BASE_ASSERTIONS:base.py:21 Check that 'course_id' equals to '9c5ae4c1-63f4-40ef-ba3c-6c73c63d0515'
+INFO     BASE_ASSERTIONS:base.py:21 Check that 'max_score' equals to '53'
+INFO     BASE_ASSERTIONS:base.py:21 Check that 'min_score' equals to '3'
+INFO     BASE_ASSERTIONS:base.py:21 Check that 'order_index' equals to '95'
+INFO     BASE_ASSERTIONS:base.py:21 Check that 'description' equals to 'Чем проход голубчик понятный. Металл грустный налево неудобно доставать растеряться дорогой чем. Смелый пропадать налоговый сверкающий жестокий появление спалить строительство.'
+INFO     BASE_ASSERTIONS:base.py:21 Check that 'estimated_time' equals to '10 weeks'
+INFO     BASE_ASSERTIONS:base.py:21 Check that 'id' equals to '18e6f768-eda1-4009-93d3-b6c4b5a0ed89'
+INFO     EXERCISES_ASSERTIONS:exercises.py:25 Check exercise
+INFO     BASE_ASSERTIONS:base.py:21 Check that 'title' equals to 'Роса армейский передо белье господь.'
+INFO     BASE_ASSERTIONS:base.py:21 Check that 'course_id' equals to '9c5ae4c1-63f4-40ef-ba3c-6c73c63d0515'
+INFO     BASE_ASSERTIONS:base.py:21 Check that 'max_score' equals to '53'
+INFO     BASE_ASSERTIONS:base.py:21 Check that 'min_score' equals to '3'
+INFO     BASE_ASSERTIONS:base.py:21 Check that 'order_index' equals to '95'
+INFO     BASE_ASSERTIONS:base.py:21 Check that 'description' equals to 'Чем проход голубчик понятный. Металл грустный налево неудобно доставать растеряться дорогой чем. Смелый пропадать налоговый сверкающий жестокий появление спалить строительство.'
+INFO     BASE_ASSERTIONS:base.py:21 Check that 'estimated_time' equals to '10 weeks'
+INFO     BASE_ASSERTIONS:base.py:21 Check that 'id' equals to 'e7017f61-e916-4f4d-9515-d8a88c98b17d'
+INFO     SCHEMA_ASSERTIONS:schema.py:21 Validating JSON schema
