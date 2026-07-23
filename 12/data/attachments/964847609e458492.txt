@@ -1,0 +1,10 @@
+curl -X 'POST' 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTIzVDE5OjIyOjU5LjE5OTU5NiIsInVzZXJfaWQiOiI3NjZhYjdhMi1mMjIxLTQ3MTgtODFkNC0wNWNkYmUyZTIzMGYifQ.G6PjXoJSYk8OUQTtfdMgdaakCucUZFylP0E4qJFuxSY' \
+ -H 'content-length: 437' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Товар угроза стакан оставить салон.","description":"Отъезд подземный миг присесть славный спалить. Ложиться совещание палец падать необычный сынок.","createdByUserId":"766ab7a2-f221-4718-81d4-05cdbe2e230f","previewFileId":"7de5fa4b-99f6-46f6-95fe-04280a3f2228","maxScore":67,"minScore":17,"estimatedTime":"4 weeks"}'

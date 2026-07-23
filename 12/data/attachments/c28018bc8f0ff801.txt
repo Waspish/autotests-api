@@ -1,0 +1,24 @@
+INFO     HTTP_LOGGER:event_hooks.py:31 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:40 Got response 200 OK
+INFO     HTTP_LOGGER:event_hooks.py:31 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:40 Got response 200 OK
+INFO     HTTP_LOGGER:event_hooks.py:31 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:40 Got response 200 OK
+INFO     HTTP_LOGGER:event_hooks.py:31 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGGER:event_hooks.py:40 Got response 200 OK
+INFO     HTTP_LOGGER:event_hooks.py:31 Make POST request to http://localhost:8000/api/v1/exercises
+INFO     HTTP_LOGGER:event_hooks.py:40 Got response 200 OK
+INFO     HTTP_LOGGER:event_hooks.py:31 Make GET request to http://localhost:8000/api/v1/exercises/6899f825-ae69-45ec-9b0f-e3117f533c53
+INFO     HTTP_LOGGER:event_hooks.py:40 Got response 200 OK
+INFO     BASE_ASSERTIONS:base.py:12 Check that response status code equals to '200'
+INFO     EXERCISES_ASSERTIONS:exercises.py:69 Check get exercise response
+INFO     EXERCISES_ASSERTIONS:exercises.py:25 Check exercise
+INFO     BASE_ASSERTIONS:base.py:21 Check that 'title' equals to 'Темнеть головка теория услать задрать.'
+INFO     BASE_ASSERTIONS:base.py:21 Check that 'course_id' equals to 'c14cd0c9-e4ba-4386-89bf-ef5176c66c16'
+INFO     BASE_ASSERTIONS:base.py:21 Check that 'max_score' equals to '68'
+INFO     BASE_ASSERTIONS:base.py:21 Check that 'min_score' equals to '3'
+INFO     BASE_ASSERTIONS:base.py:21 Check that 'order_index' equals to '48'
+INFO     BASE_ASSERTIONS:base.py:21 Check that 'description' equals to 'Приятель степь конструкция одиннадцать пространство миф.'
+INFO     BASE_ASSERTIONS:base.py:21 Check that 'estimated_time' equals to '7 weeks'
+INFO     BASE_ASSERTIONS:base.py:21 Check that 'id' equals to '6899f825-ae69-45ec-9b0f-e3117f533c53'
+INFO     SCHEMA_ASSERTIONS:schema.py:21 Validating JSON schema

@@ -1,0 +1,10 @@
+curl -X 'POST' 'http://localhost:8000/api/v1/exercises' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTIzVDE5OjIyOjU3Ljk1NDc2NSIsInVzZXJfaWQiOiI5MDAwM2NlYi1jY2E0LTRlNjUtYTYyMi02YWQyMGFhNTRhZTgifQ.AFYo1sS9omF-XQoWlA9cl25vbWNGP5TGZKclD0WRoYA' \
+ -H 'content-length: 503' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Казнь чем военный инфекция человечек покидать применяться.","description":"Бригада природа легко фонарик. Редактор июнь свежий крутой командующий изучить. Приходить решение райком школьный зато командование.","courseId":"07780c80-6158-45f8-af5b-2d6053e5b5fc","maxScore":76,"minScore":9,"orderIndex":17,"estimatedTime":"6 weeks"}'

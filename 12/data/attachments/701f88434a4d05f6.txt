@@ -1,0 +1,10 @@
+curl -X 'POST' 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTIzVDE5OjIyOjU2LjA4NjEwNyIsInVzZXJfaWQiOiI2ZTIzYjc3MC0zMTNlLTQ1MDAtYWRhOS01MWI1YTcwMGNkMzcifQ.nXAg9fk_g-EI2g1J_Z3RYFHE8jOcpSvM2uEmc0tmYok' \
+ -H 'content-length: 658' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Выкинуть очутиться материя встать точно очутиться лететь.","description":"Опасность процесс поставить социалистический изучить пятеро. Пространство хотеть о бетонный полностью миллиард назначить. Непривычный премьера ученый коммунизм вперед выражение командующий.","createdByUserId":"6e23b770-313e-4500-ada9-51b5a700cd37","previewFileId":"3ae95b9b-51bc-4274-9c53-2712cc813cb0","maxScore":52,"minScore":18,"estimatedTime":"5 weeks"}'

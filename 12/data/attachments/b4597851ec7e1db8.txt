@@ -1,0 +1,10 @@
+curl -X 'POST' 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTIzVDE5OjIyOjU3Ljk1NDc2NSIsInVzZXJfaWQiOiI5MDAwM2NlYi1jY2E0LTRlNjUtYTYyMi02YWQyMGFhNTRhZTgifQ.AFYo1sS9omF-XQoWlA9cl25vbWNGP5TGZKclD0WRoYA' \
+ -H 'content-length: 523' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Мягкий тяжелый куча ломать ленинград беспомощный плод.","description":"Прелесть налоговый командование болото функция строительство. Запустить магазин вытаскивать тысяча помимо о валюта сынок.","createdByUserId":"90003ceb-cca4-4e65-a622-6ad20aa54ae8","previewFileId":"c136efb1-ff0c-4068-bd00-f0c063636a0b","maxScore":90,"minScore":25,"estimatedTime":"2 weeks"}'

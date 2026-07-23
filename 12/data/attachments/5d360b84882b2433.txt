@@ -1,0 +1,10 @@
+curl -X 'POST' 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTIzVDE5OjIyOjU4LjU0MDgxNyIsInVzZXJfaWQiOiI2MTc0NGRlYy1iNjdhLTQ3OTMtYjY2Yy03YjM3OGJiYWM3OWEifQ.FAOlECvdTRRt00KRR8GC6FbGUFe_dPbs3ndB1-UYtbw' \
+ -H 'content-length: 444' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Торопливый труп потом магазин построить боец.","description":"Ныне светило применяться. Угроза прежний трясти исследование достоинство нож выраженный.","createdByUserId":"61744dec-b67a-4793-b66c-7b378bbac79a","previewFileId":"e77dff5d-d043-4ec5-a957-d04a3a06290e","maxScore":62,"minScore":22,"estimatedTime":"6 weeks"}'

@@ -1,0 +1,10 @@
+curl -X 'PATCH' 'http://localhost:8000/api/v1/exercises/3f4d88f6-4f66-430b-9968-9425afd59e69' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTIzVDE5OjIyOjU2LjY5MDcyNyIsInVzZXJfaWQiOiI4ZjQ1ZTNkNy1mZGIxLTQxNGEtOGIyNi00YmNjNWMwNGRjYWUifQ.4RkKN04Dly04OknCp_plfx-y00k14FTYtAtQ4Nca9YI' \
+ -H 'content-length: 507' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Миллиард поймать приятель обида идея умирать.","description":"Умолять помолчать кожа скользить вскинуть некоторый пропасть. Терапия прежде тяжелый кпсс домашний мягкий. Более выгнать светило граница зато изучить.","courseId":"a9aded9a-c1f7-4afa-a977-5ed3c0e200a4","maxScore":56,"minScore":26,"orderIndex":18,"estimatedTime":null}'
