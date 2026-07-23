@@ -64,6 +64,7 @@ jobs:
         uses: actions/download-artifact@v8
         with:
           name: upload_allure
+          path: allure-results
 
       - name: Check existense
         run: |
