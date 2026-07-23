@@ -45,6 +45,21 @@ jobs:
         run:
           pytest -m regression --alluredir=allure-results --numprocesses=2
 
+      - name: Upload allure results
+        uses: actions/upload-artifact@v7
+        with:
+          name: upload_allure
+          path: allure-results
+  
+  publish-report:
+    needs: run_tests
+    runs-on: ubuntu-latest
+    steps:
+      - name: Download artifact
+        uses: actions/download-artifact@v8
+        with:
+          name: upload_allure
+
       - name: Get allure history
         uses: actions/checkout@v7
         if: always()
@@ -66,4 +81,5 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_branch: gh-pages
           publish_dir: allure-history
+
 
