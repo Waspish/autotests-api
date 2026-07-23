@@ -1,0 +1,10 @@
+curl -X 'POST' 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTIzVDE5OjA5OjI4LjI1NDkyMyIsInVzZXJfaWQiOiI5YjhmMWE3NS03YTNjLTQ2MTMtODgyOC1jMjExNmNmZTdkZTUifQ.x8H3wDL4KU7JJcXVt3O0PMs3sIDAJZCACC40yy7XQoU' \
+ -H 'content-length: 636' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Хотеть заплакать инструкция горький хозяйка некоторый.","description":"Снимать салон потрясти анализ нож хозяйка пропаганда конференция. Нажать ломать заведение зарплата второй материя запустить сустав. Пастух запустить прежде аллея пастух плавно совет.","createdByUserId":"9b8f1a75-7a3c-4613-8828-c2116cfe7de5","previewFileId":"0e493ece-c874-440b-86c7-3901afba9aa1","maxScore":78,"minScore":21,"estimatedTime":"5 weeks"}'

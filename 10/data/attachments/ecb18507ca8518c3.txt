@@ -1,0 +1,10 @@
+curl -X 'POST' 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTIzVDE5OjA5OjI2LjE3NzU0NyIsInVzZXJfaWQiOiJjZThmMzQ1Mi0wMjYwLTQxM2MtYmY5MS1mZjk0NzEyYTU5YjUifQ.jriYoPwr0JAi4XDJ4oOOPYq9JakPh-eym1CQT0fNx2s' \
+ -H 'content-length: 545' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Бровь аллея бровь труп угол.","description":"Район еврейский природа настать ботинок лететь. Бригада командование через правление грустный ставить. Снимать зарплата применяться песенка аллея мусор витрина.","createdByUserId":"ce8f3452-0260-413c-bf91-ff94712a59b5","previewFileId":"36cf7e97-d350-4458-9b04-3dc19317d1e1","maxScore":88,"minScore":16,"estimatedTime":"9 weeks"}'

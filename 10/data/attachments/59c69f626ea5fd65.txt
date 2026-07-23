@@ -1,0 +1,10 @@
+curl -X 'POST' 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTIzVDE5OjA5OjMwLjM4NDA3MCIsInVzZXJfaWQiOiI5ZmY5OTgxNC1iODljLTQwMGUtODI2Zi0zMzcyMzM1YjgxZjkifQ.ag30tdDJN06laRaQfs7d6pZ25-YSVwUFTBpv0SgU1uw' \
+ -H 'content-length: 520' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Пространство мелькнуть назначить решение нервно уронить.","description":"Магазин расстегнуть уронить руководитель еврейский совет чем. Горький мимо достоинство инфекция термин зачем вывести.","createdByUserId":"9ff99814-b89c-400e-826f-3372335b81f9","previewFileId":"d465c10c-ef1e-4df0-a772-20c548389765","maxScore":77,"minScore":13,"estimatedTime":"7 weeks"}'

@@ -1,0 +1,19 @@
+INFO     HTTP_LOGGER:event_hooks.py:31 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:40 Got response 200 OK
+INFO     HTTP_LOGGER:event_hooks.py:31 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:40 Got response 200 OK
+INFO     HTTP_LOGGER:event_hooks.py:31 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:40 Got response 200 OK
+INFO     HTTP_LOGGER:event_hooks.py:31 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGGER:event_hooks.py:40 Got response 200 OK
+INFO     BASE_ASSERTIONS:base.py:12 Check that response status code equals to '200'
+INFO     COURSES_ASSERTIONS:courses.py:104 Check create course response
+INFO     BASE_ASSERTIONS:base.py:21 Check that 'title' equals to 'Хотеть заплакать инструкция горький хозяйка некоторый.'
+INFO     BASE_ASSERTIONS:base.py:21 Check that 'max_score' equals to '78'
+INFO     BASE_ASSERTIONS:base.py:21 Check that 'min_score' equals to '21'
+INFO     BASE_ASSERTIONS:base.py:21 Check that 'description' equals to 'Снимать салон потрясти анализ нож хозяйка пропаганда конференция. Нажать ломать заведение зарплата второй материя запустить сустав. Пастух запустить прежде аллея пастух плавно совет.'
+INFO     BASE_ASSERTIONS:base.py:21 Check that 'estimated_time' equals to '5 weeks'
+INFO     BASE_ASSERTIONS:base.py:21 Check that 'created_by_user_id' equals to '9b8f1a75-7a3c-4613-8828-c2116cfe7de5'
+INFO     BASE_ASSERTIONS:base.py:21 Check that 'preview_file_id' equals to '0e493ece-c874-440b-86c7-3901afba9aa1'
+INFO     BASE_ASSERTIONS:base.py:39 Check that 'id' is true.
+INFO     SCHEMA_ASSERTIONS:schema.py:21 Validating JSON schema

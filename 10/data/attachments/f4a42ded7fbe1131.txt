@@ -1,0 +1,10 @@
+curl -X 'POST' 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTIzVDE5OjA5OjMzLjA3NTA1MyIsInVzZXJfaWQiOiI5MDczNTFiZC1jNWMzLTQ1MTUtOGJhOC00YzFmYmQ2NDNjNmYifQ.g34xamJuHd0Cf7_fMKziJQN9oqGJRDWqGVTgl1xX5fo' \
+ -H 'content-length: 574' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Правление армейский хозяйка изучить носок.","description":"Мрачно валюта правильный заявление спешить провал пространство. Банк командующий более пол смелый крутой. Витрина гулять число мелочь пропадать заявление стакан.","createdByUserId":"907351bd-c5c3-4515-8ba8-4c1fbd643c6f","previewFileId":"7d066522-9ca3-48db-b53d-65076b39db17","maxScore":75,"minScore":3,"estimatedTime":"10 weeks"}'

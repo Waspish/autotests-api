@@ -1,0 +1,10 @@
+curl -X 'POST' 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTIzVDE5OjA5OjMwLjY1Nzk0MCIsInVzZXJfaWQiOiI1NGY0OTdjMi1jNzJiLTQzM2QtOWVlMC0wNTE2ODVlZWViMGIifQ.O81uzj8DzFxO076tFn_tOPMXUuBCaw4CRd6apqXd46o' \
+ -H 'content-length: 535' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Вскинуть смертельный прежний дьявол жестокий появление полностью о.","description":"Более ягода шлем правый расстегнуть означать. Инвалид роса идея научить. Бок настать ягода угодный нажать правление.","createdByUserId":"54f497c2-c72b-433d-9ee0-051685eeeb0b","previewFileId":"57430295-3cf5-445e-96de-ed5a7c60280c","maxScore":59,"minScore":24,"estimatedTime":"2 weeks"}'

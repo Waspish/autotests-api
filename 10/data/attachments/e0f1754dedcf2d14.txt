@@ -1,0 +1,10 @@
+curl -X 'POST' 'http://localhost:8000/api/v1/exercises' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTIzVDE5OjA5OjI5LjEzNjg5MSIsInVzZXJfaWQiOiI5MjM2ODE5MS05YWJiLTRiOWYtYWNlMy0zY2U3NTkwMzQxNmEifQ.YXoMj5YQhMGHAcuXvNiHCZZKMaJp86Ouo2omp2dWI_s' \
+ -H 'content-length: 415' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Прежний сверкать спорт.","description":"Плясать разводить спасть оставить поздравлять. Бригада трубка добиться банда холодно вообще тута.\nНевозможно число порт.","courseId":"34001a95-de81-4d4d-ac8b-c5603c14bcc9","maxScore":78,"minScore":1,"orderIndex":73,"estimatedTime":"9 weeks"}'
