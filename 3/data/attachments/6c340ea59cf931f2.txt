@@ -1,0 +1,10 @@
+curl -X 'POST' 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTIzVDE2OjQyOjEzLjEwNTQ0MSIsInVzZXJfaWQiOiI2N2RkYWEzNi02M2RlLTQ1OGEtYjljNi00NThkZjJhYTRiZGYifQ.F_nztxQkiywSmmTKmaGLJA0kqu7OlFElXM2bQKSuaqM' \
+ -H 'content-length: 496' \
+ -H 'content-type: application/json' \
+ -d '{"title":"О угроза а заявление палка теория.","description":"Механический народ выраженный. Рассуждение прощение да прошептать.\nМальчишка банк идея передо. Торопливый демократия изменение.","createdByUserId":"67ddaa36-63de-458a-b9c6-458df2aa4bdf","previewFileId":"998d9e6b-2e20-41af-a7b5-adaae3312cd4","maxScore":81,"minScore":11,"estimatedTime":"10 weeks"}'

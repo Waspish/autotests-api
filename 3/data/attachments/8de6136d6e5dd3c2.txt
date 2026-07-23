@@ -1,0 +1,10 @@
+curl -X 'PATCH' 'http://localhost:8000/api/v1/courses/f1460280-511f-416c-b149-74bc19983075' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTIzVDE2OjQyOjEyLjQ1MzcwMyIsInVzZXJfaWQiOiIxY2E0N2U5OC1jNzI0LTRjODgtYjE5Yi05ODRhZGM0NGZlOWIifQ.i6TXfbv3het786YimoM-Eehd4VWBUy3-NrR8zfvBFtY' \
+ -H 'content-length: 544' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Провал коммунизм уничтожение правый собеседник.","description":"Прежде сверкающий чем волк освободить рай социалистический аж. Исследование похороны помолчать упорно угроза выражаться. Смертельный следовательно бровь серьезный граница сходить хлеб увеличиваться.","maxScore":73,"minScore":11,"estimatedTime":"8 weeks"}'

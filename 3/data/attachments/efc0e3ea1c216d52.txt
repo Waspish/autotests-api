@@ -1,0 +1,10 @@
+curl -X 'POST' 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTIzVDE2OjQyOjE2LjE2MzY0NyIsInVzZXJfaWQiOiJjZGNkNzFmYy01NDNmLTRjNzQtYjAzYi00YzA1MzEyYWMyNGUifQ.pp4Ar7M-QGbfssUlURjdQc4dNBlWaR1d624sHHR9SEE' \
+ -H 'content-length: 423' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Мусор издали пространство.","description":"Даль угроза плавно бегать деньги неправда. Очутиться палец помимо. Столетие ныне салон провинция.","createdByUserId":"cdcd71fc-543f-4c74-b03b-4c05312ac24e","previewFileId":"750e0d94-4ec5-45d7-8c7a-f7e52e0d0624","maxScore":70,"minScore":25,"estimatedTime":"9 weeks"}'

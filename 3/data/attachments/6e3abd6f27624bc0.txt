@@ -1,0 +1,10 @@
+curl -X 'POST' 'http://localhost:8000/api/v1/exercises' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTIzVDE2OjQyOjEzLjY5MzMwMCIsInVzZXJfaWQiOiIyOWJiZTlkOC0zNTMyLTRlMmItODllMC1iMjkzZDIwMzQ4NzUifQ.9Xb0_co6WN9HqsJZ_leWx9KtlYNG_Id4u8Iu38RUTV8' \
+ -H 'content-length: 478' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Сопровождаться угроза песня порядок блин.","description":"Издали жидкий страсть рис желание. Сравнение палец полоска пламя бетонный. Угодный жить ведь возбуждение угроза успокоиться плясать бак.","courseId":"6e738d18-7c82-4470-be96-b2991e91bb98","maxScore":70,"minScore":19,"orderIndex":87,"estimatedTime":"9 weeks"}'

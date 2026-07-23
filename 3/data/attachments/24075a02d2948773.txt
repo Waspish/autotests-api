@@ -1,0 +1,10 @@
+curl -X 'POST' 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTIzVDE2OjQyOjE3LjkzNDE2MSIsInVzZXJfaWQiOiJhY2MwMGUzNi0zNzg1LTQzMTUtOGU1NS02N2IyZjliNDIyZDkifQ.pu7h3lX6wMYmMkv0IjbrMheiU8SUFaJeVcymguLDBUM' \
+ -H 'content-length: 548' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Беспомощный домашний прежде мучительно манера ход конструкция пища.","description":"Четыре руководитель темнеть песенка расстегнуть. Аж набор секунда мрачно граница интернет. Изменение песня угол мелькнуть.","createdByUserId":"acc00e36-3785-4315-8e55-67b2f9b422d9","previewFileId":"a90b9dcc-1d58-4c88-85f0-e6c2399c33af","maxScore":87,"minScore":15,"estimatedTime":"6 weeks"}'

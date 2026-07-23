@@ -1,0 +1,10 @@
+curl -X 'PATCH' 'http://localhost:8000/api/v1/exercises/bbcea243-26e4-4ab8-9ff1-199bf5721b4e' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTIzVDE2OjQyOjEzLjY5MzMwMCIsInVzZXJfaWQiOiIyOWJiZTlkOC0zNTMyLTRlMmItODllMC1iMjkzZDIwMzQ4NzUifQ.9Xb0_co6WN9HqsJZ_leWx9KtlYNG_Id4u8Iu38RUTV8' \
+ -H 'content-length: 369' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Возбуждение поговорить светило вздрогнуть.","description":"Упор возбуждение космос спалить. Мальчишка волк художественный тревога житель.","courseId":"42320177-4327-4e52-86f4-9799cc43ed57","maxScore":77,"minScore":7,"orderIndex":38,"estimatedTime":null}'

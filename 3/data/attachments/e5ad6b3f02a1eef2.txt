@@ -1,0 +1,10 @@
+curl -X 'POST' 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTIzVDE2OjQyOjE1LjUxNjIxNCIsInVzZXJfaWQiOiI2YmVlYWNlYy00MzE2LTQzMjMtOTE0Ni01OGRjNzUwOWQ1ZmYifQ.hJYUMFcWBS7t8ZxCbclY7QtGhMGj4zlvqGPfmjfh5_o' \
+ -H 'content-length: 396' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Успокоиться песенка призыв.","description":"Ведь наткнуться сутки валюта мягкий. Вряд засунуть кожа бетонный карандаш второй.","createdByUserId":"6beeacec-4316-4323-9146-58dc7509d5ff","previewFileId":"0dfdf7e8-c97c-41fb-a359-f37b4256b13e","maxScore":78,"minScore":10,"estimatedTime":"7 weeks"}'
