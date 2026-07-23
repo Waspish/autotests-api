@@ -1,0 +1,24 @@
+INFO     HTTP_LOGGER:event_hooks.py:31 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:40 Got response 200 OK
+INFO     HTTP_LOGGER:event_hooks.py:31 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:40 Got response 200 OK
+INFO     HTTP_LOGGER:event_hooks.py:31 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:40 Got response 200 OK
+INFO     HTTP_LOGGER:event_hooks.py:31 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGGER:event_hooks.py:40 Got response 200 OK
+INFO     HTTP_LOGGER:event_hooks.py:31 Make POST request to http://localhost:8000/api/v1/exercises
+INFO     HTTP_LOGGER:event_hooks.py:40 Got response 200 OK
+INFO     HTTP_LOGGER:event_hooks.py:31 Make PATCH request to http://localhost:8000/api/v1/exercises/b3b47e4d-3f54-4970-aa78-0a2a32983fd9
+INFO     HTTP_LOGGER:event_hooks.py:40 Got response 200 OK
+INFO     BASE_ASSERTIONS:base.py:12 Check that response status code equals to '200'
+INFO     EXERCISES_ASSERTIONS:exercises.py:108 Check update exercise response
+INFO     BASE_ASSERTIONS:base.py:21 Check that 'title' equals to 'Сомнительный пропадать спорт опасность покинуть пропасть чувство.'
+INFO     BASE_ASSERTIONS:base.py:21 Check that 'max_score' equals to '71'
+INFO     BASE_ASSERTIONS:base.py:21 Check that 'min_score' equals to '6'
+INFO     BASE_ASSERTIONS:base.py:21 Check that 'order_index' equals to '44'
+INFO     BASE_ASSERTIONS:base.py:21 Check that 'description' equals to 'Космос казнь интеллектуальный хотеть жидкий. Промолчать металл остановить умолять.
+Пропадать материя ведь белье эффект. Полностью добиться совещание пламя похороны спорт деньги.'
+INFO     BASE_ASSERTIONS:base.py:21 Check that 'estimated_time' equals to 'None'
+INFO     BASE_ASSERTIONS:base.py:21 Check that 'exercise_id' equals to 'b3b47e4d-3f54-4970-aa78-0a2a32983fd9'
+INFO     BASE_ASSERTIONS:base.py:39 Check that 'course_id' is true.
+INFO     SCHEMA_ASSERTIONS:schema.py:21 Validating JSON schema

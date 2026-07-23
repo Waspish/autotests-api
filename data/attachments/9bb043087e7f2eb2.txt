@@ -1,0 +1,10 @@
+curl -X 'POST' 'http://localhost:8000/api/v1/exercises' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTIzVDE5OjM3OjU5LjE4ODE1MyIsInVzZXJfaWQiOiI2NDFlZjI5NC1hMWI4LTQ0ZWEtOTdjNy0zYTk4ODdjNzM5MGQifQ.5tReUDI9hs3HWtlcdVTOTG_Yxra_mqrSvBW4jCvcx2g' \
+ -H 'content-length: 575' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Освободить крутой деловой трясти зарплата прошептать.","description":"Пламя нож поставить домашний армейский запретить песенка протягивать. Карман поймать наткнуться умолять угроза сбросить. Важный природа какой полюбить инструкция непривычный.","courseId":"c3b29656-9099-45e4-889f-b09a29d7906c","maxScore":86,"minScore":17,"orderIndex":97,"estimatedTime":"8 weeks"}'

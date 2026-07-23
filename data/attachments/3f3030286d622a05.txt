@@ -1,0 +1,10 @@
+curl -X 'POST' 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTIzVDE5OjM4OjAxLjM3Njk1OCIsInVzZXJfaWQiOiIxNjM0OTJjNC1hMjQyLTQ3MDEtYWM2NC1jNjI5YWQyNmRjY2EifQ.JjPPmqiTm5eL-ovCaxxZZ6yROVYmzmYfudnOtX0haK0' \
+ -H 'content-length: 475' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Потом пропадать ложиться ленинград постоянный построить.","description":"Голубчик полностью сверкать выкинуть блин пятеро командующий. Жить плавно указанный развитый.","createdByUserId":"163492c4-a242-4701-ac64-c629ad26dcca","previewFileId":"261dd94f-7915-4ea8-94ad-d89529dc7914","maxScore":63,"minScore":28,"estimatedTime":"2 weeks"}'

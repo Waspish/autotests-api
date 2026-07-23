@@ -1,0 +1,10 @@
+curl -X 'POST' 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTIzVDE5OjM3OjU1LjkzODQxMyIsInVzZXJfaWQiOiI1YjBjZTllNC1jMjBmLTQyNDctOTZhMi0zODJiMmQ0ZTcxNjMifQ.6t94Fdw1rsCcBZveJTSeqetzKt8GJQknnCTMBCkpSek' \
+ -H 'content-length: 467' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Парень назначить собеседник понятный необычный.","description":"Ломать какой мгновение термин задержать картинка рис. Вытаскивать мрачно исполнять пастух магазин.","createdByUserId":"5b0ce9e4-c20f-4247-96a2-382b2d4e7163","previewFileId":"be315df6-4926-42fd-8a50-4e6c8a56f2ab","maxScore":54,"minScore":26,"estimatedTime":"7 weeks"}'

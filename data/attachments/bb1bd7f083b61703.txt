@@ -1,0 +1,10 @@
+curl -X 'POST' 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTIzVDE5OjM3OjU2Ljg0MzQ2OCIsInVzZXJfaWQiOiI3MTlhNmM2Ny04Y2RlLTQxZTUtOWJiYy1jZDZlY2E5MjYyZTIifQ.wUDATzmOHtVXzOH3QffAfR3Eqr10u7iFhX89H_6LDpg' \
+ -H 'content-length: 585' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Страсть домашний витрина зачем правление плавно эпоха выразить.","description":"Палец посвятить степь инвалид заработать народ песня. Издали самостоятельно успокоиться равнодушный бабочка. Подземный дрогнуть построить манера.","createdByUserId":"719a6c67-8cde-41e5-9bbc-cd6eca9262e2","previewFileId":"7bfc3f47-d4b7-497c-945d-91e93ec736c5","maxScore":64,"minScore":19,"estimatedTime":"6 weeks"}'

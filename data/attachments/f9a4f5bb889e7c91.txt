@@ -1,0 +1,10 @@
+curl -X 'POST' 'http://localhost:8000/api/v1/exercises' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTIzVDE5OjM4OjAxLjM3Njk1OCIsInVzZXJfaWQiOiIxNjM0OTJjNC1hMjQyLTQ3MDEtYWM2NC1jNjI5YWQyNmRjY2EifQ.JjPPmqiTm5eL-ovCaxxZZ6yROVYmzmYfudnOtX0haK0' \
+ -H 'content-length: 505' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Какой пересечь парень иной правление бочок человечек расстегнуть.","description":"Изучить покидать терапия смелый упор.\nЗаплакать полюбить радость выкинуть ночь механический. Рот монета сустав коллектив кожа.","courseId":"609ebfa4-37ad-4bb8-a920-545c95bef767","maxScore":75,"minScore":6,"orderIndex":61,"estimatedTime":"9 weeks"}'

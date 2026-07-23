@@ -1,0 +1,10 @@
+curl -X 'PATCH' 'http://localhost:8000/api/v1/courses/706057fd-0c24-4950-8aca-e602c29828d3' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTIzVDE5OjM3OjU3LjQzNDYwNiIsInVzZXJfaWQiOiI4NTAyMjQzZC0wZWEwLTRhNmUtYTQwYS0zMTVhNzY0ZTg1MjUifQ.x1xGd5OoJYYRSWyce7KcWb0tYNXyheMSoZ5pvTBZBbo' \
+ -H 'content-length: 490' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Светило видимо девка предоставить похороны выражаться голубчик.","description":"Одиннадцать пространство что ставить куча виднеться. Да интернет демократия трясти. Триста спорт инструкция парень дурацкий какой пространство затянуться.","maxScore":94,"minScore":16,"estimatedTime":"2 weeks"}'

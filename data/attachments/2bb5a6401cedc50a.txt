@@ -1,0 +1,10 @@
+curl -X 'POST' 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTIzVDE5OjM3OjU5LjE4ODE1MyIsInVzZXJfaWQiOiI2NDFlZjI5NC1hMWI4LTQ0ZWEtOTdjNy0zYTk4ODdjNzM5MGQifQ.5tReUDI9hs3HWtlcdVTOTG_Yxra_mqrSvBW4jCvcx2g' \
+ -H 'content-length: 595' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Возможно плод демократия хлеб дорогой угодный недостаток.","description":"Светило степь полюбить возникновение покидать. Реклама банк недостаток функция песня витрина плод. Танцевать дурацкий горький госпожа снимать светило дьявол.","createdByUserId":"641ef294-a1b8-44ea-97c7-3a9887c7390d","previewFileId":"0bfe0349-793a-4d6e-8eba-10e32ea21e22","maxScore":73,"minScore":22,"estimatedTime":"7 weeks"}'

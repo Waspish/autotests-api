@@ -1,0 +1,10 @@
+curl -X 'POST' 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTIzVDE5OjM4OjAyLjg2MTM4NiIsInVzZXJfaWQiOiIxYzhmOTlmMy03MWM3LTQ1M2MtODM4Ni01MWE4NzQ5OTdhOTIifQ.UaDzXOGZHgV75u-E2D00Bbtdqycf8Apd2HyllSMQ-8w' \
+ -H 'content-length: 575' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Разводить господь помолчать недостаток чем бак пастух.","description":"Банда жидкий порядок эпоха выразить пропадать актриса.\nЛететь поговорить головной лететь мера командование полоска. Команда картинка дьявол инфекция.","createdByUserId":"1c8f99f3-71c7-453c-8386-51a874997a92","previewFileId":"43458be0-2f7b-48fd-96c6-206b3d8a46b9","maxScore":67,"minScore":30,"estimatedTime":"4 weeks"}'

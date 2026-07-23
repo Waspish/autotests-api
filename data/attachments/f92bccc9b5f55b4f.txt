@@ -1,0 +1,10 @@
+curl -X 'POST' 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTIzVDE5OjM3OjU4LjAyMDYxMSIsInVzZXJfaWQiOiI1MTMyOTE0MC0xNmE1LTQxOWEtYTAxMy1kNWE2MzQ3N2E1NzMifQ.pCUGLEdwPR5HWpGR17pYGEg8xnu78OSJat-VgcWUzGs' \
+ -H 'content-length: 585' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Плод присесть смеяться применяться.","description":"Задержать страсть чувство факультет. Намерение дружно вздрагивать невозможно столетие.\nБегать терапия поставить интернет. Помимо прежде лиловый пропаганда понятный интернет.","createdByUserId":"51329140-16a5-419a-a013-d5a63477a573","previewFileId":"4f49b426-5f3d-4f32-bc53-e823eeee3694","maxScore":59,"minScore":6,"estimatedTime":"3 weeks"}'

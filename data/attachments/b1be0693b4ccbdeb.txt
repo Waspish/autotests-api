@@ -1,0 +1,10 @@
+curl -X 'POST' 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTIzVDE5OjM4OjAwLjQzNDk5NyIsInVzZXJfaWQiOiJhNDVhYjhlOC03MzcwLTRmNmYtYWNmOC03ZjA5NjY5NTUzODMifQ.cX-pSlLhey4qK8SWGeKYOUBCCqoYsR8zf-ZBxvL8HPk' \
+ -H 'content-length: 453' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Ученый оборот полевой невозможно полевой желание.","description":"Зато за успокоиться неожиданно металл иной анализ. Коллектив пятеро тревога новый цепочка.","createdByUserId":"a45ab8e8-7370-4f6f-acf8-7f0966955383","previewFileId":"47e7c0ce-c526-4fd2-a1e9-bb1c507e1de0","maxScore":83,"minScore":1,"estimatedTime":"7 weeks"}'

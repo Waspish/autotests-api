@@ -1,0 +1,32 @@
+INFO     HTTP_LOGGER:event_hooks.py:31 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:40 Got response 200 OK
+INFO     HTTP_LOGGER:event_hooks.py:31 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:40 Got response 200 OK
+INFO     HTTP_LOGGER:event_hooks.py:31 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:40 Got response 200 OK
+INFO     HTTP_LOGGER:event_hooks.py:31 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGGER:event_hooks.py:40 Got response 200 OK
+INFO     HTTP_LOGGER:event_hooks.py:31 Make GET request to http://localhost:8000/api/v1/courses?userId=719a6c67-8cde-41e5-9bbc-cd6eca9262e2
+INFO     HTTP_LOGGER:event_hooks.py:40 Got response 200 OK
+INFO     BASE_ASSERTIONS:base.py:12 Check that response status code equals to '200'
+INFO     COURSES_ASSERTIONS:courses.py:60 Check get courses response
+INFO     BASE_ASSERTIONS:base.py:57 Check that length of 'courses' equals to '1'
+INFO     COURSES_ASSERTIONS:courses.py:22 Check course
+INFO     BASE_ASSERTIONS:base.py:21 Check that 'id' equals to '2640d6ea-f721-418d-8fbe-cefaa81b1b6f'
+INFO     BASE_ASSERTIONS:base.py:21 Check that 'title' equals to 'Страсть домашний витрина зачем правление плавно эпоха выразить.'
+INFO     BASE_ASSERTIONS:base.py:21 Check that 'description' equals to 'Палец посвятить степь инвалид заработать народ песня. Издали самостоятельно успокоиться равнодушный бабочка. Подземный дрогнуть построить манера.'
+INFO     BASE_ASSERTIONS:base.py:21 Check that 'min_score' equals to '19'
+INFO     BASE_ASSERTIONS:base.py:21 Check that 'max_score' equals to '64'
+INFO     BASE_ASSERTIONS:base.py:21 Check that 'estimated_time' equals to '6 weeks'
+INFO     FILES_ASSERTIONS:files.py:43 Check file
+INFO     BASE_ASSERTIONS:base.py:21 Check that 'id' equals to '7bfc3f47-d4b7-497c-945d-91e93ec736c5'
+INFO     BASE_ASSERTIONS:base.py:21 Check that 'filename' equals to 'd90d9d49-d93c-403e-95ec-fab59e00654a.png'
+INFO     BASE_ASSERTIONS:base.py:21 Check that 'url' equals to 'http://localhost:8000/static/tests/d90d9d49-d93c-403e-95ec-fab59e00654a.png'
+INFO     BASE_ASSERTIONS:base.py:21 Check that 'directory' equals to 'tests'
+INFO     USERS_ASSERTIONS:users.py:20 Check user response
+INFO     BASE_ASSERTIONS:base.py:21 Check that 'email' equals to 'eremenazarov@example.org'
+INFO     BASE_ASSERTIONS:base.py:21 Check that 'first_name' equals to 'Таисия'
+INFO     BASE_ASSERTIONS:base.py:21 Check that 'last_name' equals to 'Харитонова'
+INFO     BASE_ASSERTIONS:base.py:21 Check that 'middle_name' equals to 'Геннадиевна'
+INFO     BASE_ASSERTIONS:base.py:39 Check that 'user_id' is true.
+INFO     SCHEMA_ASSERTIONS:schema.py:21 Validating JSON schema

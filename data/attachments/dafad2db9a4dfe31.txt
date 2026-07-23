@@ -1,0 +1,72 @@
+INFO     HTTP_LOGGER:event_hooks.py:31 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:40 Got response 200 OK
+INFO     HTTP_LOGGER:event_hooks.py:31 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:40 Got response 200 OK
+INFO     HTTP_LOGGER:event_hooks.py:31 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:40 Got response 200 OK
+INFO     HTTP_LOGGER:event_hooks.py:31 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGGER:event_hooks.py:40 Got response 200 OK
+INFO     HTTP_LOGGER:event_hooks.py:31 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGGER:event_hooks.py:40 Got response 200 OK
+INFO     HTTP_LOGGER:event_hooks.py:31 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGGER:event_hooks.py:40 Got response 200 OK
+INFO     HTTP_LOGGER:event_hooks.py:31 Make GET request to http://localhost:8000/api/v1/courses?userId=5b0ce9e4-c20f-4247-96a2-382b2d4e7163
+INFO     HTTP_LOGGER:event_hooks.py:40 Got response 200 OK
+INFO     BASE_ASSERTIONS:base.py:12 Check that response status code equals to '200'
+INFO     COURSES_ASSERTIONS:courses.py:60 Check get courses response
+INFO     BASE_ASSERTIONS:base.py:57 Check that length of 'courses' equals to '3'
+INFO     COURSES_ASSERTIONS:courses.py:22 Check course
+INFO     BASE_ASSERTIONS:base.py:21 Check that 'id' equals to '0319bfb8-1e55-4c7d-a8d1-3463fb7f06bb'
+INFO     BASE_ASSERTIONS:base.py:21 Check that 'title' equals to 'Парень назначить собеседник понятный необычный.'
+INFO     BASE_ASSERTIONS:base.py:21 Check that 'description' equals to 'Ломать какой мгновение термин задержать картинка рис. Вытаскивать мрачно исполнять пастух магазин.'
+INFO     BASE_ASSERTIONS:base.py:21 Check that 'min_score' equals to '26'
+INFO     BASE_ASSERTIONS:base.py:21 Check that 'max_score' equals to '54'
+INFO     BASE_ASSERTIONS:base.py:21 Check that 'estimated_time' equals to '7 weeks'
+INFO     FILES_ASSERTIONS:files.py:43 Check file
+INFO     BASE_ASSERTIONS:base.py:21 Check that 'id' equals to 'be315df6-4926-42fd-8a50-4e6c8a56f2ab'
+INFO     BASE_ASSERTIONS:base.py:21 Check that 'filename' equals to 'e6ea637d-6e3b-47da-a2d8-aa96a6c9b562.png'
+INFO     BASE_ASSERTIONS:base.py:21 Check that 'url' equals to 'http://localhost:8000/static/tests/e6ea637d-6e3b-47da-a2d8-aa96a6c9b562.png'
+INFO     BASE_ASSERTIONS:base.py:21 Check that 'directory' equals to 'tests'
+INFO     USERS_ASSERTIONS:users.py:20 Check user response
+INFO     BASE_ASSERTIONS:base.py:21 Check that 'email' equals to 'kasjanmoiseev@example.com'
+INFO     BASE_ASSERTIONS:base.py:21 Check that 'first_name' equals to 'Аполлон'
+INFO     BASE_ASSERTIONS:base.py:21 Check that 'last_name' equals to 'Суханова'
+INFO     BASE_ASSERTIONS:base.py:21 Check that 'middle_name' equals to 'Викентьевич'
+INFO     BASE_ASSERTIONS:base.py:39 Check that 'user_id' is true.
+INFO     COURSES_ASSERTIONS:courses.py:22 Check course
+INFO     BASE_ASSERTIONS:base.py:21 Check that 'id' equals to '8a55b861-7856-4d46-a57a-0c4559836a03'
+INFO     BASE_ASSERTIONS:base.py:21 Check that 'title' equals to 'Парень назначить собеседник понятный необычный.'
+INFO     BASE_ASSERTIONS:base.py:21 Check that 'description' equals to 'Ломать какой мгновение термин задержать картинка рис. Вытаскивать мрачно исполнять пастух магазин.'
+INFO     BASE_ASSERTIONS:base.py:21 Check that 'min_score' equals to '26'
+INFO     BASE_ASSERTIONS:base.py:21 Check that 'max_score' equals to '54'
+INFO     BASE_ASSERTIONS:base.py:21 Check that 'estimated_time' equals to '7 weeks'
+INFO     FILES_ASSERTIONS:files.py:43 Check file
+INFO     BASE_ASSERTIONS:base.py:21 Check that 'id' equals to 'be315df6-4926-42fd-8a50-4e6c8a56f2ab'
+INFO     BASE_ASSERTIONS:base.py:21 Check that 'filename' equals to 'e6ea637d-6e3b-47da-a2d8-aa96a6c9b562.png'
+INFO     BASE_ASSERTIONS:base.py:21 Check that 'url' equals to 'http://localhost:8000/static/tests/e6ea637d-6e3b-47da-a2d8-aa96a6c9b562.png'
+INFO     BASE_ASSERTIONS:base.py:21 Check that 'directory' equals to 'tests'
+INFO     USERS_ASSERTIONS:users.py:20 Check user response
+INFO     BASE_ASSERTIONS:base.py:21 Check that 'email' equals to 'kasjanmoiseev@example.com'
+INFO     BASE_ASSERTIONS:base.py:21 Check that 'first_name' equals to 'Аполлон'
+INFO     BASE_ASSERTIONS:base.py:21 Check that 'last_name' equals to 'Суханова'
+INFO     BASE_ASSERTIONS:base.py:21 Check that 'middle_name' equals to 'Викентьевич'
+INFO     BASE_ASSERTIONS:base.py:39 Check that 'user_id' is true.
+INFO     COURSES_ASSERTIONS:courses.py:22 Check course
+INFO     BASE_ASSERTIONS:base.py:21 Check that 'id' equals to 'b28ed648-a47e-4fc1-90ed-5aaf509f8388'
+INFO     BASE_ASSERTIONS:base.py:21 Check that 'title' equals to 'Парень назначить собеседник понятный необычный.'
+INFO     BASE_ASSERTIONS:base.py:21 Check that 'description' equals to 'Ломать какой мгновение термин задержать картинка рис. Вытаскивать мрачно исполнять пастух магазин.'
+INFO     BASE_ASSERTIONS:base.py:21 Check that 'min_score' equals to '26'
+INFO     BASE_ASSERTIONS:base.py:21 Check that 'max_score' equals to '54'
+INFO     BASE_ASSERTIONS:base.py:21 Check that 'estimated_time' equals to '7 weeks'
+INFO     FILES_ASSERTIONS:files.py:43 Check file
+INFO     BASE_ASSERTIONS:base.py:21 Check that 'id' equals to 'be315df6-4926-42fd-8a50-4e6c8a56f2ab'
+INFO     BASE_ASSERTIONS:base.py:21 Check that 'filename' equals to 'e6ea637d-6e3b-47da-a2d8-aa96a6c9b562.png'
+INFO     BASE_ASSERTIONS:base.py:21 Check that 'url' equals to 'http://localhost:8000/static/tests/e6ea637d-6e3b-47da-a2d8-aa96a6c9b562.png'
+INFO     BASE_ASSERTIONS:base.py:21 Check that 'directory' equals to 'tests'
+INFO     USERS_ASSERTIONS:users.py:20 Check user response
+INFO     BASE_ASSERTIONS:base.py:21 Check that 'email' equals to 'kasjanmoiseev@example.com'
+INFO     BASE_ASSERTIONS:base.py:21 Check that 'first_name' equals to 'Аполлон'
+INFO     BASE_ASSERTIONS:base.py:21 Check that 'last_name' equals to 'Суханова'
+INFO     BASE_ASSERTIONS:base.py:21 Check that 'middle_name' equals to 'Викентьевич'
+INFO     BASE_ASSERTIONS:base.py:39 Check that 'user_id' is true.
+INFO     SCHEMA_ASSERTIONS:schema.py:21 Validating JSON schema

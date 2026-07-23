@@ -1,0 +1,10 @@
+curl -X 'POST' 'http://localhost:8000/api/v1/exercises' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTIzVDE5OjM3OjU4LjkxNDI0NCIsInVzZXJfaWQiOiI3NjcyMmMzYi1mMDMwLTQxZmYtYThkMy04MGI5YjY2OTk0M2YifQ.6PxPMVE0m-fZrYXqOltRLH4227LYxJK1nDSbL-ApxpA' \
+ -H 'content-length: 379' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Сопровождаться место решение отражение.","description":"Дружно обида да возбуждение кпсс трубка роскошный. Ложиться командир дыхание угроза.","courseId":"27a3875d-39a7-4720-8910-831da14377f8","maxScore":85,"minScore":13,"orderIndex":11,"estimatedTime":"5 weeks"}'

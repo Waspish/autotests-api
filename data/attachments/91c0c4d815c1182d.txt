@@ -1,0 +1,10 @@
+curl -X 'POST' 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTIzVDE5OjM3OjU4LjkxNDI0NCIsInVzZXJfaWQiOiI3NjcyMmMzYi1mMDMwLTQxZmYtYThkMy04MGI5YjY2OTk0M2YifQ.6PxPMVE0m-fZrYXqOltRLH4227LYxJK1nDSbL-ApxpA' \
+ -H 'content-length: 421' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Обида ученый прелесть остановить багровый мимо факультет ночь.","description":"Военный что вообще мусор. Расстройство коммунизм ребятишки.","createdByUserId":"76722c3b-f030-41ff-a8d3-80b9b669943f","previewFileId":"92372201-f25d-4d70-a7fe-bca72b331d9f","maxScore":94,"minScore":10,"estimatedTime":"2 weeks"}'
