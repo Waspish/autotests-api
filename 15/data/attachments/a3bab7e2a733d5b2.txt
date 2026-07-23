@@ -1,0 +1,10 @@
+curl -X 'POST' 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTIzVDE5OjQxOjU4LjY3MTAxNCIsInVzZXJfaWQiOiIwY2VmOTgxNi1kNzA0LTQwZmUtOGI3Mi05MjczYzAxN2FjZTgifQ.Op3WwE1IaOvqoj_D_DQM6VjHKZQWEPvs0pJhmud354Q' \
+ -H 'content-length: 562' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Другой чувство приятель аж сынок назначить.","description":"Очко число естественный головка торопливый советовать порог. Слать а команда выраженный выражаться беспомощный.\nВчера радость уронить растеряться анализ.","createdByUserId":"0cef9816-d704-40fe-8b72-9273c017ace8","previewFileId":"32958fc2-fe99-4b6b-a75d-d0b24c4a03aa","maxScore":78,"minScore":16,"estimatedTime":"4 weeks"}'

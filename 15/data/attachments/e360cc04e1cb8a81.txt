@@ -1,0 +1,10 @@
+curl -X 'POST' 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTIzVDE5OjQyOjA1Ljk4NzA1MyIsInVzZXJfaWQiOiJmMzI1YTk0YS1hODUwLTRjNzgtOGZmYS04ZDljZWUyZTk0YzIifQ.Spi1GcwvSUh43fxzmHJJHBiHVqE_mRM1kR-Rl9ljFIM' \
+ -H 'content-length: 545' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Пища левый цель промолчать сынок аж свежий покидать.","description":"Счастье возникновение число сустав предоставить бегать. Ночь металл собеседник. Мрачно серьезный падаль помимо песня угол разнообразный.","createdByUserId":"f325a94a-a850-4c78-8ffa-8d9cee2e94c2","previewFileId":"69e0b58a-f4ea-4094-90b4-0f23df3f5a81","maxScore":78,"minScore":15,"estimatedTime":"9 weeks"}'

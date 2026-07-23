@@ -1,0 +1,10 @@
+curl -X 'POST' 'http://localhost:8000/api/v1/exercises' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTIzVDE5OjQyOjAxLjg1OTAyMiIsInVzZXJfaWQiOiI1NjYyZjM2Zi0yNjNmLTRiMjMtYmJjOS01YTA4ODZhZWU5MGEifQ.qB8w_M1xMIqUpnMuxBZaJ7sbshVxhlaiVNbr9bHJw2A' \
+ -H 'content-length: 384' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Вчера сохранять монета палка рис равнодушный.","description":"Левый спешить июнь результат провал засунуть выразить. Более табак понятный крыса.","courseId":"6f1d971c-4d5d-429e-a2a6-11ed9804e9fc","maxScore":87,"minScore":29,"orderIndex":3,"estimatedTime":"4 weeks"}'

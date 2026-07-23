@@ -1,0 +1,10 @@
+curl -X 'POST' 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTIzVDE5OjQxOjU4LjQ0ODM3OCIsInVzZXJfaWQiOiJkYjYxNjlhMy1hM2EyLTRkNzAtYjk3My0zZDMwZGY3MTA3ODUifQ.zs_UAvRa2S6tUEGBp31yhHNZLG1-EX37dumb6cg7R5c' \
+ -H 'content-length: 519' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Возможно оставить направо премьера бетонный магазин правление господь.","description":"Пробовать помимо отъезд военный ныне заявление некоторый анализ. Возбуждение человечек идея появление.","createdByUserId":"db6169a3-a3a2-4d70-b973-3d30df710785","previewFileId":"ebf8404c-f80b-4fce-a813-8023e5b541cb","maxScore":73,"minScore":25,"estimatedTime":"10 weeks"}'

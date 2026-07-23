@@ -1,0 +1,10 @@
+curl -X 'POST' 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTIzVDE5OjQyOjAwLjEzMzIyMyIsInVzZXJfaWQiOiI0YmVhNDMxNy1jNDcxLTQxNGEtYjZkZC1mYTZkMWQ0ZmUzNDgifQ.q0WwSR_IFNqPtittYFbneg_WIb3ZyJ1ntcCeiawT52w' \
+ -H 'content-length: 654' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Адвокат мягкий выразить потянуться очередной господь салон.","description":"Школьный миф салон нервно наступать витрина. Невозможно монета шлем. Торопливый сынок наступать услать терапия спалить недостаток еврейский. Госпожа висеть сынок неожиданно лететь важный.","createdByUserId":"4bea4317-c471-414a-b6dd-fa6d1d4fe348","previewFileId":"49ccb34c-ede0-40d4-a9de-9d188c4c672a","maxScore":66,"minScore":11,"estimatedTime":"2 weeks"}'

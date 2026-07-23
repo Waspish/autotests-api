@@ -1,0 +1,10 @@
+curl -X 'PATCH' 'http://localhost:8000/api/v1/courses/d9ac1f9d-6bff-4a6d-bccd-6839646525b3' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTIzVDE5OjQxOjU4LjQ0ODM3OCIsInVzZXJfaWQiOiJkYjYxNjlhMy1hM2EyLTRkNzAtYjk3My0zZDMwZGY3MTA3ODUifQ.zs_UAvRa2S6tUEGBp31yhHNZLG1-EX37dumb6cg7R5c' \
+ -H 'content-length: 410' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Скользить сомнительный инфекция горький командир демократия налоговый.","description":"Запеть провал налево освобождение вперед вздрагивать. Инфекция непривычный серьезный назначить дыхание.","maxScore":77,"minScore":23,"estimatedTime":"3 weeks"}'

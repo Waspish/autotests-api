@@ -1,0 +1,10 @@
+curl -X 'POST' 'http://localhost:8000/api/v1/exercises' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTIzVDE5OjQyOjAwLjEzMzIyMyIsInVzZXJfaWQiOiI0YmVhNDMxNy1jNDcxLTQxNGEtYjZkZC1mYTZkMWQ0ZmUzNDgifQ.q0WwSR_IFNqPtittYFbneg_WIb3ZyJ1ntcCeiawT52w' \
+ -H 'content-length: 426' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Какой пропасть через покинуть термин грудь.","description":"Механический дурацкий труп приятель. Труп близко ломать иной. Боец помолчать решение приятель трясти совет.","courseId":"e668d706-8cad-4894-a96d-e4db5fc870c7","maxScore":89,"minScore":25,"orderIndex":5,"estimatedTime":"7 weeks"}'

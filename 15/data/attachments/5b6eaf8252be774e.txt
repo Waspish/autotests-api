@@ -1,0 +1,10 @@
+curl -X 'POST' 'http://localhost:8000/api/v1/exercises' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTIzVDE5OjQyOjAzLjg2OTQ5NSIsInVzZXJfaWQiOiI0ODEyNzBkNy03YWNmLTRlZTQtODJmNS1mNjk5YThkN2FlN2YifQ.iknyTdyBP03PrA0hsgLxGGjdsA98NU_Nhah8wbQEuDU' \
+ -H 'content-length: 567' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Монета командующий пища коммунизм вообще.","description":"Развернуться поставить слишком строительство. Равнодушный витрина торговля расстегнуть палец потянуться.\nКосмос кпсс угодный покидать умолять аллея. Сынок наслаждение кпсс ложиться.","courseId":"e713db85-0662-4aad-9ceb-737a5e7b9c33","maxScore":100,"minScore":19,"orderIndex":52,"estimatedTime":"9 weeks"}'

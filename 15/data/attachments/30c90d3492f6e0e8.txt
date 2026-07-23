@@ -1,0 +1,10 @@
+curl -X 'POST' 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTIzVDE5OjQyOjAzLjg2OTQ5NSIsInVzZXJfaWQiOiI0ODEyNzBkNy03YWNmLTRlZTQtODJmNS1mNjk5YThkN2FlN2YifQ.iknyTdyBP03PrA0hsgLxGGjdsA98NU_Nhah8wbQEuDU' \
+ -H 'content-length: 434' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Ребятишки изба скрытый близко возможно командир.","description":"Порядок торопливый монета дрогнуть. Тревога ручей сверкать.\nСынок манера помимо.","createdByUserId":"481270d7-7acf-4ee4-82f5-f699a8d7ae7f","previewFileId":"8ee9a03c-1383-4689-b0d4-762d369525b0","maxScore":67,"minScore":27,"estimatedTime":"5 weeks"}'

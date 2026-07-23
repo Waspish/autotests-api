@@ -1,0 +1,10 @@
+curl -X 'POST' 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTIzVDE5OjQxOjU2Ljg4NzcyOCIsInVzZXJfaWQiOiI3MmZhMDM2ZS1mOTU5LTQzODAtOTA0YS02YTYyZDE5OWM1YzgifQ.hgy-fNdLLFzsovr_UH0hJnltcUwdwts5vVwEEp8MLM4' \
+ -H 'content-length: 575' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Головной парень дружно обида выгнать сбросить.","description":"Увеличиваться беспомощный пропаганда промолчать табак функция. Изредка миф прощение цвет горький вперед реклама ночь. Наткнуться ребятишки спорт успокоиться.","createdByUserId":"72fa036e-f959-4380-904a-6a62d199c5c8","previewFileId":"72c37803-7a13-415f-ba1e-925c8e7c2ed1","maxScore":80,"minScore":17,"estimatedTime":"3 weeks"}'
