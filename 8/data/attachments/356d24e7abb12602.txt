@@ -1,0 +1,10 @@
+curl -X 'POST' 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTIzVDE4OjQ4OjAyLjY1OTQ3OCIsInVzZXJfaWQiOiJjYWZlNzAyMi1kNzQ3LTQxOGYtYjU4YS03OGUwZDQ4YmYwZGMifQ.J8uiIPnd5oTh4czcKV-AoOcqaGT31ohvRM3-ucUrKAg' \
+ -H 'content-length: 590' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Спасть строительство радость инвалид поезд материя.","description":"Дыхание привлекать передо манера ломать дошлый головной. Вариант художественный вперед слать страсть ставить инвалид юный. Устройство заведение пропаганда штаб.","createdByUserId":"cafe7022-d747-418f-b58a-78e0d48bf0dc","previewFileId":"4a3fc28a-107f-44c6-a7ce-4c20e7fac2b2","maxScore":74,"minScore":21,"estimatedTime":"4 weeks"}'

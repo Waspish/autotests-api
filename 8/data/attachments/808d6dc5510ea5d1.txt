@@ -1,0 +1,32 @@
+INFO     HTTP_LOGGER:event_hooks.py:31 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:40 Got response 200 OK
+INFO     HTTP_LOGGER:event_hooks.py:31 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:40 Got response 200 OK
+INFO     HTTP_LOGGER:event_hooks.py:31 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:40 Got response 200 OK
+INFO     HTTP_LOGGER:event_hooks.py:31 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGGER:event_hooks.py:40 Got response 200 OK
+INFO     HTTP_LOGGER:event_hooks.py:31 Make GET request to http://localhost:8000/api/v1/courses?userId=b2d0f8ab-0d40-46c2-be65-5270d85f6cd5
+INFO     HTTP_LOGGER:event_hooks.py:40 Got response 200 OK
+INFO     BASE_ASSERTIONS:base.py:12 Check that response status code equals to '200'
+INFO     COURSES_ASSERTIONS:courses.py:60 Check get courses response
+INFO     BASE_ASSERTIONS:base.py:57 Check that length of 'courses' equals to '1'
+INFO     COURSES_ASSERTIONS:courses.py:22 Check course
+INFO     BASE_ASSERTIONS:base.py:21 Check that 'id' equals to 'c85b369a-8747-473a-8fa3-ad20165bfdb0'
+INFO     BASE_ASSERTIONS:base.py:21 Check that 'title' equals to 'Куча виднеться что рота кидать рот дошлый деловой.'
+INFO     BASE_ASSERTIONS:base.py:21 Check that 'description' equals to 'Заложить промолчать покинуть задержать механический умирать. Равнодушный еврейский мусор о настать результат задрать. Провинция штаб коробка палец ремень правление интернет.'
+INFO     BASE_ASSERTIONS:base.py:21 Check that 'min_score' equals to '30'
+INFO     BASE_ASSERTIONS:base.py:21 Check that 'max_score' equals to '77'
+INFO     BASE_ASSERTIONS:base.py:21 Check that 'estimated_time' equals to '10 weeks'
+INFO     FILES_ASSERTIONS:files.py:43 Check file
+INFO     BASE_ASSERTIONS:base.py:21 Check that 'id' equals to '341bb6dd-e0af-438a-bca5-7e9d6d12fe65'
+INFO     BASE_ASSERTIONS:base.py:21 Check that 'filename' equals to '08694964-3f1b-46e4-849f-3d69b38a2fd1.png'
+INFO     BASE_ASSERTIONS:base.py:21 Check that 'url' equals to 'http://localhost:8000/static/tests/08694964-3f1b-46e4-849f-3d69b38a2fd1.png'
+INFO     BASE_ASSERTIONS:base.py:21 Check that 'directory' equals to 'tests'
+INFO     USERS_ASSERTIONS:users.py:20 Check user response
+INFO     BASE_ASSERTIONS:base.py:21 Check that 'email' equals to 'saveli1984@example.net'
+INFO     BASE_ASSERTIONS:base.py:21 Check that 'first_name' equals to 'Ия'
+INFO     BASE_ASSERTIONS:base.py:21 Check that 'last_name' equals to 'Королева'
+INFO     BASE_ASSERTIONS:base.py:21 Check that 'middle_name' equals to 'Вадимовна'
+INFO     BASE_ASSERTIONS:base.py:39 Check that 'user_id' is true.
+INFO     SCHEMA_ASSERTIONS:schema.py:21 Validating JSON schema

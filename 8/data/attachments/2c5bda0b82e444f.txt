@@ -1,0 +1,10 @@
+curl -X 'POST' 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTIzVDE4OjQ4OjAwLjQ5NzcyMiIsInVzZXJfaWQiOiIzOTkzZmY0Yi1lOWYyLTQ4ZTctYTI3MC02YWU4ZDE0ZTVlNjgifQ.9Wva8oGnCzYwTmAqFtylJd7ytwSOfdPEfcVpLEvW5AM' \
+ -H 'content-length: 595' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Дальний вздрогнуть угроза сомнительный госпожа вчера.","description":"Понятный возникновение грудь вчера сбросить выгнать. Металл ставить устройство сверкающий растеряться функция. Наслаждение задрать потом обида вскинуть витрина.","createdByUserId":"3993ff4b-e9f2-48e7-a270-6ae8d14e5e68","previewFileId":"cbd26bf5-54c9-4dc0-808a-c4ab247bd719","maxScore":91,"minScore":19,"estimatedTime":"7 weeks"}'

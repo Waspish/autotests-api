@@ -1,0 +1,10 @@
+curl -X 'PATCH' 'http://localhost:8000/api/v1/courses/ac5fba79-fb9a-44d9-b334-c3b029426d18' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTIzVDE4OjQ3OjU5Ljk1ODA3NSIsInVzZXJfaWQiOiI4YzcxYzhhMS1kYWEzLTRkMTQtOTRlZi05NzVmMmZmODQ4NTEifQ.gxbOA2qGZInv43NE9BkoM5fn7q4y2LbvZDkUkf04aJg' \
+ -H 'content-length: 462' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Редактор головной прощение да виднеться висеть угроза.","description":"Хотеть металл указанный приходить слишком эффект. Освобождение совет прелесть сынок доставать. Второй намерение июнь какой цепочка указанный решение.","maxScore":74,"minScore":12,"estimatedTime":"8 weeks"}'
