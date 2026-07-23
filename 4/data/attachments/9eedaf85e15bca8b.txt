@@ -1,0 +1,10 @@
+curl -X 'PATCH' 'http://localhost:8000/api/v1/exercises/49af7a8a-1a2c-4f92-83fb-fa60ca9058ab' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTIzVDE2OjQ0OjQyLjA0NDM1NiIsInVzZXJfaWQiOiJjZDdiMDNjNC1jMmY4LTQ1OGYtYTc5MC1jOWM5OTgyN2YzYmUifQ.ytrRQGsNzmVxOqOYWS7LbbKqxpyzzbjJms96v2jeWFE' \
+ -H 'content-length: 479' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Намерение изба смертельный полоска опасность написать посидеть освобождение.","description":"Торговля заведение инвалид неожиданно. Вперед вздрагивать правый заложить сбросить полоска заработать.","courseId":"7e1e1894-215f-4ca3-8a48-6073dec1ad2d","maxScore":81,"minScore":7,"orderIndex":41,"estimatedTime":null}'

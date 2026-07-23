@@ -1,0 +1,10 @@
+curl -X 'POST' 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTIzVDE2OjQ0OjQzLjU2MjU3MCIsInVzZXJfaWQiOiI0NDkzM2RhYS01YjMzLTRiNDgtYjkyNS05MDUyMjI2MTVkNTUifQ.-VcSOuto41kjQof9ZXY4FpJuVtIujrgAAIBXOVctszE' \
+ -H 'content-length: 689' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Потрясти казнь интеллектуальный написать одиннадцать пасть товар.","description":"Интернет рабочий витрина равнодушный висеть господь. Самостоятельно славный более сверкать палка.\nЖитель дыхание умолять бак падать спасть. Ярко важный непривычный прощение спичка банк казнь вывести.","createdByUserId":"44933daa-5b33-4b48-b925-905222615d55","previewFileId":"b17b8f15-87cd-4566-9354-37d759cad90b","maxScore":58,"minScore":13,"estimatedTime":"9 weeks"}'

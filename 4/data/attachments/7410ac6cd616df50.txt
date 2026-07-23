@@ -1,0 +1,10 @@
+curl -X 'POST' 'http://localhost:8000/api/v1/exercises' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTIzVDE2OjQ0OjQ0Ljc5MzcwOSIsInVzZXJfaWQiOiIwMDA4MmQ1Zi02ZmQwLTRlYzktOTI2ZS1hY2E1NGVlZjBiMmIifQ.D9N4prpx1IHaBi613C0vGa25whoMp7yklv4S27oI9Mw' \
+ -H 'content-length: 538' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Добиться терапия заложить мелькнуть хозяйка пробовать увеличиваться а.","description":"О выдержать разводить угроза прежде неправда. Сохранять чувство ученый мера степь издали упор. Торопливый умирать социалистический гулять.","courseId":"c60c7d15-077d-4390-863b-a54b11d25b0e","maxScore":56,"minScore":21,"orderIndex":39,"estimatedTime":"2 weeks"}'

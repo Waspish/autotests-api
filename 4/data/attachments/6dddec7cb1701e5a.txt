@@ -1,0 +1,10 @@
+curl -X 'POST' 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTIzVDE2OjQ0OjQ2LjI2MzY1MSIsInVzZXJfaWQiOiIzNmZlZjhkMy04NDhlLTQ4NjUtOGU2NC1lZTE5ZTcwNjkyMjcifQ.tHK2ttA-xfdg17ppbN9_x9_Deo835jRZXZXEKHaAz4g' \
+ -H 'content-length: 532' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Спешить монета функция помолчать ответить.","description":"Бетонный вчера спорт кожа да горький. Блин дрогнуть намерение пропасть мимо дьявол уничтожение. Бегать разуметься присесть разуметься ныне.","createdByUserId":"36fef8d3-848e-4865-8e64-ee19e7069227","previewFileId":"77fef8d8-701e-4d7f-9ff0-550c7bf7fae7","maxScore":98,"minScore":25,"estimatedTime":"6 weeks"}'

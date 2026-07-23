@@ -1,0 +1,10 @@
+curl -X 'POST' 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTIzVDE2OjQ0OjM5LjMyMjczNCIsInVzZXJfaWQiOiIzMGE1YWM5YS1mYzg3LTQ5MmMtODE4Ni1hNzk1YzkzNjU2NWUifQ.dJRwHtwIJfNco2cPHMqfw5wWX4O6SH-4sa006MH32X4' \
+ -H 'content-length: 602' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Механический основание расстегнуть деньги предоставить правление правильный.","description":"Наслаждение торговля ныне покинуть помимо помимо карман. Поставить салон мрачно.\nИнтернет печатать народ зато. Тесно салон песенка провинция.","createdByUserId":"30a5ac9a-fc87-492c-8186-a795c936565e","previewFileId":"162cebdc-1cc1-486d-afa5-2272ed3035ef","maxScore":88,"minScore":25,"estimatedTime":"6 weeks"}'

@@ -1,0 +1,10 @@
+curl -X 'POST' 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTIzVDE2OjQ0OjQyLjYzMTI4MCIsInVzZXJfaWQiOiI2NDY3YTJiNC1hNTA1LTQyMTYtOTY1OC0yZmVlMmQ3OWMyZWUifQ.pGjtUXHF9bXkT3JvlUSfgJHKG535GGBLOojAwKsV7Yo' \
+ -H 'content-length: 513' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Рабочий зарплата тута цель о пол.","description":"Легко банда что еврейский построить налоговый передо. Функция скрытый пропаганда. Плод тяжелый роскошный кузнец добиться пропаганда сустав.","createdByUserId":"6467a2b4-a505-4216-9658-2fee2d79c2ee","previewFileId":"a52d07c6-970d-49b3-984d-24e928cfb12f","maxScore":60,"minScore":6,"estimatedTime":"2 weeks"}'

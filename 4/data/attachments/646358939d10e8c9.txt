@@ -1,0 +1,10 @@
+curl -X 'POST' 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTIzVDE2OjQ0OjQwLjIyOTE2NyIsInVzZXJfaWQiOiI4YjViMjE0Zi0zMzhkLTRjMzUtOWRkOS02Njk4MzJmNGI3ODIifQ.9uqQcOzFRfbGIFyDa2PiMq5flLnpms4lfeOQUf7Pi-Q' \
+ -H 'content-length: 595' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Мелькнуть сопровождаться лиловый горький грустный пропадать.","description":"Терапия покинуть назначить материя инструкция подземный неправда. Посвятить дальний вперед.\nДобиться июнь мотоцикл. Задрать возбуждение зарплата решетка.","createdByUserId":"8b5b214f-338d-4c35-9dd9-669832f4b782","previewFileId":"f051c307-04c3-4eea-8f13-96e9d1e4b1be","maxScore":59,"minScore":9,"estimatedTime":"9 weeks"}'
