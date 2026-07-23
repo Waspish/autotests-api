@@ -1,0 +1,10 @@
+curl -X 'POST' 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTIzVDIwOjAwOjA1LjIzODIxNCIsInVzZXJfaWQiOiI3MjBlYzI5Ni02MjE3LTRmNjItYTViOC1mNWU3YzBkNDFiNDUifQ.tpQd3Io9GsG6LRAV7PrSNrc9ilydcnqgWaj7ImXd5To' \
+ -H 'content-length: 543' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Расстройство издали оборот левый реклама.","description":"Пропадать способ даль недостаток спасть услать тревога актриса. Палата триста чем оставить. Нервно избегать забирать выразить неожиданный полоска.","createdByUserId":"720ec296-6217-4f62-a5b8-f5e7c0d41b45","previewFileId":"4ce84d2a-cb9e-4803-b5e3-2e48dba4c0e1","maxScore":63,"minScore":7,"estimatedTime":"2 weeks"}'

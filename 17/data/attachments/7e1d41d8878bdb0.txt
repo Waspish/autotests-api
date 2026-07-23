@@ -1,0 +1,10 @@
+curl -X 'POST' 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTIzVDIwOjAwOjAyLjQ4OTA1MCIsInVzZXJfaWQiOiJlNGQxYTI5My1hNzhmLTQ2MTEtYjk4Yy1iNTRlMmVkMTA5ZWEifQ.9xslNd0Wjq6DL7ldUT6Y9QlxvSoxAt3Qwn3MI1aZhpc' \
+ -H 'content-length: 621' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Головной мотоцикл услать забирать спорт.","description":"Набор подробность спичка.\nБетонный уничтожение вздрагивать мера салон заведение волк. Солнце гулять заработать решетка сомнительный провинция поезд. Неожиданно указанный опасность видимо.","createdByUserId":"e4d1a293-a78f-4611-b98c-b54e2ed109ea","previewFileId":"72f2de87-f9a4-4448-b91a-bffa3ce977c0","maxScore":94,"minScore":27,"estimatedTime":"8 weeks"}'

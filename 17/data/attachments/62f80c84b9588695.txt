@@ -1,0 +1,10 @@
+curl -X 'POST' 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTIzVDIwOjAwOjA0LjUyODg3OSIsInVzZXJfaWQiOiIyODIxNjE5Mi0zODNkLTRlZjAtYTMzOS1lYzNjMTg3NTM2ZGIifQ.8dj_BPSskf4ErJii-BD2T6uFvQ2bloflBrutjHiP30A' \
+ -H 'content-length: 484' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Парень спалить тесно полюбить опасность подробность.","description":"Рис ребятишки счастье сынок приходить мимо. Подробность ручей помолчать механический правление висеть.","createdByUserId":"28216192-383d-4ef0-a339-ec3c187536db","previewFileId":"761eac5d-0c2e-4b1d-9fe2-86983e85a76a","maxScore":90,"minScore":9,"estimatedTime":"10 weeks"}'

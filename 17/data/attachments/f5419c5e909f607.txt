@@ -1,0 +1,10 @@
+curl -X 'POST' 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTIzVDIwOjAwOjA3LjQ2OTg4NiIsInVzZXJfaWQiOiJmMzA0ZjVkOC1kYzc2LTRiODAtYjk2Yi1hYmE3ZjVkYzBjYmUifQ.PQ1wwacgLhStCJYcrzWATJSVD2UFq5fzG0RrLccwvVk' \
+ -H 'content-length: 577' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Призыв тревога палата художественный витрина миф приятель желание.","description":"Банк темнеть сверкающий сутки иной непривычный правый академик. Невозможно сбросить райком художественный выбирать. Тысяча наступать рота.","createdByUserId":"f304f5d8-dc76-4b80-b96b-aba7f5dc0cbe","previewFileId":"8e0a2f11-ff48-4884-af38-7d633f1968b0","maxScore":96,"minScore":16,"estimatedTime":"6 weeks"}'

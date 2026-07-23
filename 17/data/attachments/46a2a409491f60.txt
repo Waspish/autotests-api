@@ -1,0 +1,10 @@
+curl -X 'POST' 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTIzVDIwOjAwOjAxLjEzOTAyNSIsInVzZXJfaWQiOiIyZjBjODRjMS04YjQ2LTRjNjEtOWQyMC0wNDU1YmZiZjNmZDcifQ.S9IH96zBr49nXJ3rNfslw74znGziRbvDiBohm0RHiao' \
+ -H 'content-length: 452' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Исполнять зато построить.","description":"Освобождение невозможно отдел пробовать каюта роскошный растеряться армейский. Рота песня выражение упорно кожа.","createdByUserId":"2f0c84c1-8b46-4c61-9d20-0455bfbf3fd7","previewFileId":"dda5be57-4caa-444d-9ac7-f6d80b1dc648","maxScore":65,"minScore":30,"estimatedTime":"5 weeks"}'

@@ -1,0 +1,10 @@
+curl -X 'POST' 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTIzVDIwOjAwOjAzLjE1NDkyMiIsInVzZXJfaWQiOiJlNjc2NjI3ZC1lOTI2LTQ0NTctOTFkOC0yYzhlNDM3NGUwNzgifQ.1x6iHWL2VkGDYNZAEv7Nw1noHiKKBEKF_BI3poB8MSA' \
+ -H 'content-length: 596' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Миф прежде привлекать тюрьма.","description":"Пространство зачем выраженный бак развитый нож. Новый порядок факультет вариант мотоцикл. Пробовать интеллектуальный столетие другой за тяжелый мера. Механический порог инвалид прощение.","createdByUserId":"e676627d-e926-4457-91d8-2c8e4374e078","previewFileId":"50f83a27-a5f4-4e2a-a64f-c87a3a5aa183","maxScore":77,"minScore":16,"estimatedTime":"8 weeks"}'

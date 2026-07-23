@@ -1,0 +1,10 @@
+curl -X 'POST' 'http://localhost:8000/api/v1/exercises' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTIzVDIwOjAwOjA0LjUyODg3OSIsInVzZXJfaWQiOiIyODIxNjE5Mi0zODNkLTRlZjAtYTMzOS1lYzNjMTg3NTM2ZGIifQ.8dj_BPSskf4ErJii-BD2T6uFvQ2bloflBrutjHiP30A' \
+ -H 'content-length: 454' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Появление провинция природа еврейский.","description":"Точно оборот торопливый неожиданный намерение запретить редактор. Сравнение кожа инвалид тревога дыхание успокоиться помимо.","courseId":"342d8f30-6bbb-4d29-8484-e2b7abac4dce","maxScore":78,"minScore":17,"orderIndex":91,"estimatedTime":"6 weeks"}'

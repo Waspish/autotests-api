@@ -1,0 +1,10 @@
+curl -X 'POST' 'http://localhost:8000/api/v1/exercises' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTIzVDIwOjAwOjAzLjg4MDQxOCIsInVzZXJfaWQiOiJhZTkzOThhZi1jN2RjLTQwMTUtYjk3Zi01YTU1MDQ5MmI0ZDEifQ.96xkSWmhNEIoonv7r9_kPBdyZSmNyH4OAS_KJR94Gbw' \
+ -H 'content-length: 559' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Основание налоговый ломать кольцо около ход.","description":"Сходить посидеть сустав песня приятель вытаскивать желание виднеться. Лететь второй забирать ныне остановить аж покинуть. Голубчик штаб плод самостоятельно правильный выразить.","courseId":"5be52ea7-add9-4c2f-8380-7ed8555d7ee0","maxScore":90,"minScore":7,"orderIndex":93,"estimatedTime":"5 weeks"}'

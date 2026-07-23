@@ -1,0 +1,10 @@
+curl -X 'POST' 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTIzVDIwOjAwOjAxLjgzODk2NyIsInVzZXJfaWQiOiIyMjE0YjczOS0xOTQ3LTQ4ZTktYTdkZS0wMWY0ZWM1YzM0NDkifQ.Sqm4O6XUOQ_89aLQZQuRhlxKv4H026cImDPUHJ-fEE8' \
+ -H 'content-length: 580' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Отражение задержать помимо похороны миллиард.","description":"Проход ученый идея уточнить. Ремень запретить темнеть еврейский.\nПремьера грудь доставать анализ. Табак роскошный пропаганда дальний ныне четыре хозяйка спешить.","createdByUserId":"2214b739-1947-48e9-a7de-01f4ec5c3449","previewFileId":"080d8fcd-4af8-4fc8-bb85-fde79b4b2c96","maxScore":81,"minScore":23,"estimatedTime":"8 weeks"}'
