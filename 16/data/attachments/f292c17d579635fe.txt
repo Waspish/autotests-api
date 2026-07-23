@@ -1,0 +1,10 @@
+curl -X 'POST' 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTIzVDE5OjQ1OjA4LjkxNDQwNyIsInVzZXJfaWQiOiI3YzYzMWM1OC1hNzBlLTRmMWUtOTIzMS02NjU4Yzg4MzNlODAifQ.QFcg3nbZKbuRag1dHzkb4fRIl_SZyzVSetuCWHfw3jg' \
+ -H 'content-length: 604' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Монета господь точно доставать пол провал жестокий цвет.","description":"Сравнение редактор назначить медицина тревога ленинград приличный. Район очередной дальний отдел провал. Монета ручей столетие поколение факультет доставать крыса.","createdByUserId":"7c631c58-a70e-4f1e-9231-6658c8833e80","previewFileId":"4b5c861d-ce48-448d-a6e9-a3e0dff829da","maxScore":97,"minScore":19,"estimatedTime":"3 weeks"}'

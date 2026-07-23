@@ -1,0 +1,10 @@
+curl -X 'POST' 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTIzVDE5OjQ1OjEwLjU1NTEyNSIsInVzZXJfaWQiOiI5ZDM1N2E3ZC05NDQ2LTRhNmEtOWQzMy00NjhhYjEwMTMxY2YifQ.Z7s7ep-CpvAKGGZHZt0ka0R6R8h_v-1e6cg8QgP8XMU' \
+ -H 'content-length: 524' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Командующий терапия зато боец четыре валюта.","description":"Заведение приятель подробность ярко спасть бок. Неудобно ставить бочок беспомощный. Поколение вообще разводить манера горький дошлый.","createdByUserId":"9d357a7d-9446-4a6a-9d33-468ab10131cf","previewFileId":"5a71ea1c-03e8-4948-9009-551c9d973d0e","maxScore":86,"minScore":2,"estimatedTime":"6 weeks"}'

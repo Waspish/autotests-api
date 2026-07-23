@@ -1,0 +1,10 @@
+curl -X 'PATCH' 'http://localhost:8000/api/v1/exercises/df6ccd25-e78a-4815-ba4a-3900d0327992' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTIzVDE5OjQ1OjEwLjU1NTEyNSIsInVzZXJfaWQiOiI5ZDM1N2E3ZC05NDQ2LTRhNmEtOWQzMy00NjhhYjEwMTMxY2YifQ.Z7s7ep-CpvAKGGZHZt0ka0R6R8h_v-1e6cg8QgP8XMU' \
+ -H 'content-length: 452' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Трясти коробка инвалид.","description":"Бровь порода выбирать термин очередной. Горький оборот уточнить ремень недостаток. Дорогой торопливый затянуться одиннадцать обида за поймать.","courseId":"ebad8594-ebc1-4cde-b1de-07efe43d7b0a","maxScore":71,"minScore":1,"orderIndex":100,"estimatedTime":null}'

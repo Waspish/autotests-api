@@ -1,0 +1,10 @@
+curl -X 'POST' 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTIzVDE5OjQ1OjA3LjI1OTg1MiIsInVzZXJfaWQiOiIxYjFhNmM5Ny0xY2M1LTQ0NGMtODE1Yi0yY2ZiOWY1NjU4YTkifQ.ZyudaIegGFVDc7GpN1NAQKxNE8zxZ-H4U5l8lRGZqg0' \
+ -H 'content-length: 502' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Сравнение медицина при костер задрать палец бак.","description":"Неправда передо дорогой висеть очутиться бабочка. Очко дошлый возможно затянуться.\nВторой термин материя растеряться.","createdByUserId":"1b1a6c97-1cc5-444c-815b-2cfb9f5658a9","previewFileId":"54f4cc3f-bcc3-46e5-aeaa-cfcc9c974c11","maxScore":86,"minScore":4,"estimatedTime":"2 weeks"}'

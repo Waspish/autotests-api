@@ -1,0 +1,10 @@
+curl -X 'POST' 'http://localhost:8000/api/v1/exercises' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTIzVDE5OjQ1OjE0LjkwNDU3MiIsInVzZXJfaWQiOiJkNTY0MjBlYy1hZDQ1LTRjMWQtYWMyYi03MmExNmE4OTQ4ZTcifQ.YORcd3dHoUMQeIRuwTzEtdD9UVuM0dZteiuGnQ6r_W4' \
+ -H 'content-length: 562' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Ремень заложить аллея правление крутой дремать адвокат госпожа.","description":"Конструкция банда стакан. Заплакать издали изредка самостоятельно бабочка спалить парень. Пропаганда голубчик помолчать печатать.\nПрощение забирать бетонный.","courseId":"120d358c-3c3a-4da2-ad1d-e486473832be","maxScore":98,"minScore":11,"orderIndex":92,"estimatedTime":"7 weeks"}'

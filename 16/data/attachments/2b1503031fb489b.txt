@@ -1,0 +1,10 @@
+curl -X 'POST' 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTIzVDE5OjQ1OjEwLjg2Mjg1MCIsInVzZXJfaWQiOiJkZGZjODZjMS05NTE3LTQ3OGUtYWE0ZS1lNmM1YjI3ZTUxMTkifQ.uvndQg8BYgp9rfQnuZmQ06B3pIr7AtcGTiP6AZw5oOY' \
+ -H 'content-length: 299' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Миллиард исполнять поезд космос.","description":"Металл зарплата спешить.","createdByUserId":"ddfc86c1-9517-478e-aa4e-e6c5b27e5119","previewFileId":"1f58b3da-b83c-4ea0-9236-dca66288f483","maxScore":95,"minScore":3,"estimatedTime":"2 weeks"}'

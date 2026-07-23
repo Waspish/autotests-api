@@ -1,0 +1,24 @@
+INFO     HTTP_LOGGER:event_hooks.py:31 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:40 Got response 200 OK
+INFO     HTTP_LOGGER:event_hooks.py:31 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:40 Got response 200 OK
+INFO     HTTP_LOGGER:event_hooks.py:31 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:40 Got response 200 OK
+INFO     HTTP_LOGGER:event_hooks.py:31 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGGER:event_hooks.py:40 Got response 200 OK
+INFO     HTTP_LOGGER:event_hooks.py:31 Make POST request to http://localhost:8000/api/v1/exercises
+INFO     HTTP_LOGGER:event_hooks.py:40 Got response 200 OK
+INFO     HTTP_LOGGER:event_hooks.py:31 Make GET request to http://localhost:8000/api/v1/exercises/603b0917-4df9-4d38-846e-3736ae27b74e
+INFO     HTTP_LOGGER:event_hooks.py:40 Got response 200 OK
+INFO     BASE_ASSERTIONS:base.py:12 Check that response status code equals to '200'
+INFO     EXERCISES_ASSERTIONS:exercises.py:69 Check get exercise response
+INFO     EXERCISES_ASSERTIONS:exercises.py:25 Check exercise
+INFO     BASE_ASSERTIONS:base.py:21 Check that 'title' equals to 'Упорно неожиданно правление товар освобождение манера.'
+INFO     BASE_ASSERTIONS:base.py:21 Check that 'course_id' equals to '4741e63d-051e-4161-9edf-1e55618deea1'
+INFO     BASE_ASSERTIONS:base.py:21 Check that 'max_score' equals to '92'
+INFO     BASE_ASSERTIONS:base.py:21 Check that 'min_score' equals to '2'
+INFO     BASE_ASSERTIONS:base.py:21 Check that 'order_index' equals to '47'
+INFO     BASE_ASSERTIONS:base.py:21 Check that 'description' equals to 'Применяться эпоха за инфекция тута обида изменение. Прежде через эффект рот шлем. Расстройство торопливый четыре число дошлый. Даль господь помолчать шлем смертельный.'
+INFO     BASE_ASSERTIONS:base.py:21 Check that 'estimated_time' equals to '8 weeks'
+INFO     BASE_ASSERTIONS:base.py:21 Check that 'id' equals to '603b0917-4df9-4d38-846e-3736ae27b74e'
+INFO     SCHEMA_ASSERTIONS:schema.py:21 Validating JSON schema

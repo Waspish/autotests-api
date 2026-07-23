@@ -1,0 +1,10 @@
+curl -X 'POST' 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTIzVDE5OjQ1OjE0LjkwNDU3MiIsInVzZXJfaWQiOiJkNTY0MjBlYy1hZDQ1LTRjMWQtYWMyYi03MmExNmE4OTQ4ZTcifQ.YORcd3dHoUMQeIRuwTzEtdD9UVuM0dZteiuGnQ6r_W4' \
+ -H 'content-length: 482' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Призыв перебивать мгновение легко порода.","description":"Запустить отъезд пол отражение призыв. Господь приличный монета. Рот правление волк теория необычный ярко умирать.","createdByUserId":"d56420ec-ad45-4c1d-ac2b-72a16a8948e7","previewFileId":"7de7b0e9-3299-47cc-8491-9c6bdc7b6f92","maxScore":60,"minScore":4,"estimatedTime":"5 weeks"}'

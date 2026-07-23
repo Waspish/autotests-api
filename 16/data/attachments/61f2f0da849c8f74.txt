@@ -1,0 +1,10 @@
+curl -X 'POST' 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTIzVDE5OjQ1OjExLjkyMjIxNSIsInVzZXJfaWQiOiIwNTNkMzc0MC04NDJmLTQwMTMtYTMwZC0zMGIyNmI0ODQ4NDgifQ.MWjrDDRBoTXgANMExiYDZ8yEOfoEq0NPLcPDWhfVoo4' \
+ -H 'content-length: 463' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Спешить бригада неправда спалить миф.","description":"Куча бак монета демократия нож четыре. Поймать кожа витрина ягода сутки полоска. Новый потом очередной степь.","createdByUserId":"053d3740-842f-4013-a30d-30b26b484848","previewFileId":"fc57f749-26bc-4fa9-bd28-eda265ffff09","maxScore":55,"minScore":2,"estimatedTime":"2 weeks"}'

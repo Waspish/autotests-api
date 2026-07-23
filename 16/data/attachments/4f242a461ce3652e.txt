@@ -1,0 +1,10 @@
+curl -X 'POST' 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTIzVDE5OjQ1OjA5LjU3NDM2MCIsInVzZXJfaWQiOiJhNWZmNmZjNy1kMmI1LTQ3M2QtODNmNC1kMWQzOTQyNDEyYjUifQ.y73N7dnXrwrUVDjHJCKUD5WJrwTwxOzGrVDb4_k88jc' \
+ -H 'content-length: 523' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Сохранять факультет белье услать изредка потом коробка космос.","description":"Военный интернет ребятишки помимо покидать растеряться витрина. Спорт металл решетка ленинград передо разуметься.","createdByUserId":"a5ff6fc7-d2b5-473d-83f4-d1d3942412b5","previewFileId":"8b4ea77f-eedb-42bf-82a7-25a35633a61e","maxScore":72,"minScore":10,"estimatedTime":"6 weeks"}'
