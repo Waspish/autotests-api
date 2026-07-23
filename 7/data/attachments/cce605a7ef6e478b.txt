@@ -1,0 +1,10 @@
+curl -X 'POST' 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTIzVDE4OjM3OjQ2LjM2NTY4NCIsInVzZXJfaWQiOiI5YmVjODU3OS0xOTY4LTQ4M2QtODFmNC1mOTRjZWZiMzU2MjYifQ.BKIEvl6lX0GqGgKKE1o3uKqWN-Ncb6-bR6e-OzUcwA8' \
+ -H 'content-length: 481' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Возможно поезд добиться плод магазин бочок ход монета.","description":"Боец деньги ручей свежий шлем. Скрытый желание освобождение рота дремать конференция решетка деньги.","createdByUserId":"9bec8579-1968-483d-81f4-f94cefb35626","previewFileId":"a9a2dc45-1373-4777-b5b0-67e7dea0b7db","maxScore":71,"minScore":23,"estimatedTime":"5 weeks"}'

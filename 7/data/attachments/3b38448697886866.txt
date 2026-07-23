@@ -1,0 +1,10 @@
+curl -X 'POST' 'http://localhost:8000/api/v1/exercises' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTIzVDE4OjM3OjQ2LjM2NTY4NCIsInVzZXJfaWQiOiI5YmVjODU3OS0xOTY4LTQ4M2QtODFmNC1mOTRjZWZiMzU2MjYifQ.BKIEvl6lX0GqGgKKE1o3uKqWN-Ncb6-bR6e-OzUcwA8' \
+ -H 'content-length: 404' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Намерение очутиться покидать.","description":"Означать неправда вряд построить грудь солнце смелый. Ночь решение банк очко. Расстройство анализ падать рис.","courseId":"d838230a-b687-4569-9570-bfbfbf7085c5","maxScore":65,"minScore":8,"orderIndex":22,"estimatedTime":"7 weeks"}'

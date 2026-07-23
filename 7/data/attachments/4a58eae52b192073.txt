@@ -1,0 +1,10 @@
+curl -X 'PATCH' 'http://localhost:8000/api/v1/exercises/9affd1de-1440-4f16-979a-23f8bfbd206d' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTIzVDE4OjM3OjQ2LjM2NTY4NCIsInVzZXJfaWQiOiI5YmVjODU3OS0xOTY4LTQ4M2QtODFmNC1mOTRjZWZiMzU2MjYifQ.BKIEvl6lX0GqGgKKE1o3uKqWN-Ncb6-bR6e-OzUcwA8' \
+ -H 'content-length: 540' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Бак инфекция растеряться магазин мягкий серьезный потянуться.","description":"Настать карман коробка покидать отдел белье основание. Пробовать бак что легко ночь ныне очередной.\nПодробность сутки аллея сходить ответить основание.","courseId":"fdd42fb9-e4c6-4742-8d8f-638ad831f3ac","maxScore":91,"minScore":16,"orderIndex":69,"estimatedTime":null}'

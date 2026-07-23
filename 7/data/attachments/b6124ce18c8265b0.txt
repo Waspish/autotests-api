@@ -1,0 +1,10 @@
+curl -X 'POST' 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTIzVDE4OjM3OjUwLjcyNjc5NyIsInVzZXJfaWQiOiI0NDEwMzJlZS1lNzBkLTRmNWEtOWI0Zi04YzdmZTM0MzliY2QifQ.N0-IDPxyLCGcDIyPf35w-ODCdAcHyl_-38PHMJkFY8U' \
+ -H 'content-length: 512' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Тута дорогой точно.","description":"Мусор счастье торопливый. Легко налоговый выражение кольцо горький четыре. Монета июнь функция оборот более коммунизм функция.\nВозмутиться салон трубка.","createdByUserId":"441032ee-e70d-4f5a-9b4f-8c7fe3439bcd","previewFileId":"346eba1c-b4de-4df9-97b2-fcb215d2b8e0","maxScore":66,"minScore":3,"estimatedTime":"2 weeks"}'

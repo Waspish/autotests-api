@@ -1,0 +1,10 @@
+curl -X 'POST' 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTIzVDE4OjM3OjQ1LjM3ODkzOCIsInVzZXJfaWQiOiI2YWE3YzZhOC1iOTkwLTQ2YjAtOWM3ZS1lYzAyNWM3ZGJlMmMifQ.MMDiZEzmfTfVJDg8OUDz12RuLgXupfDLC-enE6STaTI' \
+ -H 'content-length: 572' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Сынок недостаток изображать коллектив банк команда тюрьма.","description":"Степь нож о висеть танцевать пастух. Спалить прежний зато горький жестокий мгновение. Неожиданный задержать пол равнодушный вздрагивать настать.","createdByUserId":"6aa7c6a8-b990-46b0-9c7e-ec025c7dbe2c","previewFileId":"09fe08f1-6e5c-4e32-afc8-7ee944584134","maxScore":60,"minScore":28,"estimatedTime":"8 weeks"}'

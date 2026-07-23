@@ -1,0 +1,75 @@
+INFO     HTTP_LOGGER:event_hooks.py:31 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:40 Got response 200 OK
+INFO     HTTP_LOGGER:event_hooks.py:31 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:40 Got response 200 OK
+INFO     HTTP_LOGGER:event_hooks.py:31 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:40 Got response 200 OK
+INFO     HTTP_LOGGER:event_hooks.py:31 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGGER:event_hooks.py:40 Got response 200 OK
+INFO     HTTP_LOGGER:event_hooks.py:31 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGGER:event_hooks.py:40 Got response 200 OK
+INFO     HTTP_LOGGER:event_hooks.py:31 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGGER:event_hooks.py:40 Got response 200 OK
+INFO     HTTP_LOGGER:event_hooks.py:31 Make GET request to http://localhost:8000/api/v1/courses?userId=b6631c87-9182-48d7-b75c-7cee9ada9f14
+INFO     HTTP_LOGGER:event_hooks.py:40 Got response 200 OK
+INFO     BASE_ASSERTIONS:base.py:12 Check that response status code equals to '200'
+INFO     COURSES_ASSERTIONS:courses.py:60 Check get courses response
+INFO     BASE_ASSERTIONS:base.py:57 Check that length of 'courses' equals to '3'
+INFO     COURSES_ASSERTIONS:courses.py:22 Check course
+INFO     BASE_ASSERTIONS:base.py:21 Check that 'id' equals to '42d1ac27-bd02-480d-84c8-1e3248a3e89a'
+INFO     BASE_ASSERTIONS:base.py:21 Check that 'title' equals to 'Коллектив соответствие точно дальний.'
+INFO     BASE_ASSERTIONS:base.py:21 Check that 'description' equals to 'Тревога очко витрина миф тяжелый. Мягкий появление товар.
+Поставить домашний деньги умирать рабочий заплакать хозяйка. Висеть неожиданный единый результат еврейский означать.'
+INFO     BASE_ASSERTIONS:base.py:21 Check that 'min_score' equals to '21'
+INFO     BASE_ASSERTIONS:base.py:21 Check that 'max_score' equals to '95'
+INFO     BASE_ASSERTIONS:base.py:21 Check that 'estimated_time' equals to '8 weeks'
+INFO     FILES_ASSERTIONS:files.py:43 Check file
+INFO     BASE_ASSERTIONS:base.py:21 Check that 'id' equals to '8159b152-8e6a-4081-8d65-012aa85725aa'
+INFO     BASE_ASSERTIONS:base.py:21 Check that 'filename' equals to '4c580457-8418-4966-9079-0da6ad2c6b6f.png'
+INFO     BASE_ASSERTIONS:base.py:21 Check that 'url' equals to 'http://localhost:8000/static/tests/4c580457-8418-4966-9079-0da6ad2c6b6f.png'
+INFO     BASE_ASSERTIONS:base.py:21 Check that 'directory' equals to 'tests'
+INFO     USERS_ASSERTIONS:users.py:20 Check user response
+INFO     BASE_ASSERTIONS:base.py:21 Check that 'email' equals to 'shcherbakovaalla@example.org'
+INFO     BASE_ASSERTIONS:base.py:21 Check that 'first_name' equals to 'Валерьян'
+INFO     BASE_ASSERTIONS:base.py:21 Check that 'last_name' equals to 'Самойлов'
+INFO     BASE_ASSERTIONS:base.py:21 Check that 'middle_name' equals to 'Харлампьевич'
+INFO     BASE_ASSERTIONS:base.py:39 Check that 'user_id' is true.
+INFO     COURSES_ASSERTIONS:courses.py:22 Check course
+INFO     BASE_ASSERTIONS:base.py:21 Check that 'id' equals to 'ab3348fd-0ea9-4f52-a8fd-598e93d84991'
+INFO     BASE_ASSERTIONS:base.py:21 Check that 'title' equals to 'Коллектив соответствие точно дальний.'
+INFO     BASE_ASSERTIONS:base.py:21 Check that 'description' equals to 'Тревога очко витрина миф тяжелый. Мягкий появление товар.
+Поставить домашний деньги умирать рабочий заплакать хозяйка. Висеть неожиданный единый результат еврейский означать.'
+INFO     BASE_ASSERTIONS:base.py:21 Check that 'min_score' equals to '21'
+INFO     BASE_ASSERTIONS:base.py:21 Check that 'max_score' equals to '95'
+INFO     BASE_ASSERTIONS:base.py:21 Check that 'estimated_time' equals to '8 weeks'
+INFO     FILES_ASSERTIONS:files.py:43 Check file
+INFO     BASE_ASSERTIONS:base.py:21 Check that 'id' equals to '8159b152-8e6a-4081-8d65-012aa85725aa'
+INFO     BASE_ASSERTIONS:base.py:21 Check that 'filename' equals to '4c580457-8418-4966-9079-0da6ad2c6b6f.png'
+INFO     BASE_ASSERTIONS:base.py:21 Check that 'url' equals to 'http://localhost:8000/static/tests/4c580457-8418-4966-9079-0da6ad2c6b6f.png'
+INFO     BASE_ASSERTIONS:base.py:21 Check that 'directory' equals to 'tests'
+INFO     USERS_ASSERTIONS:users.py:20 Check user response
+INFO     BASE_ASSERTIONS:base.py:21 Check that 'email' equals to 'shcherbakovaalla@example.org'
+INFO     BASE_ASSERTIONS:base.py:21 Check that 'first_name' equals to 'Валерьян'
+INFO     BASE_ASSERTIONS:base.py:21 Check that 'last_name' equals to 'Самойлов'
+INFO     BASE_ASSERTIONS:base.py:21 Check that 'middle_name' equals to 'Харлампьевич'
+INFO     BASE_ASSERTIONS:base.py:39 Check that 'user_id' is true.
+INFO     COURSES_ASSERTIONS:courses.py:22 Check course
+INFO     BASE_ASSERTIONS:base.py:21 Check that 'id' equals to '0be4567b-eec6-4bbc-8f64-e40469d0e704'
+INFO     BASE_ASSERTIONS:base.py:21 Check that 'title' equals to 'Коллектив соответствие точно дальний.'
+INFO     BASE_ASSERTIONS:base.py:21 Check that 'description' equals to 'Тревога очко витрина миф тяжелый. Мягкий появление товар.
+Поставить домашний деньги умирать рабочий заплакать хозяйка. Висеть неожиданный единый результат еврейский означать.'
+INFO     BASE_ASSERTIONS:base.py:21 Check that 'min_score' equals to '21'
+INFO     BASE_ASSERTIONS:base.py:21 Check that 'max_score' equals to '95'
+INFO     BASE_ASSERTIONS:base.py:21 Check that 'estimated_time' equals to '8 weeks'
+INFO     FILES_ASSERTIONS:files.py:43 Check file
+INFO     BASE_ASSERTIONS:base.py:21 Check that 'id' equals to '8159b152-8e6a-4081-8d65-012aa85725aa'
+INFO     BASE_ASSERTIONS:base.py:21 Check that 'filename' equals to '4c580457-8418-4966-9079-0da6ad2c6b6f.png'
+INFO     BASE_ASSERTIONS:base.py:21 Check that 'url' equals to 'http://localhost:8000/static/tests/4c580457-8418-4966-9079-0da6ad2c6b6f.png'
+INFO     BASE_ASSERTIONS:base.py:21 Check that 'directory' equals to 'tests'
+INFO     USERS_ASSERTIONS:users.py:20 Check user response
+INFO     BASE_ASSERTIONS:base.py:21 Check that 'email' equals to 'shcherbakovaalla@example.org'
+INFO     BASE_ASSERTIONS:base.py:21 Check that 'first_name' equals to 'Валерьян'
+INFO     BASE_ASSERTIONS:base.py:21 Check that 'last_name' equals to 'Самойлов'
+INFO     BASE_ASSERTIONS:base.py:21 Check that 'middle_name' equals to 'Харлампьевич'
+INFO     BASE_ASSERTIONS:base.py:39 Check that 'user_id' is true.
+INFO     SCHEMA_ASSERTIONS:schema.py:21 Validating JSON schema

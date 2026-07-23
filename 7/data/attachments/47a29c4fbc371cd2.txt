@@ -1,0 +1,33 @@
+INFO     HTTP_LOGGER:event_hooks.py:31 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:40 Got response 200 OK
+INFO     HTTP_LOGGER:event_hooks.py:31 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:40 Got response 200 OK
+INFO     HTTP_LOGGER:event_hooks.py:31 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:40 Got response 200 OK
+INFO     HTTP_LOGGER:event_hooks.py:31 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGGER:event_hooks.py:40 Got response 200 OK
+INFO     HTTP_LOGGER:event_hooks.py:31 Make GET request to http://localhost:8000/api/v1/courses?userId=58619dbc-c224-4c93-a3b1-28d49842139c
+INFO     HTTP_LOGGER:event_hooks.py:40 Got response 200 OK
+INFO     BASE_ASSERTIONS:base.py:12 Check that response status code equals to '200'
+INFO     COURSES_ASSERTIONS:courses.py:60 Check get courses response
+INFO     BASE_ASSERTIONS:base.py:57 Check that length of 'courses' equals to '1'
+INFO     COURSES_ASSERTIONS:courses.py:22 Check course
+INFO     BASE_ASSERTIONS:base.py:21 Check that 'id' equals to '18bc5d5d-754e-4451-9a56-e7fc84c05322'
+INFO     BASE_ASSERTIONS:base.py:21 Check that 'title' equals to 'Труп выраженный поймать вперед.'
+INFO     BASE_ASSERTIONS:base.py:21 Check that 'description' equals to 'Еврейский тысяча лететь самостоятельно головной госпожа выраженный. Тяжелый солнце забирать боец спасть отдел.
+Командир опасность нажать. Написать полевой ложиться запеть девка.'
+INFO     BASE_ASSERTIONS:base.py:21 Check that 'min_score' equals to '4'
+INFO     BASE_ASSERTIONS:base.py:21 Check that 'max_score' equals to '88'
+INFO     BASE_ASSERTIONS:base.py:21 Check that 'estimated_time' equals to '3 weeks'
+INFO     FILES_ASSERTIONS:files.py:43 Check file
+INFO     BASE_ASSERTIONS:base.py:21 Check that 'id' equals to '7915f9d7-48b0-4ff2-a62a-20f419a83e88'
+INFO     BASE_ASSERTIONS:base.py:21 Check that 'filename' equals to '0c868079-3582-42fa-9beb-194befe9bdf5.png'
+INFO     BASE_ASSERTIONS:base.py:21 Check that 'url' equals to 'http://localhost:8000/static/tests/0c868079-3582-42fa-9beb-194befe9bdf5.png'
+INFO     BASE_ASSERTIONS:base.py:21 Check that 'directory' equals to 'tests'
+INFO     USERS_ASSERTIONS:users.py:20 Check user response
+INFO     BASE_ASSERTIONS:base.py:21 Check that 'email' equals to 'amiheeva@example.net'
+INFO     BASE_ASSERTIONS:base.py:21 Check that 'first_name' equals to 'Карл'
+INFO     BASE_ASSERTIONS:base.py:21 Check that 'last_name' equals to 'Новиков'
+INFO     BASE_ASSERTIONS:base.py:21 Check that 'middle_name' equals to 'Руслановна'
+INFO     BASE_ASSERTIONS:base.py:39 Check that 'user_id' is true.
+INFO     SCHEMA_ASSERTIONS:schema.py:21 Validating JSON schema
