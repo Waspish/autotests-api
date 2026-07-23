@@ -1,0 +1,10 @@
+curl -X 'POST' 'http://localhost:8000/api/v1/exercises' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTIzVDE5OjA3OjAwLjQ1NTM4MSIsInVzZXJfaWQiOiIxMjM4ODk5Ni0xNDllLTRiNWUtYWI4Ni01OThiNDE1ZDAyZDIifQ.3zhqDD7zuwgD2rIX3mWCz8O8DqjaOFvx37sTuHuyN4Q' \
+ -H 'content-length: 552' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Изба выгнать тюрьма горький выгнать миф лапа.","description":"Изучить армейский мимо правление отметить успокоиться уточнить разуметься. Материя даль волк дурацкий крутой бровь упор хлеб. Выразить страсть угроза ремень число печатать.","courseId":"9e85e7fe-7261-4b8f-aca3-25adfbd33889","maxScore":75,"minScore":11,"orderIndex":99,"estimatedTime":"7 weeks"}'

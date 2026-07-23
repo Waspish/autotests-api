@@ -1,0 +1,10 @@
+curl -X 'POST' 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTIzVDE5OjA2OjU2LjQ4NDY1OCIsInVzZXJfaWQiOiI1MTMwZjI2NC0xYjI5LTQxNjEtYTk1OC02YzAwYTFmYmNiOTUifQ.m9HEp4q5FDWbzdMlcMHNJc6VwWsWEGuubckfrPH_VFw' \
+ -H 'content-length: 680' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Сынок художественный шлем означать механический дошлый радость.","description":"Триста строительство художественный рот мимо. Подробность падаль степь слать ныне отражение.\nТюрьма заявление другой полностью о желание. Цепочка торопливый академик вскакивать точно прежний ночь.","createdByUserId":"5130f264-1b29-4161-a958-6c00a1fbcb95","previewFileId":"03c1fb47-6b97-4595-a343-91f06a01e542","maxScore":83,"minScore":23,"estimatedTime":"9 weeks"}'

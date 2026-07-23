@@ -1,0 +1,10 @@
+curl -X 'PATCH' 'http://localhost:8000/api/v1/exercises/6180eec6-542c-48a9-96ea-0ebee500d4f6' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTIzVDE5OjA2OjU3Ljg4MDgzNiIsInVzZXJfaWQiOiIyYmQ2OWZhNy00NjQyLTQ5OWYtOTViNS1hNDRiMWFjYmJiMjYifQ.gZkVgnE8txALwWKIovV22aM5GdpFDhrCN5J8WCt0BTA' \
+ -H 'content-length: 571' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Заплакать табак функция радость.","description":"Крутой экзамен означать ребятишки металл. Механический неожиданный ребятишки господь. Спасть полоска помолчать строительство полностью космос тревога потом. Пропасть крутой носок скрытый за металл.","courseId":"bbe3e125-9d22-41fd-96f3-897e45ea2e07","maxScore":86,"minScore":6,"orderIndex":61,"estimatedTime":null}'

@@ -1,0 +1,10 @@
+curl -X 'POST' 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTIzVDE5OjA2OjU2Ljc0MzQ1NiIsInVzZXJfaWQiOiJlODFkN2VlMS0zNGQ3LTRkNGYtOGIzMS0wYTdmYWVhYTczOTIifQ.MivX_fjt9dsaEE8oZhLa6WbwlURRiWwDSz_xTaCF99c' \
+ -H 'content-length: 501' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Школьный вчера ручей девка процесс.","description":"Оборот сверкать дьявол табак возмутиться редактор ход возможно. Счастье печатать помимо уронить уничтожение медицина изображать.","createdByUserId":"e81d7ee1-34d7-4d4f-8b31-0a7faeaa7392","previewFileId":"da0a1ad2-15a2-4b1d-868f-91a5184075d7","maxScore":91,"minScore":30,"estimatedTime":"10 weeks"}'

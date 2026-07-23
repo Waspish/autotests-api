@@ -1,0 +1,10 @@
+curl -X 'POST' 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTIzVDE5OjA2OjU3Ljg4MDgzNiIsInVzZXJfaWQiOiIyYmQ2OWZhNy00NjQyLTQ5OWYtOTViNS1hNDRiMWFjYmJiMjYifQ.gZkVgnE8txALwWKIovV22aM5GdpFDhrCN5J8WCt0BTA' \
+ -H 'content-length: 475' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Палец ведь монета назначить.","description":"Вариант волк дальний головка порода. Пространство инвалид выгнать угодный. Пасть демократия выдержать полевой цель актриса.","createdByUserId":"2bd69fa7-4642-499f-95b5-a44b1acbbb26","previewFileId":"b412bc87-b06a-41d4-91b0-de0c32f2ae50","maxScore":59,"minScore":3,"estimatedTime":"2 weeks"}'

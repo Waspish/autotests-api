@@ -1,0 +1,10 @@
+curl -X 'POST' 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTIzVDE5OjA2OjU5LjUzMTAyNCIsInVzZXJfaWQiOiIxNjJhZjBlZS0wOGYyLTQwMzMtYjYwNy03OGYwZDIzNzA2NWQifQ.ULvs2T02Uu2gOmbV8tjRBG3wQQhNs7QRLN5SWNb6WcU' \
+ -H 'content-length: 434' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Тусклый построить песенка за вскинуть.","description":"Район интернет светило число командующий. Налоговый ленинград изменение мусор упор монета.","createdByUserId":"162af0ee-08f2-4033-b607-78f0d237065d","previewFileId":"2cb202e3-9496-4878-9704-d80b7f950440","maxScore":54,"minScore":20,"estimatedTime":"2 weeks"}'

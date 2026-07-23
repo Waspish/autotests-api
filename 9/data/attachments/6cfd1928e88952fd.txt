@@ -1,0 +1,10 @@
+curl -X 'POST' 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTIzVDE5OjA3OjAxLjg4ODE3NyIsInVzZXJfaWQiOiI2NDM0NDMyZi00ZmFlLTQyMTEtYmZkZi05OTBkNzBlZGIxMjQifQ.4ZTCm1fPbb7IXBNEN2pEltYTFrePGag4cEpVyvWgEEs' \
+ -H 'content-length: 448' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Дрогнуть рабочий доставать функция монета.","description":"Славный ставить район райком домашний вздрогнуть назначить. Наткнуться миллиард бок ответить.","createdByUserId":"6434432f-4fae-4211-bfdf-990d70edb124","previewFileId":"8eb4203c-8713-4ec8-993d-2b790d3c2933","maxScore":77,"minScore":16,"estimatedTime":"6 weeks"}'
