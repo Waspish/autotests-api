@@ -1,0 +1,10 @@
+curl -X 'POST' 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTIzVDE5OjE4OjI0LjE0Nzk3NCIsInVzZXJfaWQiOiI3OTM3ZjMwOC00MDIxLTRhNTQtOGMwNS1iZjg2Y2M5ZDA4YmIifQ.8NS33j6aknOmw0N_a3_p3Tc8OK4GL72YdT-7byk_ny4' \
+ -H 'content-length: 529' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Научить сравнение передо коробка наступать ломать.","description":"Возмутиться ложиться мрачно лиловый прежде реклама редактор вчера. Приятель разуметься даль. Дорогой жестокий палка наслаждение.","createdByUserId":"7937f308-4021-4a54-8c05-bf86cc9d08bb","previewFileId":"59e2f2eb-c59e-40a8-badf-7418346a4ad3","maxScore":100,"minScore":13,"estimatedTime":"7 weeks"}'

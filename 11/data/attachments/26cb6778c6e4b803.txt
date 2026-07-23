@@ -1,0 +1,10 @@
+curl -X 'POST' 'http://localhost:8000/api/v1/exercises' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTIzVDE5OjE4OjI1LjQ2OTU0MiIsInVzZXJfaWQiOiI4YTcxNTQ0OC1iNjgwLTRmNGItODVhZS05MWFjMzgxMTljOGUifQ.6TmqF77ju_aWGlCCoo9k3pf1CfHIWVL3WDyxYkGKZ44' \
+ -H 'content-length: 557' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Висеть сопровождаться коммунизм господь понятный сутки невыносимый.","description":"Хлеб вскинуть теория налево издали интернет. Дальний наступать кузнец желание пища. Монета человечек совет приятель выгнать. Войти жить очко мучительно.","courseId":"305d89f4-e619-46d3-a11e-72a470f60d34","maxScore":72,"minScore":19,"orderIndex":98,"estimatedTime":"7 weeks"}'

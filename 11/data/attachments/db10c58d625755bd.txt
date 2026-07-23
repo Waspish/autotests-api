@@ -1,0 +1,10 @@
+curl -X 'POST' 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTIzVDE5OjE4OjI1LjQ2OTU0MiIsInVzZXJfaWQiOiI4YTcxNTQ0OC1iNjgwLTRmNGItODVhZS05MWFjMzgxMTljOGUifQ.6TmqF77ju_aWGlCCoo9k3pf1CfHIWVL3WDyxYkGKZ44' \
+ -H 'content-length: 501' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Прошептать разуметься район изба.","description":"Деловой кидать о висеть оставить банда прежде. Песня ягода спасть находить плод. Нервно прошептать советовать помолчать оборот зато.","createdByUserId":"8a715448-b680-4f4b-85ae-91ac38119c8e","previewFileId":"859b8c94-36ca-4a06-bc65-77ca6788a4e1","maxScore":87,"minScore":11,"estimatedTime":"6 weeks"}'

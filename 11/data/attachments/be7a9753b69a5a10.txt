@@ -1,0 +1,10 @@
+curl -X 'POST' 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTIzVDE5OjE4OjI3LjgwMjUyMSIsInVzZXJfaWQiOiIwM2RmNzU3Yy0zNTYzLTRhNDQtOTRiNS0xZmFhN2QwZDZiYzcifQ.A5q-VwhIzcMqUX9wfRYPGGqG2tE1ooZLTEa7yFYG21s' \
+ -H 'content-length: 501' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Заработать развитый крыса советовать инфекция аж.","description":"Сопровождаться засунуть монета посидеть печатать торопливый. Каюта еврейский трубка смеяться бабочка головка зима.","createdByUserId":"03df757c-3563-4a44-94b5-1faa7d0d6bc7","previewFileId":"b05bc023-b263-47a8-81bd-2a0d1ca8bd65","maxScore":98,"minScore":13,"estimatedTime":"9 weeks"}'
