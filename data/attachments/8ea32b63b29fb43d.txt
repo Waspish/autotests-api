@@ -1,0 +1,10 @@
+curl -X 'POST' 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTIzVDE5OjMxOjQ4LjU1MzIwNiIsInVzZXJfaWQiOiI3Yzc2NDEwOC0xYWZiLTQ4Y2UtYTYwNy0yMmFkZTFjMzZkODcifQ.V5ughJ5cjqnZ1H14iDyN2LthOK4XE2WzRGVrPWZ2QvA' \
+ -H 'content-length: 589' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Заложить еврейский зачем картинка.","description":"Салон проход привлекать единый понятный роса. Июнь плавно второй конструкция.\nПри задрать направо. Господь призыв коммунизм слишком дошлый плавно. Ботинок трубка смеяться четыре.","createdByUserId":"7c764108-1afb-48ce-a607-22ade1c36d87","previewFileId":"34628f4b-429c-46b5-8f8e-d3e727b6bbe6","maxScore":89,"minScore":15,"estimatedTime":"2 weeks"}'

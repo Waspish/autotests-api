@@ -1,0 +1,10 @@
+curl -X 'POST' 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTIzVDE5OjMxOjUyLjU2MzA3NSIsInVzZXJfaWQiOiIzMDcyODQzYy1iNjRlLTQ2NzUtOWExNy02NzNlYmFiYWViMjMifQ.H-MYrs_P9DQMqXtAA4TrXOa7_rSGLuYGb7WUl0sH8YE' \
+ -H 'content-length: 596' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Очко невыносимый темнеть.","description":"Висеть одиннадцать отражение изображать дремать неожиданно. Головка посидеть вывести куча спорт госпожа.\nОчко собеседник житель очутиться набор изредка. Расстегнуть хлеб издали равнодушный.","createdByUserId":"3072843c-b64e-4675-9a17-673ebabaeb23","previewFileId":"c4987a5b-6a18-4407-b71b-b0f55c9eb427","maxScore":51,"minScore":1,"estimatedTime":"10 weeks"}'

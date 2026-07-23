@@ -1,0 +1,10 @@
+curl -X 'POST' 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTIzVDE5OjMxOjQ3LjYzMjMwNiIsInVzZXJfaWQiOiI1MGRiMmU5ZC1hY2ZhLTQwOWUtOTU0Yi0yOTM4MTNmMTQ2YTMifQ.COkcuHeC6ru8RO6NveF0W3L9qzd_ml3pKL8yLz5wYzA' \
+ -H 'content-length: 550' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Идея актриса выражаться космос.","description":"Плясать сходить грудь космос налево славный. Правление издали другой.\nЖелание сравнение тусклый умолять. Способ очередной спалить валюта головка строительство.","createdByUserId":"50db2e9d-acfa-409e-954b-293813f146a3","previewFileId":"e99fc5d7-b940-4952-9532-7f7cbaa9d2c0","maxScore":54,"minScore":22,"estimatedTime":"2 weeks"}'
