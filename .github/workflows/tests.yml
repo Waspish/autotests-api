@@ -50,11 +50,6 @@ jobs:
         with:
           name: upload_allure
           path: allure-results
-
-      - name: Check existense
-        run: |
-          ls -la
-          ls -la allure-results
   
   publish-report:
     needs: run_tests
@@ -65,11 +60,6 @@ jobs:
         with:
           name: upload_allure
           path: allure-results
-
-      - name: Check existense
-        run: |
-          ls -la
-          ls -la allure-results
 
       - name: Get allure history
         uses: actions/checkout@v7
