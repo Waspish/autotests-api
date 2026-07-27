@@ -1,0 +1,22 @@
+INFO     HTTP_LOGGER:event_hooks.py:31 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:40 Got response 200 OK
+INFO     HTTP_LOGGER:event_hooks.py:31 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:40 Got response 200 OK
+INFO     HTTP_LOGGER:event_hooks.py:31 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:40 Got response 200 OK
+INFO     HTTP_LOGGER:event_hooks.py:31 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGGER:event_hooks.py:40 Got response 200 OK
+INFO     HTTP_LOGGER:event_hooks.py:31 Make PATCH request to http://localhost:8000/api/v1/courses/26ef1f48-6a50-424b-9394-5b28eb8ff684
+INFO     HTTP_LOGGER:event_hooks.py:40 Got response 200 OK
+INFO     BASE_ASSERTIONS:base.py:12 Check that response status code equals to '200'
+INFO     COURSES_ASSERTIONS:courses.py:84 Check update course response
+INFO     BASE_ASSERTIONS:base.py:21 Check that 'title' equals to 'Неожиданный намерение полностью успокоиться.'
+INFO     BASE_ASSERTIONS:base.py:21 Check that 'description' equals to 'Палка вздрогнуть граница один передо. При материя потянуться вздрагивать пламя.
+Набор лиловый спешить носок выраженный естественный. Роса упор потом угол тяжелый ставить дорогой поймать.'
+INFO     BASE_ASSERTIONS:base.py:21 Check that 'min_score' equals to '7'
+INFO     BASE_ASSERTIONS:base.py:21 Check that 'max_score' equals to '53'
+INFO     BASE_ASSERTIONS:base.py:21 Check that 'estimated_time' equals to '9 weeks'
+INFO     BASE_ASSERTIONS:base.py:21 Check that 'id' equals to '26ef1f48-6a50-424b-9394-5b28eb8ff684'
+INFO     BASE_ASSERTIONS:base.py:39 Check that 'created_by_user' is true.
+INFO     BASE_ASSERTIONS:base.py:39 Check that 'preview_file' is true.
+INFO     SCHEMA_ASSERTIONS:schema.py:21 Validating JSON schema

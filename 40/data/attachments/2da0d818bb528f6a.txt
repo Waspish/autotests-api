@@ -1,0 +1,10 @@
+curl -X 'POST' 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTI3VDEzOjAwOjA5LjAwOTQ4MSIsInVzZXJfaWQiOiI1ZmQ1MGM0My00ZmUwLTQzY2ItYThmNS1kOTA4MzlkZTNlODIifQ.Cq7ENh-NzXaRba7YyOeKY0u3uMBTn-UfmTMC0-5stXE' \
+ -H 'content-length: 542' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Строительство изменение развернуться монета нажать.","description":"Прелесть чувство коммунизм кидать смертельный. Коллектив увеличиваться направо способ художественный. Дальний способ тревога господь.","createdByUserId":"5fd50c43-4fe0-43cb-a8f5-d90839de3e82","previewFileId":"c4333b9b-0b77-4dc6-82ec-f9babffefe78","maxScore":74,"minScore":17,"estimatedTime":"3 weeks"}'

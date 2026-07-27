@@ -1,0 +1,10 @@
+curl -X 'POST' 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTI3VDEzOjAwOjEzLjIwNTU3MyIsInVzZXJfaWQiOiI2ZmFkYWFmNC1mMjdjLTQ0ZTUtYjRhYS1iZTI1MWRkMDRkYWUifQ.63OjvA4M0XTbbL_vGeksWNsd2INyToGLeRBW7RhwjVs' \
+ -H 'content-length: 532' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Означать функция ягода.","description":"Термин чем налоговый салон. Белье интеллектуальный пространство кожа.\nТюрьма пастух разводить сохранять. Спичка направо спасть дальний командир единый мягкий.","createdByUserId":"6fadaaf4-f27c-44e5-b4aa-be251dd04dae","previewFileId":"cfae7561-5a95-425e-8f28-512779ac6d47","maxScore":73,"minScore":8,"estimatedTime":"3 weeks"}'

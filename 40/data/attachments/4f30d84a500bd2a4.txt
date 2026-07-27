@@ -1,0 +1,10 @@
+curl -X 'POST' 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTI3VDEzOjAwOjE0LjQxODU2OCIsInVzZXJfaWQiOiIyMWMyZTc5Ni03MTFiLTQ1OGMtYmExYi04NzQ4ZTM5YjRhOTQifQ.Tpr49ghRYNC7Ixu9tcgR-evL7NvFKS7ffmVATI0pZI4' \
+ -H 'content-length: 598' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Аж неожиданный цвет секунда выражаться.","description":"Юный вчера сравнение терапия конструкция. Зима тута находить дошлый устройство успокоиться трясти. Изредка ныне расстегнуть покидать висеть пространство поставить пространство.","createdByUserId":"21c2e796-711b-458c-ba1b-8748e39b4a94","previewFileId":"8708e8fd-097d-43bf-b35c-165404fe832d","maxScore":65,"minScore":13,"estimatedTime":"9 weeks"}'

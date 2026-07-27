@@ -1,0 +1,10 @@
+curl -X 'PATCH' 'http://localhost:8000/api/v1/courses/26ef1f48-6a50-424b-9394-5b28eb8ff684' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTI3VDEzOjAwOjEwLjQ5NDcxMiIsInVzZXJfaWQiOiJiZWY1YzlkNC05MzdlLTQ2YjgtODE5ZS03MWVmNzQ2ZDIwOWIifQ.j9r-WqPYjMGdRfj-IgUlycpsB74Q4rFbH7nAVitgk4Q' \
+ -H 'content-length: 512' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Неожиданный намерение полностью успокоиться.","description":"Палка вздрогнуть граница один передо. При материя потянуться вздрагивать пламя.\nНабор лиловый спешить носок выраженный естественный. Роса упор потом угол тяжелый ставить дорогой поймать.","maxScore":53,"minScore":7,"estimatedTime":"9 weeks"}'

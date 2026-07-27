@@ -1,0 +1,10 @@
+curl -X 'POST' 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTI3VDEzOjAwOjE1Ljg3ODgyNSIsInVzZXJfaWQiOiJkODFlZmFhOS0xMmMwLTRkN2YtODhlNy1jYWJhOWIyMDNkZGYifQ.ocaVaxL6nKMkRGryYqNSAcMT5VqCAmDJ5UwPGy9dI8w' \
+ -H 'content-length: 624' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Прежний правильный сутки поймать более сходить при.","description":"Мотоцикл коробка коричневый банда горький трубка подземный.\nПриятель мотоцикл рота цвет очко. Лапа подробность находить крыса. Остановить задрать ручей рота вздрогнуть выраженный.","createdByUserId":"d81efaa9-12c0-4d7f-88e7-caba9b203ddf","previewFileId":"10b3680d-257a-4362-83e8-0b40d3fb4d6c","maxScore":88,"minScore":24,"estimatedTime":"8 weeks"}'

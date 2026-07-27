@@ -1,0 +1,10 @@
+curl -X 'POST' 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTI3VDEzOjAwOjEyLjI2MTgzMyIsInVzZXJfaWQiOiI3NWU5MDcxNC03MDAzLTQ3YWMtOWQ0Yy1kZmMxYjQ1ZTU4YmMifQ.FNPHaOTQXQFjUYrPQVBB78g2fMq3etHhhc0912ykkLM' \
+ -H 'content-length: 491' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Шлем ребятишки салон сохранять болото.","description":"Рис даль вывести цвет посидеть. Конференция построить исследование упорно. Кожа конференция недостаток достоинство девка.","createdByUserId":"75e90714-7003-47ac-9d4c-dfc1b45e58bc","previewFileId":"6fe297a0-0422-4513-92e5-b0e2eea3733d","maxScore":87,"minScore":7,"estimatedTime":"9 weeks"}'

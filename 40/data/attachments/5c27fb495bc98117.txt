@@ -1,0 +1,10 @@
+curl -X 'POST' 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTI3VDEzOjAwOjEzLjQ3OTQ0NCIsInVzZXJfaWQiOiJiM2NhM2FkYy01MjU0LTQxMmYtODc1Ny00MWFkYTc3NDljMDUifQ.UvqHLTJ3OI-yoN8rZf1sJNZ3rQrmtTy5vK_76P7F9zA' \
+ -H 'content-length: 499' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Армейский термин помолчать шлем салон господь.","description":"Четыре да порог князь банда одиннадцать отметить дыхание. Построить задрать рабочий пища налоговый научить мелькнуть.","createdByUserId":"b3ca3adc-5254-412f-8757-41ada7749c05","previewFileId":"9bc5c8f3-8fa4-419c-8052-0664911461de","maxScore":82,"minScore":22,"estimatedTime":"6 weeks"}'

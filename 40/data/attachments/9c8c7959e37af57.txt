@@ -1,0 +1,10 @@
+curl -X 'POST' 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTI3VDEzOjAwOjEwLjQ5NDcxMiIsInVzZXJfaWQiOiJiZWY1YzlkNC05MzdlLTQ2YjgtODE5ZS03MWVmNzQ2ZDIwOWIifQ.j9r-WqPYjMGdRfj-IgUlycpsB74Q4rFbH7nAVitgk4Q' \
+ -H 'content-length: 626' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Вскакивать за тута привлекать.","description":"Пространство инструкция неожиданный призыв невозможно угодный бак витрина. Неожиданно бегать кпсс вздрогнуть. Интеллектуальный руководитель темнеть забирать неожиданный художественный кольцо господь.","createdByUserId":"bef5c9d4-937e-46b8-819e-71ef746d209b","previewFileId":"fcb65cbb-40b2-42da-afa6-4d5a9f5188e2","maxScore":66,"minScore":8,"estimatedTime":"3 weeks"}'

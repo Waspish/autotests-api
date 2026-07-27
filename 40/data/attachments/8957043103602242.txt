@@ -1,0 +1,10 @@
+curl -X 'POST' 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTI3VDEzOjAwOjExLjA5NDkyNSIsInVzZXJfaWQiOiI2N2Q3ZTcxZC1mODIxLTRiNmYtODJmYi02NDQ5NTk0NTY4MjYifQ.zTFNvDSMoMmrCcYUoMnQeTPmIYN1f7_GRILALt0Hy6Y' \
+ -H 'content-length: 461' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Сустав направо болото.","description":"Адвокат прежний грудь секунда ремень провинция. Отметить одиннадцать наслаждение ботинок очутиться освобождение другой.","createdByUserId":"67d7e71d-f821-4b6f-82fb-644959456826","previewFileId":"a30549dd-0069-4392-aadf-7828c6efd2bc","maxScore":77,"minScore":13,"estimatedTime":"10 weeks"}'
