@@ -1,0 +1,10 @@
+curl -X 'PATCH' 'http://localhost:8000/api/v1/courses/4c923158-b02c-4a67-8ffd-5e1b7657619d' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTI3VDEzOjA0OjQwLjI5MjUxNiIsInVzZXJfaWQiOiI5YmY3NWM3OS04MjJlLTRiM2ItODVlMS03ZmFkYjZhZDM0ZjQifQ.RcgUBMKRlYBiuSXuYuPqybD6DfjM4prYnAkyKTHIxtY' \
+ -H 'content-length: 524' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Похороны вздрогнуть лететь вряд картинка интеллектуальный соответствие.","description":"Освобождение кожа способ заявление. Передо лапа изображать господь левый серьезный дружно. Спичка запустить расстегнуть мгновение процесс войти командир устройство.","maxScore":85,"minScore":6,"estimatedTime":"6 weeks"}'

@@ -1,0 +1,10 @@
+curl -X 'POST' 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTI3VDEzOjA0OjQzLjYzMjQ4MSIsInVzZXJfaWQiOiIxNTgzYzVlOS1mMGFmLTQ3YTgtYTUwZC0yMTk4MWRmZmRmMzcifQ.aiU69JXEpREafr9DdG7cJYGOnou2Icqmx1CEbk7UtkQ' \
+ -H 'content-length: 537' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Вообще пятеро плавно устройство господь головной падать нервно.","description":"Увеличиваться терапия медицина функция. Самостоятельно реклама житель сверкать выгнать запретить невозможно разводить.","createdByUserId":"1583c5e9-f0af-47a8-a50d-21981dffdf37","previewFileId":"f97dc850-3ec0-4343-8bde-dded490ad540","maxScore":58,"minScore":23,"estimatedTime":"10 weeks"}'

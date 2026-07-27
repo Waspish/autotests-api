@@ -1,0 +1,10 @@
+curl -X 'POST' 'http://localhost:8000/api/v1/exercises' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTI3VDEzOjA0OjQ2LjMxMDk0OCIsInVzZXJfaWQiOiIxODc2YzdmOS1kZDJjLTRlY2UtOTNiMy1kZDE4MWIxYWIzNzEifQ.CGTAM-rkBPL6IJC5vsWln-V2BwcuLwVirTl0DEGRs7g' \
+ -H 'content-length: 436' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Потом степь пространство приятель расстройство.","description":"Вскинуть зарплата командующий жестокий каюта мгновение дорогой. Термин бок жестокий коммунизм прошептать.","courseId":"65496511-966c-40fa-95d0-4c5369e6f063","maxScore":87,"minScore":30,"orderIndex":80,"estimatedTime":"10 weeks"}'

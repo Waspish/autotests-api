@@ -1,0 +1,10 @@
+curl -X 'POST' 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTI3VDEzOjA0OjQwLjI5MjUxNiIsInVzZXJfaWQiOiI5YmY3NWM3OS04MjJlLTRiM2ItODVlMS03ZmFkYjZhZDM0ZjQifQ.RcgUBMKRlYBiuSXuYuPqybD6DfjM4prYnAkyKTHIxtY' \
+ -H 'content-length: 438' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Счастье ребятишки мальчишка жить парень.","description":"Естественный песня трясти новый пропаганда. Табак смертельный металл угол наступать число.","createdByUserId":"9bf75c79-822e-4b3b-85e1-7fadb6ad34f4","previewFileId":"cce6518a-7b81-4494-9f19-d61de721a323","maxScore":81,"minScore":22,"estimatedTime":"2 weeks"}'

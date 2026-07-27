@@ -1,0 +1,10 @@
+curl -X 'POST' 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTI3VDEzOjA0OjM4LjYzNjUwMCIsInVzZXJfaWQiOiIxOTE1MjVjMi1kZTliLTRhMmYtYTE3MS04MDVlOTliOWQ4ZmYifQ.gX_pWLxb9Y0EoWlM-zX6ArgcTIKN9Gs-cxunT1IKu4Y' \
+ -H 'content-length: 550' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Болото четко перебивать спалить.","description":"Сходить пространство смелый провал экзамен посидеть. Монета порог горький.\nПотрясти прошептать природа что оборот армейский. Эффект заплакать мелькнуть бровь.","createdByUserId":"191525c2-de9b-4a2f-a171-805e99b9d8ff","previewFileId":"dfdc8d8f-6cdb-4cfb-8bd5-3bd0bcf03f61","maxScore":88,"minScore":20,"estimatedTime":"7 weeks"}'

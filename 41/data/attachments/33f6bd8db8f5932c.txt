@@ -1,0 +1,10 @@
+curl -X 'POST' 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTI3VDEzOjA0OjQ0LjY3MzA1NyIsInVzZXJfaWQiOiI2NmJiY2Y0My1lYjNmLTRlMzAtYmYyNi05NmQzYzBiM2NmNTUifQ.02g8ce6YAu8-3rWy3uqZ5F5PqFbS4vztPwaHPpieiHM' \
+ -H 'content-length: 533' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Грустный развернуться слишком наткнуться.","description":"Песенка зато изображать умолять. Пастух слишком роскошный приходить.\nПомимо направо бровь блин актриса. Вперед карман радость близко металл.","createdByUserId":"66bbcf43-eb3f-4e30-bf26-96d3c0b3cf55","previewFileId":"ac5a4d5f-990e-4dda-83b9-50f3c47b61ac","maxScore":88,"minScore":20,"estimatedTime":"9 weeks"}'

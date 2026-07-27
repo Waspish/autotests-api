@@ -1,0 +1,10 @@
+curl -X 'POST' 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTI3VDEzOjA0OjQxLjkzNTI3MyIsInVzZXJfaWQiOiJlNjE0N2U3Yy1hNTNmLTQxZDUtOGIyOC0yNGQwMzI1ZWJhYjMifQ.06fsKPxhOQLLgSAzMrRxQKsbcYSxsdBacRWxM9gjwMQ' \
+ -H 'content-length: 648' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Расстегнуть пространство цель гулять запеть вскинуть подробность.","description":"Возмутиться холодно очутиться. Приятель самостоятельно цвет совещание ботинок.\nХод возмутиться тысяча забирать металл жить. Приходить место деньги. Космос растеряться что ягода.","createdByUserId":"e6147e7c-a53f-41d5-8b28-24d0325ebab3","previewFileId":"95e24975-3e37-4f42-9820-d5879ce00582","maxScore":75,"minScore":13,"estimatedTime":"2 weeks"}'

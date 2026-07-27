@@ -1,0 +1,10 @@
+curl -X 'POST' 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTI3VDEzOjA0OjQ2LjMxMDk0OCIsInVzZXJfaWQiOiIxODc2YzdmOS1kZDJjLTRlY2UtOTNiMy1kZDE4MWIxYWIzNzEifQ.CGTAM-rkBPL6IJC5vsWln-V2BwcuLwVirTl0DEGRs7g' \
+ -H 'content-length: 577' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Порода самостоятельно ночь легко.","description":"Равнодушный отъезд оставить умирать. Бригада багровый рота бочок манера роса какой.\nБоец сбросить изучить неправда девка социалистический. Висеть рай магазин райком ученый.","createdByUserId":"1876c7f9-dd2c-4ece-93b3-dd181b1ab371","previewFileId":"0ab72cb8-1285-4c45-a0e6-5ac383520ceb","maxScore":50,"minScore":27,"estimatedTime":"5 weeks"}'

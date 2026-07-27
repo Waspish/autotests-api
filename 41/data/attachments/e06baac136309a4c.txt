@@ -1,0 +1,10 @@
+curl -X 'POST' 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTI3VDEzOjA0OjQzLjMyNDg3MCIsInVzZXJfaWQiOiJmZjY0MDJiZC1iMWJiLTQyNGItYmVjOS0xMmE5NDI3OGY4ZjcifQ.z79mCe2XtWTtUzgj5XVx50PkTxSGqtWf0HZehO0d-Fs' \
+ -H 'content-length: 430' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Заплакать услать мелькнуть неожиданно плясать.","description":"Один солнце армейский снимать виднеться. Настать назначить пропаганда вскинуть.","createdByUserId":"ff6402bd-b1bb-424b-bec9-12a94278f8f7","previewFileId":"1bd604d8-eb39-487c-9d39-7fe91861b56d","maxScore":58,"minScore":15,"estimatedTime":"8 weeks"}'

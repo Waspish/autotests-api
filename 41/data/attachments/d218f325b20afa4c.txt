@@ -1,0 +1,10 @@
+curl -X 'POST' 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTI3VDEzOjA0OjQwLjkzOTI2MCIsInVzZXJfaWQiOiJlYTM0M2Y1Zi1mYTFjLTQ4NjQtOTEyNS1lNTA2ZGMyMjY3MTUifQ.WI9JPuKx_we4u2X3_XCKXi2rPiQ2a51Oam3_aJe-rUE' \
+ -H 'content-length: 583' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Вряд советовать руководитель вскакивать песенка.","description":"Сверкать бочок вариант мотоцикл. Заплакать крутой ботинок изображать рабочий смертельный. Решение новый следовательно тяжелый социалистический мрачно господь.","createdByUserId":"ea343f5f-fa1c-4864-9125-e506dc226715","previewFileId":"db6943f1-6185-4598-b484-879625cfd7cf","maxScore":71,"minScore":18,"estimatedTime":"5 weeks"}'

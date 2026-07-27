@@ -1,0 +1,10 @@
+curl -X 'POST' 'http://localhost:8000/api/v1/exercises' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTI3VDEzOjA0OjQ0LjY3MzA1NyIsInVzZXJfaWQiOiI2NmJiY2Y0My1lYjNmLTRlMzAtYmYyNi05NmQzYzBiM2NmNTUifQ.02g8ce6YAu8-3rWy3uqZ5F5PqFbS4vztPwaHPpieiHM' \
+ -H 'content-length: 584' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Хозяйка картинка мальчишка опасность.","description":"Мелочь провинция посидеть полевой художественный. Космос тяжелый болото. Миг заработать вздрогнуть штаб. Выдержать ставить спешить аллея один важный потом.\nХотеть поставить избегать бак основание.","courseId":"6fd43eb1-d29a-40a3-8cf7-c579698ddfaa","maxScore":52,"minScore":10,"orderIndex":98,"estimatedTime":"5 weeks"}'
