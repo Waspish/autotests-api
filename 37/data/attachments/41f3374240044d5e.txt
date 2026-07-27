@@ -1,0 +1,10 @@
+curl -X 'POST' 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTI3VDExOjQ5OjU3LjY4OTYyOSIsInVzZXJfaWQiOiI2OTM1MzJhMy0zMmU4LTQ1ZjktOWQ1Mi0zZmJhMWZjNWIyMDYifQ.QghL6blKYw3OD_IYdl6FE_e4GLYY2NeLgf6CFZ5lbSg' \
+ -H 'content-length: 639' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Помимо пища советовать умирать нажать.","description":"Мотоцикл подземный новый самостоятельно песенка домашний развернуться спорт. Командование художественный ложиться темнеть жить. Ягода плясать сынок неправда.\nЧем песенка картинка оставить один спорт.","createdByUserId":"693532a3-32e8-45f9-9d52-3fba1fc5b206","previewFileId":"e430f6bf-a233-4252-8b7b-3b105b6be9e1","maxScore":84,"minScore":24,"estimatedTime":"9 weeks"}'

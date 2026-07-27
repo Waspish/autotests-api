@@ -1,0 +1,10 @@
+curl -X 'POST' 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTI3VDExOjQ5OjU1Ljg2NzQzMCIsInVzZXJfaWQiOiIxMWZlZjBlNy0yYjlkLTRkOTAtYmRmZC1lOTJiNmZiNmNlODEifQ.kjs7q_OMILQcIvVLViQ2W0pjqcu_hB1JXAItWdJdeg8' \
+ -H 'content-length: 627' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Песенка виднеться тысяча лапа упорно назначить передо.","description":"Тысяча изучить белье трясти. Роса эффект естественный неправда. Команда демократия пасть налоговый.\nСлать беспомощный военный ученый порода полевой. Прошептать один пространство.","createdByUserId":"11fef0e7-2b9d-4d90-bdfd-e92b6fb6ce81","previewFileId":"cd0e96ab-748c-491f-a12d-a01d2bb0d9f7","maxScore":56,"minScore":5,"estimatedTime":"2 weeks"}'

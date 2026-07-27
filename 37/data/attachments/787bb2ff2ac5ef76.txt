@@ -1,0 +1,10 @@
+curl -X 'POST' 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTI3VDExOjQ5OjU2LjUyMDMyMyIsInVzZXJfaWQiOiIxOGY0YTRhZi01OWQ2LTQ5YzEtOTJmZi1hMGMwYmZmY2E5ZjcifQ.YK9L44uV-QRkOhtFYsuzhEscMcqKcGfCcAv1rwhzoVY' \
+ -H 'content-length: 473' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Лететь посвятить головной о спалить.","description":"Второй аллея равнодушный экзамен совещание выраженный. Привлекать доставать наслаждение поймать пища поговорить.","createdByUserId":"18f4a4af-59d6-49c1-92ff-a0c0bffca9f7","previewFileId":"6eaab385-f79f-45a2-96e6-1977cba8e032","maxScore":92,"minScore":26,"estimatedTime":"3 weeks"}'

@@ -1,0 +1,10 @@
+curl -X 'POST' 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTI3VDExOjQ5OjU4LjM3MTAzMiIsInVzZXJfaWQiOiI3ZmY5MTZhNS02OGI1LTQwNTgtOTllMy00M2Y0MmEyMTFmNjkifQ.3_Nqm5wuEC4EQHgQH2PeCs5JIOn8Iud2bH9_TUeOeA0' \
+ -H 'content-length: 518' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Жестокий потрясти пасть адвокат пастух.","description":"Ребятишки помолчать призыв оборот космос коробка. Расстегнуть опасность пища решетка. Рай полностью неправда непривычный крутой грудь.","createdByUserId":"7ff916a5-68b5-4058-99e3-43f42a211f69","previewFileId":"dc00ac45-47b7-4865-a8c6-e32fb487a301","maxScore":56,"minScore":11,"estimatedTime":"4 weeks"}'

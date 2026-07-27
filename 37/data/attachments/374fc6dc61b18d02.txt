@@ -1,0 +1,10 @@
+curl -X 'POST' 'http://localhost:8000/api/v1/exercises' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTI3VDExOjUwOjAxLjM5NDg5NCIsInVzZXJfaWQiOiJlZjJmYjVmYy03YWJkLTQ1ZDMtYTA0NS1mODkzNmFmMzA1NGEifQ.K2qek6twdtzefPftDcve5PNQaWakoi7Vs7ctg2lYQBs' \
+ -H 'content-length: 610' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Тяжелый исполнять приходить прежний опасность указанный.","description":"Приличный багровый даль помимо ход палка расстегнуть металл. Коллектив монета налево отъезд спалить скрытый непривычный. Доставать успокоиться достоинство спичка.\nСверкать построить бочок а.","courseId":"0d3adef6-2fd3-4de3-ba54-6ab1e1982682","maxScore":99,"minScore":14,"orderIndex":66,"estimatedTime":"9 weeks"}'

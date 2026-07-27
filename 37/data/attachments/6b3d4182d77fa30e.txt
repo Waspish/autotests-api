@@ -1,0 +1,10 @@
+curl -X 'POST' 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTI3VDExOjUwOjAxLjM5NDg5NCIsInVzZXJfaWQiOiJlZjJmYjVmYy03YWJkLTQ1ZDMtYTA0NS1mODkzNmFmMzA1NGEifQ.K2qek6twdtzefPftDcve5PNQaWakoi7Vs7ctg2lYQBs' \
+ -H 'content-length: 612' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Функция правление основание обида.","description":"Военный князь заработать промолчать казнь мера. Научить дошлый неправда чувство бочок освобождение.\nКоманда темнеть поговорить полюбить. Болото вряд ставить упорно монета скрытый очутиться.","createdByUserId":"ef2fb5fc-7abd-45d3-a045-f8936af3054a","previewFileId":"9a8eeda6-c975-49c6-8d4c-88b6ad0ba32c","maxScore":80,"minScore":5,"estimatedTime":"10 weeks"}'

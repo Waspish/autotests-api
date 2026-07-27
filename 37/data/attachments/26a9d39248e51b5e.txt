@@ -1,0 +1,10 @@
+curl -X 'PATCH' 'http://localhost:8000/api/v1/courses/71ccbb1f-9b01-4212-afa1-694eb2e855f3' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTI3VDExOjQ5OjU1Ljg2NzQzMCIsInVzZXJfaWQiOiIxMWZlZjBlNy0yYjlkLTRkOTAtYmRmZC1lOTJiNmZiNmNlODEifQ.kjs7q_OMILQcIvVLViQ2W0pjqcu_hB1JXAItWdJdeg8' \
+ -H 'content-length: 534' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Ярко увеличиваться рассуждение трубка одиннадцать коммунизм шлем налоговый.","description":"Господь парень тревога чем товар сутки. Юный художественный кузнец рабочий. Изредка научить сверкать сынок да растеряться. Плод ботинок роскошный рис выраженный грудь.","maxScore":80,"minScore":21,"estimatedTime":"8 weeks"}'

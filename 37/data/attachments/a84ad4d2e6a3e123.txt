@@ -1,0 +1,10 @@
+curl -X 'POST' 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTI3VDExOjQ5OjU5LjYwMDk0MSIsInVzZXJfaWQiOiJmN2MzNzAwMS1hOTFhLTRjMmYtYjFjNS1kYjMyMTU2ZGEwOTkifQ.0l5-yz1P-MIqiW7_TKpm-1gzyGWRoVCZW8U0g00AKVI' \
+ -H 'content-length: 551' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Подземный потянуться коммунизм написать медицина рота.","description":"Лететь кузнец место пастух бочок банк процесс более. Мимо степь сверкающий зеленый коммунизм. Реклама неожиданно следовательно ленинград.","createdByUserId":"f7c37001-a91a-4c2f-b1c5-db32156da099","previewFileId":"5cc795e2-3468-45ac-b6d3-0eb22870a59e","maxScore":59,"minScore":7,"estimatedTime":"7 weeks"}'

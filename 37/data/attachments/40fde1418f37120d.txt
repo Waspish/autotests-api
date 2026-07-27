@@ -1,0 +1,10 @@
+curl -X 'POST' 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTI3VDExOjQ5OjU0LjM3NjI2OCIsInVzZXJfaWQiOiIxNzc0OTIxOC02MzViLTRkZTUtYjM4My0zZTg1MGQ5NDY5MGQifQ.Ql3siaglToWpy1xvElmLeuT28pGSAfErxo4YOslSIa8' \
+ -H 'content-length: 586' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Постоянный скользить инфекция потом процесс о.","description":"Функция применяться указанный кузнец. Дьявол помимо банк теория.\nБоец спорт сверкающий. Парень триста мрачно космос. Серьезный очутиться пропаганда прошептать юный.","createdByUserId":"17749218-635b-4de5-b383-3e850d94690d","previewFileId":"2ef6dc99-5510-4b63-bffb-cb9d512dc922","maxScore":94,"minScore":26,"estimatedTime":"5 weeks"}'

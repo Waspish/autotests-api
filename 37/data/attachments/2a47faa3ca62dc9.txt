@@ -1,0 +1,10 @@
+curl -X 'PATCH' 'http://localhost:8000/api/v1/exercises/dba0edca-360d-452d-aad4-6118eb938966' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTI3VDExOjQ5OjU3LjEwNDU3MCIsInVzZXJfaWQiOiJiY2UxZmRhNy1kODNhLTRkNzYtYmM4ZC0wZmVmNmM2YmRiMTUifQ.TrVL0mKvpH66LM0Z3D6PtZ93lIWlSl9ucQvxkjKergg' \
+ -H 'content-length: 483' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Расстройство космос карман.","description":"Человечек спасть слишком ведь тяжелый. Развернуться голубчик неправда забирать совещание ручей. Господь перебивать коммунизм выразить выражаться приятель.","courseId":"a8c15142-bc22-4e83-ba39-6d6063b87668","maxScore":75,"minScore":6,"orderIndex":54,"estimatedTime":null}'

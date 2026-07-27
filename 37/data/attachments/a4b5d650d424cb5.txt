@@ -1,0 +1,10 @@
+curl -X 'POST' 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTI3VDExOjQ5OjU4Ljk2MDA0MyIsInVzZXJfaWQiOiI1ZDlkZGE3NC02OTdhLTQ5NDQtOTEwZS0zZjI0MzM2ZDFlNGMifQ.AKSevjwZmMWYVI32G-ouPPtRwCiO-90RCT779VGjcj4' \
+ -H 'content-length: 511' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Художественный академик художественный полностью крыса.","description":"Радость понятный зарплата штаб. Палка построить грудь командир отметить что. Поймать забирать спешить дошлый изба.","createdByUserId":"5d9dda74-697a-4944-910e-3f24336d1e4c","previewFileId":"46baff81-b8d5-4ee4-85d0-56ecd5f8dc8f","maxScore":91,"minScore":18,"estimatedTime":"2 weeks"}'

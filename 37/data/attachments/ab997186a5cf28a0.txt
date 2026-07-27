@@ -1,0 +1,10 @@
+curl -X 'POST' 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTI3VDExOjQ5OjU3LjEwNDU3MCIsInVzZXJfaWQiOiJiY2UxZmRhNy1kODNhLTRkNzYtYmM4ZC0wZmVmNmM2YmRiMTUifQ.TrVL0mKvpH66LM0Z3D6PtZ93lIWlSl9ucQvxkjKergg' \
+ -H 'content-length: 572' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Сбросить порода бригада неправда ныне развитый еврейский.","description":"Чем ломать нажать изменение неожиданно зеленый.\nБеспомощный мера снимать блин. Невыносимый смертельный пропасть господь спасть лиловый карандаш.","createdByUserId":"bce1fda7-d83a-4d76-bc8d-0fef6c6bdb15","previewFileId":"ffc0f4ed-16d4-4196-969b-ee3267c626fa","maxScore":62,"minScore":27,"estimatedTime":"6 weeks"}'
