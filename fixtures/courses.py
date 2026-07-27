@@ -10,7 +10,7 @@ from fixtures.users import UserFixture
 
 
 class CourseFicture(BaseModel):
-    request: CreateCourseRequestSchema
+    request: CreateCourseRequestSchema | List[CreateCourseRequestSchema]
     response: CreateCourseResponseSchema | List[CreateCourseResponseSchema]
 
     @property
@@ -40,11 +40,13 @@ def function_three_courses(
         function_file: FileFixture,
         function_user: UserFixture
 ) -> CourseFicture:
-    request = CreateCourseRequestSchema(created_by_user_id=function_user.id, preview_file_id=function_file.id)
     courses_number = 3
     responses = []
+    requests = []
     for _ in range(courses_number):
+        request = CreateCourseRequestSchema(created_by_user_id=function_user.id, preview_file_id=function_file.id)
         response = courses_client.create_course(request)
+        requests.append(request)
         responses.append(response)
 
-    return CourseFicture(request=request, response=responses)
+    return CourseFicture(request=requests, response=responses)

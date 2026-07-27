@@ -87,8 +87,10 @@ def assert_get_exercises_response(
 
     assert_length(actual=get_exercises_response.exercises, expected=create_exercise_responses, name="exercises")
 
-    for index, exercise in enumerate(create_exercise_responses):
-        assert_exercise(actual=get_exercises_response.exercises[index], expected=exercise.exercise)
+    actual_by_id = {course.id: course for course in get_exercises_response.courses}
+    for create_exercise_response in create_exercise_responses:
+        expected = create_exercise_response.exercise
+        assert_exercise(actual=actual_by_id[expected.id], expected=expected)
 
 
 @allure.step("Check update exercise response")

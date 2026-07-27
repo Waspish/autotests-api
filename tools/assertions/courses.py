@@ -61,8 +61,10 @@ def assert_get_courses_response(create_course_responses: list[CreateCourseRespon
 
     assert_length(actual=get_courses_response.courses, expected=create_course_responses, name="courses")
 
-    for index, create_course_response in enumerate(create_course_responses):
-        assert_course(actual=get_courses_response.courses[index], expected=create_course_response.course)
+    actual_by_id = {course.id: course for course in get_courses_response.courses}
+    for create_course_response in create_course_responses:
+        expected = create_course_response.course
+        assert_course(actual=actual_by_id[expected.id], expected=expected)
 
 
 @allure.step("Check update course response")
@@ -89,7 +91,7 @@ def assert_update_course_response(
     assert_equal(response.course.id, course_id, name='id')
 
     assert_is_true(response.course.created_by_user, name='created_by_user')
-    assert_is_true(response.course.preview_file, name='created_by_user')
+    assert_is_true(response.course.preview_file, name='preview_file')
 
 
 @allure.step("Check create course response")

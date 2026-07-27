@@ -10,7 +10,7 @@ from fixtures.users import UserFixture
 
 
 class ExerciseFixture(BaseModel):
-    request: CreateExerciseRequestSchema
+    request: CreateExerciseRequestSchema | List[CreateExerciseRequestSchema]
     response: CreateExerciseResponseSchema | List[CreateExerciseResponseSchema]
 
     @property
@@ -35,11 +35,13 @@ def function_three_exercises(
         exercises_client: ExerciseClient,
         function_course: CourseFicture,
 ) -> ExerciseFixture:
-    request = CreateExerciseRequestSchema(course_id=function_course.id)
     exercises_number = 3
+    requests = []
     responses = []
     for _ in range(exercises_number):
+        request = CreateExerciseRequestSchema(course_id=function_course.id)
         response = exercises_client.create_exercise(request)
+        requests.append(request)
         responses.append(response)
 
-    return ExerciseFixture(request=request, response=responses)
+    return ExerciseFixture(request=requests, response=responses)

@@ -68,9 +68,9 @@ class ExerciseClient(APIClient):
         response = self.create_exercise_api(request=request)
         return CreateExerciseResponseSchema.model_validate_json(response.text)
 
-    def get_exercises(self, query: GetExercisesRequestSchema) -> GetExercisesRequestSchema:
+    def get_exercises(self, query: GetExercisesRequestSchema) -> GetExerciseResponseSchema:
         response = self.get_exercises_api(query=query)
-        return GetExercisesRequestSchema.model_validate_json(response.text)
+        return GetExerciseResponseSchema.model_validate_json(response.text)
 
     def get_exercise(self, exercise_id: str) -> GetExerciseResponseSchema:
         response = self.get_exercise_api(exercise_id=exercise_id)
