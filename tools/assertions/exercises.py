@@ -87,7 +87,7 @@ def assert_get_exercises_response(
 
     assert_length(actual=get_exercises_response.exercises, expected=create_exercise_responses, name="exercises")
 
-    actual_by_id = {course.id: course for course in get_exercises_response.courses}
+    actual_by_id = {course.id: course for course in get_exercises_response.exercises}
     for create_exercise_response in create_exercise_responses:
         expected = create_exercise_response.exercise
         assert_exercise(actual=actual_by_id[expected.id], expected=expected)
