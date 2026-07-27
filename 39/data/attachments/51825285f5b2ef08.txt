@@ -1,0 +1,10 @@
+curl -X 'POST' 'http://localhost:8000/api/v1/exercises' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTI3VDEyOjE3OjUyLjIzNTA5OSIsInVzZXJfaWQiOiI5OGRhODMwOC05ZDVlLTQyN2QtOWY4Yy1kNmQ0ZWE4NTRkMGQifQ.9lFfKdLS58UndKQ9ZhS7FX-INqkzF-15NKlDJwZHYbE' \
+ -H 'content-length: 541' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Дальний инструкция мусор академик очередной пересечь банда.","description":"Заведение тяжелый белье миф изба плод. Приходить передо ложиться хотеть возможно еврейский хозяйка. Дрогнуть домашний вскакивать нажать валюта секунда.","courseId":"d5240737-6a89-436e-8a65-807dfc555193","maxScore":80,"minScore":6,"orderIndex":61,"estimatedTime":"10 weeks"}'

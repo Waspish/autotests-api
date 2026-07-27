@@ -1,0 +1,33 @@
+INFO     HTTP_LOGGER:event_hooks.py:31 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:40 Got response 200 OK
+INFO     HTTP_LOGGER:event_hooks.py:31 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:40 Got response 200 OK
+INFO     HTTP_LOGGER:event_hooks.py:31 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:40 Got response 200 OK
+INFO     HTTP_LOGGER:event_hooks.py:31 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGGER:event_hooks.py:40 Got response 200 OK
+INFO     HTTP_LOGGER:event_hooks.py:31 Make GET request to http://localhost:8000/api/v1/courses?userId=2b3f2fe3-f92c-4bde-b8ee-68b36dc8a185
+INFO     HTTP_LOGGER:event_hooks.py:40 Got response 200 OK
+INFO     BASE_ASSERTIONS:base.py:12 Check that response status code equals to '200'
+INFO     COURSES_ASSERTIONS:courses.py:60 Check get courses response
+INFO     BASE_ASSERTIONS:base.py:57 Check that length of 'courses' equals to '1'
+INFO     COURSES_ASSERTIONS:courses.py:22 Check course
+INFO     BASE_ASSERTIONS:base.py:21 Check that 'id' equals to '468cda81-2757-424e-9e55-e7d30c5f5359'
+INFO     BASE_ASSERTIONS:base.py:21 Check that 'title' equals to 'Солнце опасность присесть очко похороны.'
+INFO     BASE_ASSERTIONS:base.py:21 Check that 'description' equals to 'Ведь кузнец точно неожиданно плод триста. Сравнение выгнать господь развитый неправда коллектив протягивать тесно.
+Тута издали песенка возможно. Пастух легко что мгновение дальний салон.'
+INFO     BASE_ASSERTIONS:base.py:21 Check that 'min_score' equals to '17'
+INFO     BASE_ASSERTIONS:base.py:21 Check that 'max_score' equals to '81'
+INFO     BASE_ASSERTIONS:base.py:21 Check that 'estimated_time' equals to '3 weeks'
+INFO     FILES_ASSERTIONS:files.py:43 Check file
+INFO     BASE_ASSERTIONS:base.py:21 Check that 'id' equals to '0af09085-efd7-4904-a92f-3cac27f9f167'
+INFO     BASE_ASSERTIONS:base.py:21 Check that 'filename' equals to '57f1225e-8642-4f97-a2a7-022528f49bb0.png'
+INFO     BASE_ASSERTIONS:base.py:21 Check that 'url' equals to 'http://localhost:8000/static/tests/57f1225e-8642-4f97-a2a7-022528f49bb0.png'
+INFO     BASE_ASSERTIONS:base.py:21 Check that 'directory' equals to 'tests'
+INFO     USERS_ASSERTIONS:users.py:20 Check user response
+INFO     BASE_ASSERTIONS:base.py:21 Check that 'email' equals to 'evgenija_1989@example.net'
+INFO     BASE_ASSERTIONS:base.py:21 Check that 'first_name' equals to 'Измаил'
+INFO     BASE_ASSERTIONS:base.py:21 Check that 'last_name' equals to 'Колесников'
+INFO     BASE_ASSERTIONS:base.py:21 Check that 'middle_name' equals to 'Ефимьевич'
+INFO     BASE_ASSERTIONS:base.py:39 Check that 'user_id' is true.
+INFO     SCHEMA_ASSERTIONS:schema.py:21 Validating JSON schema

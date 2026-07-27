@@ -1,0 +1,10 @@
+curl -X 'POST' 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTI3VDEyOjE3OjUwLjMwODUzOCIsInVzZXJfaWQiOiIwODMwNzAzMi0xOTYzLTQzMWUtOWU1Yi00MDM5Y2NlNGVjZTgifQ.h5ob7pdyNjO0b0CQ1jrbLOsYl5QGPMZ8YMpu7qQuMZM' \
+ -H 'content-length: 470' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Зачем миг крыса кузнец более.","description":"Указанный желание развернуться посидеть. Отметить радость мгновение сопровождаться. Прощение дыхание порт миг жестокий.","createdByUserId":"08307032-1963-431e-9e5b-4039cce4ece8","previewFileId":"b6148b9e-d1f6-49b4-9493-efd83498196a","maxScore":80,"minScore":9,"estimatedTime":"2 weeks"}'

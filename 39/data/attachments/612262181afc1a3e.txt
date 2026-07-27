@@ -1,0 +1,10 @@
+curl -X 'POST' 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTI3VDEyOjE3OjUxLjU4NjYzNyIsInVzZXJfaWQiOiJlMTdiZjM1NS0xMzM2LTQyZDYtOTE3My1jMThmNGNlNjU4OWYifQ.kV1DZyK8_Wp893vCOffVxuy0oy1CLv4PJ8iZ2sQCZuU' \
+ -H 'content-length: 538' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Магазин советовать жидкий металл желание костер ныне.","description":"Эпоха ныне песенка серьезный функция желание заявление. Отметить полоска житель виднеться цепочка. Падаль посидеть вчера еврейский.","createdByUserId":"e17bf355-1336-42d6-9173-c18f4ce6589f","previewFileId":"254262cf-1ea8-4d63-8a0d-8f8ce2679773","maxScore":78,"minScore":14,"estimatedTime":"2 weeks"}'

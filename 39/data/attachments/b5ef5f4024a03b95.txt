@@ -1,0 +1,10 @@
+curl -X 'POST' 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTI3VDEyOjE3OjQ4LjQ5NzA4OSIsInVzZXJfaWQiOiIxZTA2MDcxMS1lNTQ5LTQwNWUtYmYxYS1mNGEzNDI2MGJmNzYifQ.mfPeJ3SD323Rptv9bx2huiJllqVkYScSt15YvgRpLo8' \
+ -H 'content-length: 607' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Выгнать выкинуть появление услать тюрьма дальний.","description":"Функция цель зачем плод вряд о возможно похороны. Рота разводить способ смертельный сопровождаться угроза мотоцикл. Нервно спорт слишком роскошный конференция штаб тяжелый.","createdByUserId":"1e060711-e549-405e-bf1a-f4a34260bf76","previewFileId":"e8fc1301-d588-4b09-bc35-2d63e794904b","maxScore":69,"minScore":30,"estimatedTime":"7 weeks"}'

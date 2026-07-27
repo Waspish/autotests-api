@@ -1,0 +1,10 @@
+curl -X 'POST' 'http://localhost:8000/api/v1/exercises' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTI3VDEyOjE3OjUwLjMwODUzOCIsInVzZXJfaWQiOiIwODMwNzAzMi0xOTYzLTQzMWUtOWU1Yi00MDM5Y2NlNGVjZTgifQ.h5ob7pdyNjO0b0CQ1jrbLOsYl5QGPMZ8YMpu7qQuMZM' \
+ -H 'content-length: 305' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Мягкий провинция висеть конференция умолять сходить.","description":"Слишком теория неправда близко.","courseId":"9770322c-718b-4918-91d1-6af1cd797069","maxScore":95,"minScore":10,"orderIndex":31,"estimatedTime":"7 weeks"}'

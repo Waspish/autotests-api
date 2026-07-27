@@ -1,0 +1,10 @@
+curl -X 'POST' 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTI3VDEyOjE3OjU0LjAyNzMzNyIsInVzZXJfaWQiOiJjNzUwNzkyYy05NGQ5LTQ0YzEtOWM5Ni0xMjA0MmIxOTE4YmMifQ.vpoPDzdlO2qRWSXjOzJ8hpkZscstfEYJ8x60rI0brZ4' \
+ -H 'content-length: 516' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Способ дорогой мучительно пятеро металл.","description":"Левый ремень упорно издали зеленый танцевать иной. Художественный космос социалистический ручей решение угодный неправда наступать.","createdByUserId":"c750792c-94d9-44c1-9c96-12042b1918bc","previewFileId":"a0e38626-9be5-484e-b145-01d9c4fd9393","maxScore":86,"minScore":14,"estimatedTime":"2 weeks"}'

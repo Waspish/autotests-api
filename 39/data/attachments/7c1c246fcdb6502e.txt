@@ -1,0 +1,10 @@
+curl -X 'POST' 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTI3VDEyOjE3OjUxLjAwMzU2OSIsInVzZXJfaWQiOiJkNzM4MTdmNS02NzU2LTRhYTQtODBkNy1lNmRhNGQ5ZjgyNTUifQ.X5a2rs7rLfCmwlqK5rSm6cQbnRgcZ0l9iymYf8MG88k' \
+ -H 'content-length: 496' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Нажать смелый прежде выражаться наткнуться решение о.","description":"Находить разводить результат исполнять решетка избегать услать. Зарплата картинка госпожа аж скрытый космос.","createdByUserId":"d73817f5-6756-4aa4-80d7-e6da4d9f8255","previewFileId":"bcafef2c-1564-48f3-8706-c155937655d9","maxScore":76,"minScore":29,"estimatedTime":"9 weeks"}'

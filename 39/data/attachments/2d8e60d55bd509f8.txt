@@ -1,0 +1,10 @@
+curl -X 'POST' 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTI3VDEyOjE3OjQ5LjEzNDA0NCIsInVzZXJfaWQiOiI4MDQzNjgxMi0zYjQzLTQxYjEtYjk3MS00MjY0YmQyZGExYWEifQ.gNyLEmegW9XzJnC2oD4lkWfAjkDsu8axywvsx5rD4cg' \
+ -H 'content-length: 554' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Сходить присесть приличный скользить.","description":"Отдел один ложиться четко девка тесно. Художественный правление невозможно командующий посвятить. Дремать стакан уронить левый район инвалид угодный банда.","createdByUserId":"80436812-3b43-41b1-b971-4264bd2da1aa","previewFileId":"13fffe20-b457-4cf7-996b-b85bff01c003","maxScore":58,"minScore":30,"estimatedTime":"2 weeks"}'

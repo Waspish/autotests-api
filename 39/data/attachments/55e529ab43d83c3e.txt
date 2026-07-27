@@ -1,0 +1,10 @@
+curl -X 'PATCH' 'http://localhost:8000/api/v1/courses/43ee560c-5fa2-427c-ad1f-6d7899e7fada' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTI3VDEyOjE3OjQ4LjQ5NzA4OSIsInVzZXJfaWQiOiIxZTA2MDcxMS1lNTQ5LTQwNWUtYmYxYS1mNGEzNDI2MGJmNzYifQ.mfPeJ3SD323Rptv9bx2huiJllqVkYScSt15YvgRpLo8' \
+ -H 'content-length: 488' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Виднеться пространство изредка.","description":"Угроза художественный поставить бак труп один соответствие. Цель спасть снимать разводить отметить. Цвет правление промолчать коричневый висеть.\nХлеб пятеро вскакивать монета налоговый.","maxScore":62,"minScore":29,"estimatedTime":"7 weeks"}'
