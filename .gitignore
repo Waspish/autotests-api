@@ -2,6 +2,7 @@
 .idea
 
 # python
+.venv
 venv
 __pycache__
 
@@ -11,6 +12,12 @@ allure-report
 
 # study files
 StudyFiles
+
+# swagger-coverage-tool
+coverage-history.json
+coverage-report.json
+coverage.html
+coverage-results/
 
 # ai helper context
 .geminiignore
