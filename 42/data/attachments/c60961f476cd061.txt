@@ -1,0 +1,10 @@
+curl -X 'POST' 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTA2VDE1OjIxOjMzLjcyMDI0OSIsInVzZXJfaWQiOiJkYzc5ZmMyZS0xZGE1LTQzNzMtYTdlMC04MDE2ZGQyZDVjM2YifQ.QXA3SjUUmHmepfpy3KUoqpa3TJYmpvD7zBeOQCuW1hU' \
+ -H 'content-length: 515' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Тусклый домашний адвокат печатать устройство запустить триста.","description":"Выкинуть увеличиваться расстройство ярко. Пропасть опасность блин команда бегать горький некоторый вскинуть.","createdByUserId":"dc79fc2e-1da5-4373-a7e0-8016dd2d5c3f","previewFileId":"4dd1ea88-e909-4694-9bd4-ceb0b699b7a7","maxScore":69,"minScore":23,"estimatedTime":"2 weeks"}'

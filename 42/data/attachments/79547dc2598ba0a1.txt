@@ -1,0 +1,10 @@
+curl -X 'PATCH' 'http://localhost:8000/api/v1/courses/07b00106-8873-41bf-8d79-9211b0bc1ab8' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTA2VDE1OjIxOjMwLjQzNjYyNiIsInVzZXJfaWQiOiI1MTY4YjYxYy1iZjQ0LTQ5NjEtYjJmOC1jYzEwMmJjZGZhZTUifQ.L9-qHgLXmnsVuOIUFN43ygSYX_pFj8hzDd4aSQBHuMs' \
+ -H 'content-length: 391' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Выраженный дремать оставить.","description":"Приличный факультет дурацкий ставить правый голубчик сохранять солнце. Расстройство зато бок. Гулять светило пересечь труп термин космос.","maxScore":50,"minScore":14,"estimatedTime":"8 weeks"}'

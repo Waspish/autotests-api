@@ -1,0 +1,10 @@
+curl -X 'POST' 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTA2VDE1OjIxOjI5LjE1MzYxMCIsInVzZXJfaWQiOiIyYmNiNzk3NC0xNzc0LTQ1NmEtOTBjYy05ZjJmODJiNGMyY2IifQ.Ba6lwX2hdXTiLFltBz7eEcLLnLvQJyB1s-2Q7cAusVc' \
+ -H 'content-length: 481' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Сверкающий командующий господь правление монета процесс палец.","description":"Промолчать желание юный иной задрать. Собеседник демократия разуметься рай ответить висеть.","createdByUserId":"2bcb7974-1774-456a-90cc-9f2f82b4c2cb","previewFileId":"fb8aba73-aa03-413b-b6a7-0a18082654b5","maxScore":99,"minScore":8,"estimatedTime":"7 weeks"}'

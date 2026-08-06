@@ -1,0 +1,10 @@
+curl -X 'POST' 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTA2VDE1OjIxOjI5LjE1MzYxMCIsInVzZXJfaWQiOiIyYmNiNzk3NC0xNzc0LTQ1NmEtOTBjYy05ZjJmODJiNGMyY2IifQ.Ba6lwX2hdXTiLFltBz7eEcLLnLvQJyB1s-2Q7cAusVc' \
+ -H 'content-length: 623' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Число рота скрытый человечек нервно.","description":"Смелый устройство трубка зима головка висеть пища. Господь обида болото вытаскивать.\nМелочь вообще природа. Выраженный находить роса анализ лететь табак.\nВыражение ныне свежий грустный покинуть.","createdByUserId":"2bcb7974-1774-456a-90cc-9f2f82b4c2cb","previewFileId":"fb8aba73-aa03-413b-b6a7-0a18082654b5","maxScore":98,"minScore":10,"estimatedTime":"4 weeks"}'

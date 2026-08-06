@@ -1,0 +1,10 @@
+curl -X 'POST' 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTA2VDE1OjIxOjMwLjQzNjYyNiIsInVzZXJfaWQiOiI1MTY4YjYxYy1iZjQ0LTQ5NjEtYjJmOC1jYzEwMmJjZGZhZTUifQ.L9-qHgLXmnsVuOIUFN43ygSYX_pFj8hzDd4aSQBHuMs' \
+ -H 'content-length: 401' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Светило отъезд потом.","description":"Один пасть спорт наслаждение коробка ночь. Более валюта салон результат болото эффект идея.","createdByUserId":"5168b61c-bf44-4961-b2f8-cc102bcdfae5","previewFileId":"1cb122dd-15fd-44f0-867b-591b801c8706","maxScore":83,"minScore":5,"estimatedTime":"7 weeks"}'

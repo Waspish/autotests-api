@@ -1,0 +1,10 @@
+curl -X 'PATCH' 'http://localhost:8000/api/v1/exercises/2153a70d-857f-4a49-8d33-412c1e2c5ad5' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTA2VDE1OjIxOjMxLjU4NjEwNCIsInVzZXJfaWQiOiJmNTEyYjM2NC0wYjhmLTQwM2ItOWRmYy1mMjFkOTYzYjY4ZjIifQ.k0YbKUnp12oe50-B34j0Rajfv0IAfNdRJH_zIdoVIUE' \
+ -H 'content-length: 387' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Второй о миллиард пробовать советовать.","description":"Спешить металл зачем исполнять дьявол заведение. Решение радость гулять холодно демократия.","courseId":"6c235520-8782-47a4-9242-0476b60e7165","maxScore":72,"minScore":25,"orderIndex":24,"estimatedTime":null}'

@@ -1,0 +1,10 @@
+curl -X 'POST' 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTA2VDE1OjIxOjMxLjU4NjEwNCIsInVzZXJfaWQiOiJmNTEyYjM2NC0wYjhmLTQwM2ItOWRmYy1mMjFkOTYzYjY4ZjIifQ.k0YbKUnp12oe50-B34j0Rajfv0IAfNdRJH_zIdoVIUE' \
+ -H 'content-length: 532' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Сверкать потом роса умирать.","description":"Приличный манера народ вытаскивать неудобно интеллектуальный командующий. Заложить художественный налоговый школьный избегать сынок кидать поздравлять.","createdByUserId":"f512b364-0b8f-403b-9dfc-f21d963b68f2","previewFileId":"a55a1e2d-a6bb-4fda-b43c-c01274922b44","maxScore":59,"minScore":2,"estimatedTime":"7 weeks"}'

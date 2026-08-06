@@ -1,0 +1,10 @@
+curl -X 'POST' 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTA2VDE1OjIxOjI5LjkzMjM5MyIsInVzZXJfaWQiOiIwMjIzNGI3MC1hNjgwLTQ3OGEtODRkZS0wZGM0NmRiYjVhYTgifQ.36CRQeT1nMt2pA7snj3NSVWOqJfnzhlzPIaM6fj3IYA' \
+ -H 'content-length: 635' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Протягивать ребятишки грудь приходить носок очко.","description":"Болото более заявление. Освобождение сустав поезд близко избегать адвокат миг.\nПровал пробовать художественный неожиданно страсть провал развитый. Коллектив беспомощный опасность сынок.","createdByUserId":"02234b70-a680-478a-84de-0dc46dbb5aa8","previewFileId":"a9031ed5-ac0a-4c54-bb1e-c31df1c64fbd","maxScore":51,"minScore":25,"estimatedTime":"10 weeks"}'

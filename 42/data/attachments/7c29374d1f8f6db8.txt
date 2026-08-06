@@ -1,0 +1,10 @@
+curl -X 'POST' 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTA2VDE1OjIxOjMxLjA4Mjk3OCIsInVzZXJfaWQiOiIzOTAyZDg3ZS1jN2Q3LTQ1ZDAtYjVhOS0wNjlmOGNlNzI5OWIifQ.b8pnX0mg4p2Zbpno9-NmfUsYhddXCl2VWu19ykoqLwg' \
+ -H 'content-length: 530' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Палец нервно господь.","description":"Смеяться дружно помимо выражаться радость бак коммунизм. Порядок горький правление кпсс грудь. Потрясти интеллектуальный бабочка исполнять факультет означать.","createdByUserId":"3902d87e-c7d7-45d0-b5a9-069f8ce7299b","previewFileId":"ac6780c0-018c-470a-b088-5411b63c9227","maxScore":54,"minScore":17,"estimatedTime":"7 weeks"}'

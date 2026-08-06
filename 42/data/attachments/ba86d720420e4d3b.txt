@@ -1,0 +1,10 @@
+curl -X 'POST' 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTA2VDE1OjIxOjMzLjE2NjIzOSIsInVzZXJfaWQiOiI4NDVlYTNjMi0wN2JmLTQ1ZGItOGI1MC01ZTFmN2FiNWU4MzkifQ.jMwTuyMPtjpU1FHIpb-rt1KqKpSBQKFxf1yARpc-Hlk' \
+ -H 'content-length: 614' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Командир непривычный набор непривычный мгновение.","description":"Намерение рай неожиданно разнообразный. Дрогнуть уничтожение ведь сверкать премьера материя неправда. Похороны спорт решетка ремень премьера правильный светило возникновение.","createdByUserId":"845ea3c2-07bf-45db-8b50-5e1f7ab5e839","previewFileId":"c27e281e-8c9d-4f6e-85da-83b7c7f26f0f","maxScore":73,"minScore":7,"estimatedTime":"9 weeks"}'

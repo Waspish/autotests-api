@@ -1,0 +1,10 @@
+curl -X 'POST' 'http://localhost:8000/api/v1/exercises' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTA2VDE1OjIxOjMzLjcyMDI0OSIsInVzZXJfaWQiOiJkYzc5ZmMyZS0xZGE1LTQzNzMtYTdlMC04MDE2ZGQyZDVjM2YifQ.QXA3SjUUmHmepfpy3KUoqpa3TJYmpvD7zBeOQCuW1hU' \
+ -H 'content-length: 518' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Единый намерение госпожа куча сходить.","description":"Налево ход смеяться спешить. Поезд эпоха поставить выгнать.\nЗима неожиданный пятеро оборот хотеть. Запретить основание освободить протягивать головка правление.","courseId":"92f7af24-61f4-45ff-b111-05c32ffd619e","maxScore":81,"minScore":29,"orderIndex":3,"estimatedTime":"2 weeks"}'

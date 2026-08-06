@@ -1,0 +1,10 @@
+curl -X 'POST' 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTA2VDE1OjIxOjMyLjA5MDEyMyIsInVzZXJfaWQiOiJmMGFjZmMwOS04N2VjLTQwNzMtOTI5ZS1mMTEwYjU2MzU5ZTcifQ.nJ04tnICWTdaeMY-opRoIvYe4VzEiUcwjYLqydFG1_I' \
+ -H 'content-length: 521' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Провинция танцевать грудь жестокий тяжелый.","description":"Космос мимо металл выраженный. Художественный добиться голубчик светило изменение опасность. Более парень инфекция народ факультет.","createdByUserId":"f0acfc09-87ec-4073-929e-f110b56359e7","previewFileId":"83b3a525-0196-4b2a-a5c8-64e24083a057","maxScore":94,"minScore":28,"estimatedTime":"8 weeks"}'
