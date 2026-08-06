@@ -1,0 +1,10 @@
+curl -X 'POST' 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTA2VDE1OjI0OjMyLjc2MDkyNCIsInVzZXJfaWQiOiI4OThhYmNjNC01MzExLTQ3MzQtOTZiZi1hZGQ3ZjkwNmZmZGUifQ.MZKrIHpqlJ1pp_kAFMB2LLjG1Ep4i6SDaF8SxdnIuzc' \
+ -H 'content-length: 514' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Четко термин хозяйка очередной функция отметить.","description":"Смертельный самостоятельно плод трясти бабочка жить миф. Команда дошлый точно неожиданный похороны солнце прежний неправда.","createdByUserId":"898abcc4-5311-4734-96bf-add7f906ffde","previewFileId":"915707b5-67a3-463f-8010-01b4622fd97e","maxScore":99,"minScore":4,"estimatedTime":"7 weeks"}'

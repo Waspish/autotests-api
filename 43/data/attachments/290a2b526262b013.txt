@@ -1,0 +1,10 @@
+curl -X 'POST' 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTA2VDE1OjI0OjM0LjYwMjUzNiIsInVzZXJfaWQiOiJhZWRiZmYxMC04MTlkLTQ3ZjktOGM0Yy0xMjAxMjkxNWY4OTUifQ.h1M9O35CJobXSv1DR5t_-z8kbjmPbYYv7HjRhLTZjUY' \
+ -H 'content-length: 482' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Тесно головной настать.","description":"Вытаскивать ночь новый смелый. Выраженный заложить интеллектуальный заработать лиловый. Виднеться решетка анализ похороны славный.","createdByUserId":"aedbff10-819d-47f9-8c4c-12012915f895","previewFileId":"aadff4cc-a2c1-457c-bea4-59ff6630b094","maxScore":50,"minScore":23,"estimatedTime":"3 weeks"}'

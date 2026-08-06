@@ -1,0 +1,10 @@
+curl -X 'POST' 'http://localhost:8000/api/v1/exercises' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTA2VDE1OjI0OjM4LjA1MDAwNCIsInVzZXJfaWQiOiI4ZTdkYWNmOC1hODJlLTQ3MTgtOWIyZS1mYzY3MmJmM2Q0YTIifQ.veTWMUiqU-8kRQZXU33VttfENSecuLoAY0eD_Km9m60' \
+ -H 'content-length: 396' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Тревога основание монета поставить зачем.","description":"Висеть выразить ягода деньги. Вытаскивать уронить ставить. Пробовать изредка упорно холодно.","courseId":"6c0da087-48ea-4c19-b60f-6eab460cb675","maxScore":68,"minScore":2,"orderIndex":52,"estimatedTime":"5 weeks"}'

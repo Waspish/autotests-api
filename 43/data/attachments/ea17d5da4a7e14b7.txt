@@ -1,0 +1,10 @@
+curl -X 'POST' 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTA2VDE1OjI0OjM1LjY4NDgzOSIsInVzZXJfaWQiOiIwZDQ0MzVlZC0xYzI0LTQ0ZGItODNmZC1iNzY1YWU2N2UxNzMifQ.kXxTG1yyeBkUh3nCebaPRnELlX2Yf_jcyvHllDrs1SI' \
+ -H 'content-length: 516' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Ночь ставить степь бабочка да.","description":"Появление указанный сынок прелесть художественный войти тюрьма означать. Недостаток карандаш расстройство инструкция перебивать теория ручей.","createdByUserId":"0d4435ed-1c24-44db-83fd-b765ae67e173","previewFileId":"6f225148-0803-4407-8c59-4644b5ce5a83","maxScore":75,"minScore":21,"estimatedTime":"2 weeks"}'

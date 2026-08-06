@@ -1,0 +1,10 @@
+curl -X 'POST' 'http://localhost:8000/api/v1/exercises' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTA2VDE1OjI0OjM1LjkyMzU5NSIsInVzZXJfaWQiOiJjMDE2OGYzMy1mMWY3LTQ5MDMtYmE0Yi1mZjNhNTMxNGNmYjgifQ.p_xXmqBRkAA129SyBRBSzicCEdProTAj_DW-1IHFo8w' \
+ -H 'content-length: 513' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Изучить какой народ задрать протягивать.","description":"Близко поговорить подробность крыса запеть картинка исполнять уронить. Правление правление некоторый табак. Демократия заложить падать казнь головка носок.","courseId":"249401e2-0643-4789-8863-6200f05a715c","maxScore":79,"minScore":1,"orderIndex":83,"estimatedTime":"3 weeks"}'

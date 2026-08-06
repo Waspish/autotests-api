@@ -1,0 +1,10 @@
+curl -X 'POST' 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTA2VDE1OjI0OjMyLjI1NjU3OSIsInVzZXJfaWQiOiIzYjczZDA1Ni05ODcyLTRmYTktODUwYi00MjRhYWFkMDFkZWEifQ.mcDwz88km0Xt0jI9XskjyJglAQIwzzFVW1Lc3Im8AuI' \
+ -H 'content-length: 487' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Покинуть магазин холодно пересечь плясать.","description":"Белье спешить неправда волк дошлый некоторый результат грустный. Понятный термин да промолчать. Юный тута дрогнуть.","createdByUserId":"3b73d056-9872-4fa9-850b-424aaad01dea","previewFileId":"f276cf85-7dfe-4761-9d25-778e39af42ae","maxScore":88,"minScore":1,"estimatedTime":"10 weeks"}'

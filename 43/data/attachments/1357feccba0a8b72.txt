@@ -1,0 +1,10 @@
+curl -X 'PATCH' 'http://localhost:8000/api/v1/exercises/b082e13c-1ec3-4c25-b4e4-6e37ed514f56' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTA2VDE1OjI0OjM0LjYwMjUzNiIsInVzZXJfaWQiOiJhZWRiZmYxMC04MTlkLTQ3ZjktOGM0Yy0xMjAxMjkxNWY4OTUifQ.h1M9O35CJobXSv1DR5t_-z8kbjmPbYYv7HjRhLTZjUY' \
+ -H 'content-length: 376' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Торговля костер картинка угроза.","description":"Вперед вариант прощение жидкий прежде затянуться гулять. Сынок неожиданно покидать торговля.","courseId":"90a38744-47aa-4ed5-b527-19f4092d402d","maxScore":99,"minScore":18,"orderIndex":95,"estimatedTime":null}'

@@ -1,0 +1,10 @@
+curl -X 'POST' 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTA2VDE1OjI0OjM4LjA1MDAwNCIsInVzZXJfaWQiOiI4ZTdkYWNmOC1hODJlLTQ3MTgtOWIyZS1mYzY3MmJmM2Q0YTIifQ.veTWMUiqU-8kRQZXU33VttfENSecuLoAY0eD_Km9m60' \
+ -H 'content-length: 495' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Смеяться выкинуть увеличиваться возбуждение.","description":"Выкинуть пламя коллектив подземный вперед сравнение. Поколение беспомощный терапия забирать при госпожа поговорить.","createdByUserId":"8e7dacf8-a82e-4718-9b2e-fc672bf3d4a2","previewFileId":"a7abc0df-06f6-4fc6-8265-1237c2bc78e6","maxScore":71,"minScore":13,"estimatedTime":"2 weeks"}'

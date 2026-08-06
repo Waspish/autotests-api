@@ -1,0 +1,10 @@
+curl -X 'POST' 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTA2VDE1OjI0OjM2Ljc3NTQ0NSIsInVzZXJfaWQiOiIzZDgwOTlkOS03ODZlLTQ1MDktYWVjZC0zMmMzYTVkNzRmYmYifQ.basOj2SHBvH12B80veneVMVhLOAsWanEKcBqTON9y3U' \
+ -H 'content-length: 666' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Устройство степь полностью даль заведение палка присесть.","description":"Невозможно госпожа народ обида зима. Возникновение грустный развитый ребятишки картинка.\nПосвятить житель трубка легко социалистический спасть. Развитый вчера рота неправда тусклый руководитель.","createdByUserId":"3d8099d9-786e-4509-aecd-32c3a5d74fbf","previewFileId":"74bbe86f-edb8-4762-9476-1eecf7c4e992","maxScore":88,"minScore":27,"estimatedTime":"6 weeks"}'
