@@ -3,7 +3,8 @@ from httpx import Response
 
 from clients.api_client import APIClient
 from clients.api_coverage import tracker
-from clients.authentication.authentication_schema import LoginRequestSchema, RefreshRequestSchema, LoginResponseSchema
+from clients.authentication.authentication_schema import LoginRequestSchema, RefreshRequestSchema, \
+    LoginResponseSchema
 from clients.public_http_builder import get_public_http_client
 from tools.routes import APIRoutes
 
@@ -22,7 +23,8 @@ class AuthenticationClient(APIClient):
         :param request: Словарь с email и password.
         :return: Ответ от сервера в виде объекта httpx.Response
         """
-        return self.post(url=f"{APIRoutes.AUTHENTICATION}/login", json=request.model_dump(by_alias=True))
+        return self.post(url=f"{APIRoutes.AUTHENTICATION}/login",
+                         json=request.model_dump(by_alias=True))
 
     @allure.step("Refresh authentication token")
     @tracker.track_coverage_httpx(f"{APIRoutes.AUTHENTICATION}/refresh")
@@ -33,14 +35,15 @@ class AuthenticationClient(APIClient):
         :param request: Словарь с refreshToken.
         :return: Ответ от сервера в виде объекта httpx.Response
         """
-        return self.post(url=f"{APIRoutes.AUTHENTICATION}/refresh", json=request.model_dump(by_alias=True))
+        return self.post(url=f"{APIRoutes.AUTHENTICATION}/refresh",
+                         json=request.model_dump(by_alias=True))
 
     def login(self, request: LoginRequestSchema) -> LoginResponseSchema:
         response = self.login_api(request=request)
         return LoginResponseSchema.model_validate_json(response.text)
 
 
-def get_authentications_client() -> AuthenticationClient:
+def get_authentication_client() -> AuthenticationClient:
     """
     Фунция создает экземпляр AuthenticationClient с уже настроенным HTTP-клиентом.
 
