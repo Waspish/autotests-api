@@ -3,8 +3,10 @@ from httpx import Response
 
 from clients.api_client import APIClient
 from clients.api_coverage import tracker
-from clients.courses.courses_schema import CreateCourseRequestSchema, GetCoursesQuerySchema, UpdateCourseRequestSchema, \
+from clients.courses.courses_schema import (
+    CreateCourseRequestSchema, GetCoursesQuerySchema, UpdateCourseRequestSchema,
     CreateCourseResponseSchema
+)
 from clients.private_http_builder import get_private_http_client, AuthenticationUserSchema
 from tools.routes import APIRoutes
 
@@ -46,7 +48,8 @@ class CoursesClient(APIClient):
         :param course_id: Идентификатор курса.
         :return: Ответ от сервера в виде объекта httpx.Response
         """
-        return self.patch(url=f"{APIRoutes.COURSES}/{course_id}", json=request.model_dump(by_alias=True))
+        return self.patch(url=f"{APIRoutes.COURSES}/{course_id}",
+                          json=request.model_dump(by_alias=True))
 
     @allure.step("Delete course by id {course_id}")
     @tracker.track_coverage_httpx(f"{APIRoutes.COURSES}/{{course_id}}")

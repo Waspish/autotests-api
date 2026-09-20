@@ -5,8 +5,9 @@ import pytest
 from allure_commons.types import Severity
 
 from clients.courses.courses_client import CoursesClient
-from clients.courses.courses_schema import UpdateCourseRequestSchema, UpdateCourseResponseSchema, GetCoursesQuerySchema, \
-    GetCoursesResponseSchema, CreateCourseRequestSchema, CreateCourseResponseSchema
+from clients.courses.courses_schema import (UpdateCourseRequestSchema, UpdateCourseResponseSchema,
+                                            GetCoursesQuerySchema, GetCoursesResponseSchema,
+                                            CreateCourseRequestSchema, CreateCourseResponseSchema)
 from fixtures.courses import CourseFicture
 from fixtures.files import FileFixture
 from fixtures.users import UserFixture
@@ -49,7 +50,8 @@ class TestCourses:
     @allure.story(AllureStory.GET_ENTITIES)
     @allure.sub_suite(AllureStory.GET_ENTITIES)
     @allure.severity(Severity.CRITICAL)
-    def test_get_three_courses(self, courses_client: CoursesClient, function_three_courses: CourseFicture,
+    def test_get_three_courses(self, courses_client: CoursesClient,
+                               function_three_courses: CourseFicture,
                                function_user: UserFixture):
         request = GetCoursesQuerySchema(user_id=function_user.id)
         response = courses_client.get_courses_api(request)
@@ -71,7 +73,8 @@ class TestCourses:
         response_data = UpdateCourseResponseSchema.model_validate_json(response.text)
 
         assert_status_code(response.status_code, HTTPStatus.OK)
-        assert_update_course_response(request=request, response=response_data, course_id=function_course.id)
+        assert_update_course_response(request=request, response=response_data,
+                                      course_id=function_course.id)
 
         validate_json_schema(response.json(), UpdateCourseResponseSchema.model_json_schema())
 
@@ -82,7 +85,8 @@ class TestCourses:
     @allure.severity(Severity.BLOCKER)
     def test_create_course(self, courses_client: CoursesClient, function_file: FileFixture,
                            function_user: UserFixture):
-        request = CreateCourseRequestSchema(created_by_user_id=function_user.id, preview_file_id=function_file.id)
+        request = CreateCourseRequestSchema(created_by_user_id=function_user.id,
+                                            preview_file_id=function_file.id)
         response = courses_client.create_course_api(request=request)
         response_data = CreateCourseResponseSchema.model_validate_json(response.text)
 

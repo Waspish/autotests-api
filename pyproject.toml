@@ -1,0 +1,40 @@
+[tool.mypy]
+exclude = [
+    '^\.venv/',
+    '^\.gemini/',
+    '^allure-report/',
+    '^allure-results/',
+    '^coverage-results/',
+    '^coverage\.html$',
+    '^coverage-history\.json$',
+    '^coverage-report\.json$',
+    '^GEMINI\.md$',
+    '^SPEC\.md$',
+    '^StudyFiles/',
+    '^Введение в HTTPX/',
+]
+
+# Не падать на библиотеках без type stubs (swagger_coverage_tool, jsonschema и т.п.)
+ignore_missing_imports = true
+
+# Плагин Pydantic — помогает mypy понимать alias_generator=to_camel
+plugins = ["pydantic.mypy"]
+
+# Немного строгости (опционально, можно убрать)
+warn_unused_ignores = true
+warn_redundant_casts = true
+show_error_codes = true
+pretty = true
+
+# Точечные переопределения для проблемных библиотек
+[[tool.mypy.overrides]]
+module = ["swagger_coverage_tool.*"]
+ignore_missing_imports = true
+
+[[tool.mypy.overrides]]
+module = ["jsonschema.*"]
+ignore_missing_imports = true
+
+# Pydantic-плагин для ваших схем (подставьте свой пакет)
+[[tool.mypy.overrides]]
+module = ["schemas.*", "clients.*", "fixtures.*", "tests.*", "tools.*", "config"]

@@ -23,6 +23,7 @@ coverage-results/
 .geminiignore
 GEMINI.md
 .gemini
+SPEC.md
 
 # android launch files
 wheels
