@@ -1,0 +1,10 @@
+curl -X 'POST' 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA5LTIwVDIxOjQyOjE1LjY3NjU5NCIsInVzZXJfaWQiOiJkZDZlYzA5Ni0wMWIxLTRiOTktYWE3NS1hODBmZjA2NjBjODQifQ.KNORePG8bzS-jcNUU5orULCtxIJcpUyT5OKlscW6OTQ' \
+ -H 'content-length: 451' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Спорт отъезд даль вывести пересечь.","description":"Полностью сбросить за число вздрогнуть прелесть. Ход интеллектуальный стакан точно вскакивать горький.","createdByUserId":"dd6ec096-01b1-4b99-aa75-a80ff0660c84","previewFileId":"125c52c5-2c30-4065-bb16-8eade7505fcb","maxScore":78,"minScore":15,"estimatedTime":"5 weeks"}'

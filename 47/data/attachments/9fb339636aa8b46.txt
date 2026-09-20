@@ -1,0 +1,10 @@
+curl -X 'POST' 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA5LTIwVDIxOjQyOjIyLjM3ODc4MCIsInVzZXJfaWQiOiJhODhhZDE0Yi03YjQ3LTQ0ZDUtODA2Mi1jYTkyYmQyYjAxY2EifQ.q8CEQFL9zuh3KH2EJo88u629N-RyjYxYYXaapn93lUU' \
+ -H 'content-length: 366' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Разводить дрогнуть болото экзамен.","description":"Полоска табак решение запретить школьный реклама горький.","createdByUserId":"a88ad14b-7b47-44d5-8062-ca92bd2b01ca","previewFileId":"1ede8333-3ae8-4e33-bbc2-c97d433b462b","maxScore":98,"minScore":28,"estimatedTime":"7 weeks"}'

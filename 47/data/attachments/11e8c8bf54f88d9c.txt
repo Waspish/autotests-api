@@ -1,0 +1,10 @@
+curl -X 'POST' 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA5LTIwVDIxOjQyOjE4LjgzODQ2MyIsInVzZXJfaWQiOiJlZWNmZmUwNy03YjgyLTQ2MWYtOTJlNy0wYjFiM2U0ZDA1ZGQifQ.eUeOFTuBjiJ7Fxof7qIs-ySGUngQ9A8LjUJS_kgVnmI' \
+ -H 'content-length: 519' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Тусклый танцевать покидать тусклый издали мусор.","description":"Выраженный точно приличный слишком запустить вскакивать холодно. Ремень полевой сомнительный успокоиться смелый холодно кожа.","createdByUserId":"eecffe07-7b82-461f-92e7-0b1b3e4d05dd","previewFileId":"1bfae842-0287-4dba-b5d8-ff8b5d4dba28","maxScore":68,"minScore":9,"estimatedTime":"6 weeks"}'

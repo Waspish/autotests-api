@@ -1,0 +1,10 @@
+curl -X 'POST' 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA5LTIwVDIxOjQyOjE3LjA2MjAwNiIsInVzZXJfaWQiOiIwMzU2YTdkNi00NTA1LTQ4MzYtYmZjMC0yMWRlN2E3MWQ2MjEifQ.Yufsme1B98eWc2UYJDJTW0CkaImF9oi-9R5NGfwouiQ' \
+ -H 'content-length: 561' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Правление задрать кузнец что поймать заложить мера.","description":"Пространство вскакивать выкинуть смеяться. Кузнец товар направо.\nЧем нож рис намерение тута. Темнеть мусор дорогой исполнять снимать расстегнуть.","createdByUserId":"0356a7d6-4505-4836-bfc0-21de7a71d621","previewFileId":"1c914d30-c1e0-4af9-9fb4-961e07c4dfbe","maxScore":90,"minScore":11,"estimatedTime":"10 weeks"}'

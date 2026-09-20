@@ -1,0 +1,10 @@
+curl -X 'POST' 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA5LTIwVDIxOjQyOjE2LjUxNzMyNiIsInVzZXJfaWQiOiJjNmQ0NDk5OC1iYjRhLTRkZWQtODM3Zi1hYTQ3NTM2NjExMTIifQ.09uNRV35WhW0FO8IFe2j0jGP63mjOazC4btokXYFAVo' \
+ -H 'content-length: 449' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Посвятить смеяться исполнять деньги сустав горький костер.","description":"Приятель кидать приятель функция миллиард. Аж трубка мучительно научить товар.","createdByUserId":"c6d44998-bb4a-4ded-837f-aa4753661112","previewFileId":"cc8cae03-f7db-4bff-9caf-fc0d11fea43a","maxScore":85,"minScore":19,"estimatedTime":"8 weeks"}'

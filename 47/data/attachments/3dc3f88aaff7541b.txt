@@ -1,0 +1,10 @@
+curl -X 'POST' 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA5LTIwVDIxOjQyOjE3LjczNTI5OSIsInVzZXJfaWQiOiI3ODRiYWNjNC0wMmY0LTQ2ZjktOWMyNi1mYTA2MTZlMmI0ZjgifQ.ELmZd4-9IeZX54chCjMfrgwBRgSLRIpYwokPNkD4VsA' \
+ -H 'content-length: 511' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Мотоцикл зеленый монета.","description":"Посидеть тяжелый даль кожа предоставить армейский. Уточнить уточнить ломать вариант. Затянуться применяться академик снимать миф неправда термин.","createdByUserId":"784bacc4-02f4-46f9-9c26-fa0616e2b4f8","previewFileId":"50b1eef7-1ed8-4a24-bf56-1ea1350bc8c6","maxScore":60,"minScore":20,"estimatedTime":"8 weeks"}'

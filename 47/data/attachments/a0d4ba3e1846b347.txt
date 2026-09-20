@@ -1,0 +1,10 @@
+curl -X 'POST' 'http://localhost:8000/api/v1/exercises' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA5LTIwVDIxOjQyOjE4LjI4NzEzMiIsInVzZXJfaWQiOiJjZmM0OWEwNy1kNDBhLTRhOGYtOGRhMi02MTY3MjFlOTVmZGQifQ.qLUZRDYPGLObeR5MBQ_HT5CT4OBn7uu6Xs8iQaLpUYs' \
+ -H 'content-length: 574' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Миф устройство костер столетие упор.","description":"Академик очко войти банда тысяча. Возбуждение спешить казнь спешить.\nУспокоиться домашний мимо рот банда. Скрытый школьный услать доставать. Пространство заложить каюта о набор жить остановить.","courseId":"62b6fde7-3e4e-46b6-9fcf-9c49d5c22b1a","maxScore":58,"minScore":13,"orderIndex":12,"estimatedTime":"7 weeks"}'

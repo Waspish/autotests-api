@@ -1,0 +1,10 @@
+curl -X 'PATCH' 'http://localhost:8000/api/v1/courses/82d7a953-8bd1-457f-92c1-3bc29a95c66a' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA5LTIwVDIxOjQyOjE3LjA2MjAwNiIsInVzZXJfaWQiOiIwMzU2YTdkNi00NTA1LTQ4MzYtYmZjMC0yMWRlN2E3MWQ2MjEifQ.Yufsme1B98eWc2UYJDJTW0CkaImF9oi-9R5NGfwouiQ' \
+ -H 'content-length: 515' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Вариант ягода находить хотеть граница экзамен.","description":"Степь дошлый неправда пространство легко. Низкий обида задрать блин. Тысяча решение совет советовать полевой результат означать.\nОчутиться совещание дьявол настать. Мусор крыса песня миг.","maxScore":63,"minScore":1,"estimatedTime":"5 weeks"}'

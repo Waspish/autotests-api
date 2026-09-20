@@ -1,0 +1,10 @@
+curl -X 'POST' 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA5LTIwVDIxOjQyOjIwLjkwMTY0MSIsInVzZXJfaWQiOiIzYzM0MjI1OC1jMWRiLTQwYTMtYjEzMC1lZjc3NjllZDQ1ZjAifQ.WkJVN1FjWUrlIBr_SAVXTcBWMC51IfQKG3zyCjhZNmI' \
+ -H 'content-length: 608' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Заявление мальчишка грудь мучительно.","description":"Пропадать печатать миллиард коробка расстегнуть нажать тесно роскошный.\nХотеть означать задрать подземный естественный четко девка приятель. Падать ярко поезд падаль выдержать лететь.","createdByUserId":"3c342258-c1db-40a3-b130-ef7769ed45f0","previewFileId":"4523c8f5-f92a-4b4a-b0f0-c7f865e48d43","maxScore":70,"minScore":17,"estimatedTime":"6 weeks"}'

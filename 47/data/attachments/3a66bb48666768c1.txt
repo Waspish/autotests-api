@@ -1,0 +1,10 @@
+curl -X 'POST' 'http://localhost:8000/api/v1/exercises' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA5LTIwVDIxOjQyOjE5Ljk3NTUxMyIsInVzZXJfaWQiOiIwZGU2MzYxMi00MjZiLTRjNzEtYTJmNy05MjFkZjkzNDE5NGQifQ.8ZY3h6y8iweWBmBrUMsL8xmuEntQeOM_vQsdwb55ny8' \
+ -H 'content-length: 497' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Мера чувство упорно вскакивать монета.","description":"Рай страсть обида голубчик заработать команда. Неправда интеллектуальный расстегнуть плод казнь. Девка невыносимый дальний невозможно мрачно мягкий.","courseId":"2e9195a1-8ed5-4fb6-8fcf-82b67e66da16","maxScore":89,"minScore":27,"orderIndex":98,"estimatedTime":"6 weeks"}'

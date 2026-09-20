@@ -1,0 +1,10 @@
+curl -X 'POST' 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA5LTIwVDIxOjQyOjE5LjcxMzkzNCIsInVzZXJfaWQiOiIwNjIyZWMyOC0zODBlLTRkZmQtODA0OC1kNWRjNWM3ZWZhZTQifQ.1lRoS3EKO00N1NJLSb2d9_a4v4bvGmfHhZEHip_g7m0' \
+ -H 'content-length: 642' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Страсть пятеро дальний сходить поезд спалить витрина.","description":"Слать ребятишки очутиться материя сравнение сомнительный задрать советовать. Очередной зарплата пропасть затянуться ответить. Дрогнуть порт важный выкинуть социалистический налево шлем.","createdByUserId":"0622ec28-380e-4dfd-8048-d5dc5c7efae4","previewFileId":"605538ed-7565-4259-883a-aea6905ff103","maxScore":94,"minScore":19,"estimatedTime":"4 weeks"}'

@@ -1,0 +1,10 @@
+curl -X 'POST' 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA5LTIwVDIxOjQyOjE5Ljk3NTUxMyIsInVzZXJfaWQiOiIwZGU2MzYxMi00MjZiLTRjNzEtYTJmNy05MjFkZjkzNDE5NGQifQ.8ZY3h6y8iweWBmBrUMsL8xmuEntQeOM_vQsdwb55ny8' \
+ -H 'content-length: 591' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Сынок аж назначить руководитель конструкция.","description":"Ход приятель рота назначить. Вытаскивать товар монета реклама палата ремень оборот.\nЗапретить лапа социалистический сынок угроза. Холодно материя порог скрытый команда.","createdByUserId":"0de63612-426b-4c71-a2f7-921df934194d","previewFileId":"2fb9f2ed-bf69-4dc7-9801-e378640f8f3e","maxScore":76,"minScore":17,"estimatedTime":"9 weeks"}'
