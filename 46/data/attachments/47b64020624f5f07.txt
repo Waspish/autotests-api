@@ -1,0 +1,10 @@
+curl -X 'POST' 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA5LTIwVDE3OjQwOjAzLjgyMzE0NiIsInVzZXJfaWQiOiJkODdkZDhkMC1kNmY0LTQwNmYtYjlkZi0wMTg5NjAyM2U0M2UifQ.Y3YAhDMUMOrx6SPiS9XbcRoxBnQHh4o9nJp5LqpcGM8' \
+ -H 'content-length: 530' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Коллектив точно сопровождаться.","description":"Невозможно подробность сустав холодно. Блин прежде низкий князь зеленый рай.\nПрирода степь степь. Налоговый хотеть плясать приходить бровь написать.","createdByUserId":"d87dd8d0-d6f4-406f-b9df-01896023e43e","previewFileId":"b1364f54-584a-4191-9b12-eb3c32addbe2","maxScore":65,"minScore":27,"estimatedTime":"10 weeks"}'

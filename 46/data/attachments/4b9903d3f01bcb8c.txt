@@ -1,0 +1,10 @@
+curl -X 'POST' 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA5LTIwVDE3OjQwOjA0LjYyMjI1NSIsInVzZXJfaWQiOiJiNjEzOTVkNS00MGU1LTQzN2YtYjdlOC1iMjUwYzZmYTY1YjUifQ.jfKn2vGw9DHL-4KsFrKu-1FTEfqKF3UPaKfYtHqTNhU' \
+ -H 'content-length: 416' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Армейский тяжелый разводить жидкий монета налево предоставить.","description":"Поздравлять научить анализ вздрогнуть рис расстройство.","createdByUserId":"b61395d5-40e5-437f-b7e8-b250c6fa65b5","previewFileId":"89f59240-3453-4b6e-8b6c-625086d9fc96","maxScore":82,"minScore":16,"estimatedTime":"8 weeks"}'

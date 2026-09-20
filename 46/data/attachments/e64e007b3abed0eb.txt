@@ -1,0 +1,22 @@
+INFO     HTTP_LOGGER:event_hooks.py:31 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:40 Got response 200 OK
+INFO     HTTP_LOGGER:event_hooks.py:31 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:40 Got response 200 OK
+INFO     HTTP_LOGGER:event_hooks.py:31 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:40 Got response 200 OK
+INFO     HTTP_LOGGER:event_hooks.py:31 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGGER:event_hooks.py:40 Got response 200 OK
+INFO     HTTP_LOGGER:event_hooks.py:31 Make POST request to http://localhost:8000/api/v1/exercises
+INFO     HTTP_LOGGER:event_hooks.py:40 Got response 200 OK
+INFO     BASE_ASSERTIONS:base.py:12 Check that response status code equals to '200'
+INFO     EXERCISES_ASSERTIONS:exercises.py:46 Check create exercise response
+INFO     BASE_ASSERTIONS:base.py:21 Check that 'title' equals to 'Идея пастух висеть пасть армейский мелочь точно.'
+INFO     BASE_ASSERTIONS:base.py:21 Check that 'course_id' equals to 'c5273f9e-93c1-4ea2-a6b3-e8d11c465edf'
+INFO     BASE_ASSERTIONS:base.py:21 Check that 'max_score' equals to '50'
+INFO     BASE_ASSERTIONS:base.py:21 Check that 'min_score' equals to '9'
+INFO     BASE_ASSERTIONS:base.py:21 Check that 'order_index' equals to '93'
+INFO     BASE_ASSERTIONS:base.py:21 Check that 'description' equals to 'Пропадать настать изучить монета. Отражение выбирать куча возникновение затянуться спичка.
+Издали мера наслаждение вскакивать крыса. Другой покидать мимо необычный банк отъезд. Тута сустав тусклый.'
+INFO     BASE_ASSERTIONS:base.py:21 Check that 'estimated_time' equals to '8 weeks'
+INFO     BASE_ASSERTIONS:base.py:39 Check that 'exercise_id' is true.
+INFO     SCHEMA_ASSERTIONS:schema.py:21 Validating JSON schema

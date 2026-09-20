@@ -1,0 +1,10 @@
+curl -X 'POST' 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA5LTIwVDE3OjQwOjAyLjAzNzcyNSIsInVzZXJfaWQiOiIzNjYwZjlmNy1hYzNiLTQzYTYtYmYyZi0yZTM0NmZmNjliNzYifQ.gt0yiOaoJ5j32y20lXckOa_5FmE4DuNjQ8JwiTQJyXk' \
+ -H 'content-length: 665' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Интернет постоянный порт отдел трубка инфекция господь социалистический.","description":"Решетка скрытый секунда прежний доставать сынок волк задержать. Успокоиться дорогой художественный уничтожение. Равнодушный совещание подробность помимо приятель правление четко.","createdByUserId":"3660f9f7-ac3b-43a6-bf2f-2e346ff69b76","previewFileId":"9c7776cc-0624-40b9-aed9-1455c775a745","maxScore":98,"minScore":1,"estimatedTime":"3 weeks"}'

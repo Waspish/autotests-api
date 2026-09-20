@@ -1,0 +1,10 @@
+curl -X 'POST' 'http://localhost:8000/api/v1/exercises' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA5LTIwVDE3OjQwOjA1LjY4NzkwNSIsInVzZXJfaWQiOiIwYjE2N2JlNy05MWE0LTQwZDctODM2Yi01Y2Q0MGI1N2RmY2UifQ.D2XmGDybWDitTFwHGx0bCyzIOEUIOGL-axabZqcbcW8' \
+ -H 'content-length: 542' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Призыв боец светило изба салон потрясти медицина.","description":"Что спасть монета висеть. Багровый дьявол умирать изменение. Важный боец роса задрать июнь.\nРадость райком пропаганда редактор помимо. Терапия командование вообще.","courseId":"d2fe0716-d817-4d46-a2e6-1ec26a26161e","maxScore":80,"minScore":23,"orderIndex":92,"estimatedTime":"3 weeks"}'

@@ -1,0 +1,10 @@
+curl -X 'POST' 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA5LTIwVDE3OjQwOjA2LjczMTg0NSIsInVzZXJfaWQiOiI3MTk4MTc0Mi00ZTdmLTQ4ZDAtYmY5My1mOGY3NTg1YzQ5YjYifQ.My5icwdRgaXd-mfoJ3tqJfdnMjSQuBrqCOuQun3fOmI' \
+ -H 'content-length: 441' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Носок мимо плясать бак привлекать.","description":"Триста издали вариант термин. Остановить достоинство процесс нож неправда четко бак возникновение.","createdByUserId":"71981742-4e7f-48d0-bf93-f8f7585c49b6","previewFileId":"3cd19a2e-19d4-4f00-9b86-61a67026eceb","maxScore":80,"minScore":26,"estimatedTime":"8 weeks"}'
