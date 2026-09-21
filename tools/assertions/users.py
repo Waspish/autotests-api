@@ -1,8 +1,10 @@
 import allure
 
+from clients.errors_schema import ValidationErrorResponseSchema, ValidationErrorSchema
 from clients.users.users_schema import CreateUserResponseSchema, UserSchema, \
     GetUserResponseSchema, CreateUserRequestSchema
 from tools.assertions.base import assert_equal, assert_is_true
+from tools.assertions.errors import assert_validation_error_response
 from tools.logger import get_logger
 
 logger = get_logger("USERS_ASSERTIONS")
@@ -62,3 +64,35 @@ def assert_create_user_response(
     assert_equal(response.user.first_name, request.first_name, 'first_name')
     assert_equal(response.user.last_name, request.last_name, 'last_name')
     assert_equal(response.user.middle_name, request.middle_name, 'middle_name')
+
+
+@allure.step("Check get user with incorrect user id response")
+def assert_get_user_with_incorrect_user_id_response(actual: ValidationErrorResponseSchema):
+    """
+    Проверяет, что ответ на получение пользователя с некорректным значением id
+    соответствует ожидаемой валидационной ошибке.
+
+    :param actual: Ответ от API с ошибкой валидации, который необходимо проверить.
+    :raises AssertionError: Если фактический ответ не соответствует ожидаемому.
+    """
+    logger.info("Check get user with incorrect user id response")
+
+    expected = ValidationErrorResponseSchema(
+        details=[
+            ValidationErrorSchema(
+                type='uuid_parsing',
+                location=["path", "user_id"],
+                message="Input should be a valid UUID, invalid character: "
+                        "expected an optional prefix of `urn:uuid:` "
+                        "followed by [0-9a-fA-F-], found `i` at 1",
+                input="incorrect-user-id",
+                context={
+                    "error": "invalid character: expected an optional prefix "
+                             "of `urn:uuid:` followed by [0-9a-fA-F-], "
+                             "found `i` at 1"
+                }
+            )
+        ]
+    )
+
+    assert_validation_error_response(actual=actual, expected=expected)

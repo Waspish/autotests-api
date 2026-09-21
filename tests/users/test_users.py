@@ -4,6 +4,7 @@ import allure
 import pytest
 from allure_commons.types import Severity
 
+from clients.errors_schema import ValidationErrorResponseSchema
 from clients.users.private_users_client import PrivateUsersClient
 from clients.users.public_users_client import PublicUsersClient
 from clients.users.users_schema import CreateUserRequestSchema, CreateUserResponseSchema, GetUserResponseSchema
@@ -14,7 +15,11 @@ from tools.allure.stories import AllureStory
 from tools.allure.tags import AllureTag
 from tools.assertions.base import assert_status_code
 from tools.assertions.schema import validate_json_schema
-from tools.assertions.users import assert_get_user_response, assert_create_user_response
+from tools.assertions.users import (
+    assert_get_user_response,
+    assert_create_user_response,
+    assert_get_user_with_incorrect_user_id_response,
+)
 from tools.fakers import fake
 
 
@@ -58,3 +63,31 @@ class TestUsers:
         assert_get_user_response(get_user_response=response_data, create_user_response=function_user.response)
 
         validate_json_schema(response.json(), GetUserResponseSchema.model_json_schema())
+
+    @allure.title("Get user by id")
+    @allure.tag(AllureTag.GET_ENTITY)
+    @allure.story(AllureStory.GET_ENTITY)
+    @allure.sub_suite(AllureStory.GET_ENTITY)
+    @allure.severity(Severity.CRITICAL)
+    def test_get_user_by_id(self, private_users_client: PrivateUsersClient, function_user: UserFixture):
+        response = private_users_client.get_user_api(function_user.id)
+        response_data = GetUserResponseSchema.model_validate_json(response.text)
+
+        assert_status_code(response.status_code, HTTPStatus.OK)
+        assert_get_user_response(get_user_response=response_data, create_user_response=function_user.response)
+
+        validate_json_schema(response.json(), GetUserResponseSchema.model_json_schema())
+
+    @allure.title("Get user with incorrect user id")
+    @allure.tag(AllureTag.VALIDATE_ENTITY)
+    @allure.story(AllureStory.VALIDATE_ENTITY)
+    @allure.sub_suite(AllureStory.VALIDATE_ENTITY)
+    @allure.severity(Severity.NORMAL)
+    def test_get_user_with_incorrect_user_id(self, private_users_client: PrivateUsersClient):
+        response = private_users_client.get_user_api(user_id="incorrect-user-id")
+        response_data = ValidationErrorResponseSchema.model_validate_json(response.text)
+
+        assert_status_code(response.status_code, HTTPStatus.UNPROCESSABLE_ENTITY)
+        assert_get_user_with_incorrect_user_id_response(response_data)
+
+        validate_json_schema(response.json(), ValidationErrorResponseSchema.model_json_schema())
