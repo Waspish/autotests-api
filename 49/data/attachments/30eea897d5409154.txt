@@ -1,0 +1,24 @@
+INFO     HTTP_LOGGER:event_hooks.py:31 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:40 Got response 200 OK
+INFO     HTTP_LOGGER:event_hooks.py:31 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:40 Got response 200 OK
+INFO     HTTP_LOGGER:event_hooks.py:31 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:40 Got response 200 OK
+INFO     HTTP_LOGGER:event_hooks.py:31 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGGER:event_hooks.py:40 Got response 200 OK
+INFO     HTTP_LOGGER:event_hooks.py:31 Make POST request to http://localhost:8000/api/v1/exercises
+INFO     HTTP_LOGGER:event_hooks.py:40 Got response 200 OK
+INFO     HTTP_LOGGER:event_hooks.py:31 Make GET request to http://localhost:8000/api/v1/exercises/45f9fbf9-a9a3-44f7-baa3-66e6fa8a8931
+INFO     HTTP_LOGGER:event_hooks.py:40 Got response 200 OK
+INFO     BASE_ASSERTIONS:base.py:12 Check that response status code equals to '200'
+INFO     EXERCISES_ASSERTIONS:exercises.py:69 Check get exercise response
+INFO     EXERCISES_ASSERTIONS:exercises.py:25 Check exercise
+INFO     BASE_ASSERTIONS:base.py:21 Check that 'title' equals to 'Пламя песенка угодный хлеб реклама табак.'
+INFO     BASE_ASSERTIONS:base.py:21 Check that 'course_id' equals to '87bfaf5a-5f99-404c-98ab-0bf20a458ea1'
+INFO     BASE_ASSERTIONS:base.py:21 Check that 'max_score' equals to '53'
+INFO     BASE_ASSERTIONS:base.py:21 Check that 'min_score' equals to '14'
+INFO     BASE_ASSERTIONS:base.py:21 Check that 'order_index' equals to '67'
+INFO     BASE_ASSERTIONS:base.py:21 Check that 'description' equals to 'Триста уронить светило сравнение страсть собеседник. Отъезд обида применяться полюбить мусор идея руководитель. Выраженный академик валюта изучить передо.'
+INFO     BASE_ASSERTIONS:base.py:21 Check that 'estimated_time' equals to '2 weeks'
+INFO     BASE_ASSERTIONS:base.py:21 Check that 'id' equals to '45f9fbf9-a9a3-44f7-baa3-66e6fa8a8931'
+INFO     SCHEMA_ASSERTIONS:schema.py:21 Validating JSON schema

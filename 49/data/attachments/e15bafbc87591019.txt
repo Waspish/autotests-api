@@ -1,0 +1,10 @@
+curl -X 'POST' 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA5LTIxVDE5OjU5OjAxLjA0MDM4NyIsInVzZXJfaWQiOiI2ZmE5ZmVlNi0xMDQ2LTQzMDAtOTcxYi0xZDQ0MzZhOGI5NmUifQ.bmolGSsJsGIUfICGL_krlrSaEtw_W0rIHH7SDkmu0QQ' \
+ -H 'content-length: 540' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Столетие роскошный секунда карман построить остановить граница.","description":"Миг человечек боец построить. Боец запретить тусклый юный понятный валюта наткнуться. Потянуться разуметься естественный.","createdByUserId":"6fa9fee6-1046-4300-971b-1d4436a8b96e","previewFileId":"5be78377-99ac-4c5d-916d-0e35576a0aac","maxScore":58,"minScore":22,"estimatedTime":"9 weeks"}'

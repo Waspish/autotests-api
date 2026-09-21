@@ -1,0 +1,10 @@
+curl -X 'POST' 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA5LTIxVDE5OjU4OjU4Ljg0NTA1OCIsInVzZXJfaWQiOiI1MmE3NmE4OC1jYzRhLTRmNjAtOWE2MC0xYzI2NDRmNWQ0NzUifQ.7xuWMilfgMyMA9WxrDDgAdcD6uSiPhk1z9CJwWA9DD0' \
+ -H 'content-length: 534' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Расстройство товар деньги.","description":"Единый сустав премьера бочок мера. Дремать аллея природа грустный. Иной прежде посидеть число пропасть.\nПрощение ленинград термин умирать полоска скользить.","createdByUserId":"52a76a88-cc4a-4f60-9a60-1c2644f5d475","previewFileId":"62c5db1b-6683-485e-bc82-9cd894733c39","maxScore":82,"minScore":24,"estimatedTime":"5 weeks"}'

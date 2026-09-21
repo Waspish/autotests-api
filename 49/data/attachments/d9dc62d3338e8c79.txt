@@ -1,0 +1,10 @@
+curl -X 'POST' 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA5LTIxVDE5OjU5OjAyLjIyMTY3NCIsInVzZXJfaWQiOiJhYWQyODkxYy00OWRkLTRmNGItOGNlYS1kOWRlYWIzZDEzYzYifQ.xW8fq8o2ZVqyYIaWRFoRZV2aUBcJFIBtt64MFmEqaWo' \
+ -H 'content-length: 535' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Миг тревога сверкать деньги поколение трубка функция.","description":"Освободить освободить стакан желание конференция. Выраженный поставить новый. Танцевать князь ночь холодно означать развернуться.","createdByUserId":"aad2891c-49dd-4f4b-8cea-d9deab3d13c6","previewFileId":"5748dee8-8f78-4315-a6b7-257937f2e699","maxScore":71,"minScore":9,"estimatedTime":"6 weeks"}'

@@ -1,0 +1,10 @@
+curl -X 'POST' 'http://localhost:8000/api/v1/exercises' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA5LTIxVDE5OjU5OjAxLjA0MDM4NyIsInVzZXJfaWQiOiI2ZmE5ZmVlNi0xMDQ2LTQzMDAtOTcxYi0xZDQ0MzZhOGI5NmUifQ.bmolGSsJsGIUfICGL_krlrSaEtw_W0rIHH7SDkmu0QQ' \
+ -H 'content-length: 458' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Иной невыносимый поймать.","description":"Уточнить заработать кольцо академик триста торговля командующий поезд. Неправда падаль госпожа забирать темнеть. Неправда кольцо пища песня.","courseId":"76621688-da7c-47b0-9233-c64fe6fec8e3","maxScore":57,"minScore":20,"orderIndex":64,"estimatedTime":"10 weeks"}'

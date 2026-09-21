@@ -1,0 +1,10 @@
+curl -X 'POST' 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA5LTIxVDE5OjU5OjAzLjU1MDI2NSIsInVzZXJfaWQiOiI3OWQyYjkxNC01MWRmLTQyNjktOWNkNC0zMGEyNTU0ZWIyZTMifQ.79URCuG-FhpdxwLbMzgR1NkfqweOgCNTrTLxdhgfTEc' \
+ -H 'content-length: 584' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Лететь солнце уронить забирать.","description":"Носок присесть тревога жить домашний мгновение ложиться цепочка. Человечек приятель пропасть скользить вообще приятель. Поздравлять сустав пламя аллея понятный гулять указанный.","createdByUserId":"79d2b914-51df-4269-9cd4-30a2554eb2e3","previewFileId":"56e68692-b701-4b6c-badc-afe31225174f","maxScore":53,"minScore":14,"estimatedTime":"9 weeks"}'

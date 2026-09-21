@@ -1,0 +1,10 @@
+curl -X 'POST' 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA5LTIxVDE5OjU4OjU4LjIxNTYwMyIsInVzZXJfaWQiOiIwMGZjOTc5My1jZDFmLTRhOWItOGQxMC0xZGY3YTFlY2ViZjQifQ.o1eV3QWElCii00KVTyB31blS9X8RLEyeDYeKGhbtB_g' \
+ -H 'content-length: 547' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Вздрогнуть указанный зато прелесть.","description":"Нож набор школьный плясать степь реклама коллектив выраженный. Кольцо анализ художественный миф. Помимо спешить мальчишка выражение посидеть подробность.","createdByUserId":"00fc9793-cd1f-4a9b-8d10-1df7a1ecebf4","previewFileId":"57b3677a-c7c8-407e-b0a5-9eb01f248889","maxScore":96,"minScore":23,"estimatedTime":"7 weeks"}'

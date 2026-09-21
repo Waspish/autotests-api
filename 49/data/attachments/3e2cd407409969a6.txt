@@ -1,0 +1,10 @@
+curl -X 'PATCH' 'http://localhost:8000/api/v1/exercises/09235d2a-181d-48fe-a921-6b405b71b65c' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA5LTIxVDE5OjU5OjAwLjgwMTY5MSIsInVzZXJfaWQiOiIyMDdjZjRmMC0yZGUyLTQyNWYtYmYwMC1mNGJmMWI5NmFkMTgifQ.63SvxCdy0fXzd0sBgaLz3v4ldlGXmz57zaFGrl7OIUE' \
+ -H 'content-length: 564' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Сопровождаться сохранять остановить правильный.","description":"Славный запретить скрытый добиться. Гулять успокоиться ручей торговля. Банк цель зачем падаль висеть.\nМонета мгновение подземный желание приятель. Настать предоставить ложиться.","courseId":"45027b8b-5bb3-4c5f-a86c-a97293da5053","maxScore":75,"minScore":18,"orderIndex":16,"estimatedTime":null}'

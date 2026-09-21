@@ -1,0 +1,10 @@
+curl -X 'POST' 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA5LTIxVDE5OjU5OjAwLjgwMTY5MSIsInVzZXJfaWQiOiIyMDdjZjRmMC0yZGUyLTQyNWYtYmYwMC1mNGJmMWI5NmFkMTgifQ.63SvxCdy0fXzd0sBgaLz3v4ldlGXmz57zaFGrl7OIUE' \
+ -H 'content-length: 557' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Другой премьера командование невыносимый командующий анализ.","description":"Рота хлеб выбирать конференция зачем запретить помимо. Идея тюрьма решение бак еврейский. Мальчишка изменение деньги уронить печатать.","createdByUserId":"207cf4f0-2de2-425f-bf00-f4bf1b96ad18","previewFileId":"65d52e02-35bd-4bec-84d0-f00d65e0bf94","maxScore":72,"minScore":3,"estimatedTime":"6 weeks"}'

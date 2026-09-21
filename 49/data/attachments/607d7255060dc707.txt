@@ -1,0 +1,10 @@
+curl -X 'POST' 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA5LTIxVDE5OjU5OjAzLjMxMDMxMyIsInVzZXJfaWQiOiJkY2YyYmEwMy0zNDRhLTRjNTQtYWIyZC0wN2EyNDUxMmQ5MjQifQ.rd0eCnqBiIqgansjNeaw5sZxmcTluv7VeOerDWRyKOA' \
+ -H 'content-length: 536' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Крутой коллектив валюта мягкий.","description":"Голубчик тысяча мрачно командир одиннадцать. Коммунизм волк слать триста правильный сбросить решение. Домашний невыносимый миг услать коллектив процесс.","createdByUserId":"dcf2ba03-344a-4c54-ab2d-07a24512d924","previewFileId":"18e61907-e59e-4e6e-be1c-56a2ed962299","maxScore":81,"minScore":4,"estimatedTime":"3 weeks"}'

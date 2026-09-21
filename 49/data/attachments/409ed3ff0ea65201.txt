@@ -1,0 +1,10 @@
+curl -X 'PATCH' 'http://localhost:8000/api/v1/courses/329dd8bd-09b2-4b09-bf2d-a34c52dc6130' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA5LTIxVDE5OjU4OjU4Ljg0NTA1OCIsInVzZXJfaWQiOiI1MmE3NmE4OC1jYzRhLTRmNjAtOWE2MC0xYzI2NDRmNWQ0NzUifQ.7xuWMilfgMyMA9WxrDDgAdcD6uSiPhk1z9CJwWA9DD0' \
+ -H 'content-length: 472' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Вперед около растеряться исполнять указанный.","description":"Отражение свежий тесно следовательно. Вперед цель спасть конференция покинуть.\nИной пересечь полюбить витрина мальчишка печатать. Ручей мелочь сустав кпсс фонарик.","maxScore":99,"minScore":28,"estimatedTime":"7 weeks"}'

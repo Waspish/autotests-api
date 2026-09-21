@@ -1,0 +1,47 @@
+INFO     HTTP_LOGGER:event_hooks.py:31 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:40 Got response 200 OK
+INFO     HTTP_LOGGER:event_hooks.py:31 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:40 Got response 200 OK
+INFO     HTTP_LOGGER:event_hooks.py:31 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:40 Got response 200 OK
+INFO     HTTP_LOGGER:event_hooks.py:31 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGGER:event_hooks.py:40 Got response 200 OK
+INFO     HTTP_LOGGER:event_hooks.py:31 Make POST request to http://localhost:8000/api/v1/exercises
+INFO     HTTP_LOGGER:event_hooks.py:40 Got response 200 OK
+INFO     HTTP_LOGGER:event_hooks.py:31 Make POST request to http://localhost:8000/api/v1/exercises
+INFO     HTTP_LOGGER:event_hooks.py:40 Got response 200 OK
+INFO     HTTP_LOGGER:event_hooks.py:31 Make POST request to http://localhost:8000/api/v1/exercises
+INFO     HTTP_LOGGER:event_hooks.py:40 Got response 200 OK
+INFO     HTTP_LOGGER:event_hooks.py:31 Make GET request to http://localhost:8000/api/v1/exercises?courseId=680c7813-5b07-4844-8e90-766b86a48b07
+INFO     HTTP_LOGGER:event_hooks.py:40 Got response 200 OK
+INFO     BASE_ASSERTIONS:base.py:12 Check that response status code equals to '200'
+INFO     EXERCISES_ASSERTIONS:exercises.py:86 Check get exercises response
+INFO     BASE_ASSERTIONS:base.py:57 Check that length of 'exercises' equals to '3'
+INFO     EXERCISES_ASSERTIONS:exercises.py:25 Check exercise
+INFO     BASE_ASSERTIONS:base.py:21 Check that 'title' equals to 'Прошептать способ степь другой.'
+INFO     BASE_ASSERTIONS:base.py:21 Check that 'course_id' equals to '680c7813-5b07-4844-8e90-766b86a48b07'
+INFO     BASE_ASSERTIONS:base.py:21 Check that 'max_score' equals to '75'
+INFO     BASE_ASSERTIONS:base.py:21 Check that 'min_score' equals to '9'
+INFO     BASE_ASSERTIONS:base.py:21 Check that 'order_index' equals to '60'
+INFO     BASE_ASSERTIONS:base.py:21 Check that 'description' equals to 'Недостаток триста картинка другой предоставить коллектив услать. Исполнять около передо левый солнце сынок руководитель рис. Совет бак плясать художественный торговля хозяйка монета миллиард.'
+INFO     BASE_ASSERTIONS:base.py:21 Check that 'estimated_time' equals to '5 weeks'
+INFO     BASE_ASSERTIONS:base.py:21 Check that 'id' equals to '04fab851-d2c3-4b9c-932c-dba4fe1a63b7'
+INFO     EXERCISES_ASSERTIONS:exercises.py:25 Check exercise
+INFO     BASE_ASSERTIONS:base.py:21 Check that 'title' equals to 'Правление уточнить слишком порог наткнуться полностью бочок.'
+INFO     BASE_ASSERTIONS:base.py:21 Check that 'course_id' equals to '680c7813-5b07-4844-8e90-766b86a48b07'
+INFO     BASE_ASSERTIONS:base.py:21 Check that 'max_score' equals to '51'
+INFO     BASE_ASSERTIONS:base.py:21 Check that 'min_score' equals to '2'
+INFO     BASE_ASSERTIONS:base.py:21 Check that 'order_index' equals to '65'
+INFO     BASE_ASSERTIONS:base.py:21 Check that 'description' equals to 'А намерение понятный совещание. Остановить о район наткнуться коммунизм. Горький неправда отъезд ребятишки набор зарплата.'
+INFO     BASE_ASSERTIONS:base.py:21 Check that 'estimated_time' equals to '4 weeks'
+INFO     BASE_ASSERTIONS:base.py:21 Check that 'id' equals to 'b06e68b9-de6a-40bb-9e4f-517fbdba8f1d'
+INFO     EXERCISES_ASSERTIONS:exercises.py:25 Check exercise
+INFO     BASE_ASSERTIONS:base.py:21 Check that 'title' equals to 'Смеяться число рот блин изучить коммунизм.'
+INFO     BASE_ASSERTIONS:base.py:21 Check that 'course_id' equals to '680c7813-5b07-4844-8e90-766b86a48b07'
+INFO     BASE_ASSERTIONS:base.py:21 Check that 'max_score' equals to '99'
+INFO     BASE_ASSERTIONS:base.py:21 Check that 'min_score' equals to '15'
+INFO     BASE_ASSERTIONS:base.py:21 Check that 'order_index' equals to '42'
+INFO     BASE_ASSERTIONS:base.py:21 Check that 'description' equals to 'Наткнуться грудь помимо социалистический спасть кольцо иной тута. Гулять рот четко демократия дурацкий. Избегать команда прелесть дошлый левый. Металл ручей счастье витрина граница материя.'
+INFO     BASE_ASSERTIONS:base.py:21 Check that 'estimated_time' equals to '5 weeks'
+INFO     BASE_ASSERTIONS:base.py:21 Check that 'id' equals to '774c1231-e428-49c3-9f28-cce09dcd0daa'
+INFO     SCHEMA_ASSERTIONS:schema.py:21 Validating JSON schema

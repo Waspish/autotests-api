@@ -1,0 +1,10 @@
+curl -X 'POST' 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA5LTIxVDE5OjU5OjAxLjk4MjA4MiIsInVzZXJfaWQiOiI0ZGZmMDBjNy1jNWYzLTQ5ZGMtODE1ZC0wZTllYzgyM2NkMDgifQ.Qml-v0eRjuF43xFr_3P1aNm85_Y62cT8x8YJIg89zgk' \
+ -H 'content-length: 622' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Спичка порода следовательно пространство вчера командование вообще.","description":"Рис важный спорт аллея. Правление жить вытаскивать космос. Бок исследование изба банк банк заплакать. Увеличиваться командующий точно пол возбуждение услать труп.","createdByUserId":"4dff00c7-c5f3-49dc-815d-0e9ec823cd08","previewFileId":"a6a3e1d2-20ec-4783-8152-a6c439360477","maxScore":61,"minScore":15,"estimatedTime":"4 weeks"}'
