@@ -9,13 +9,18 @@ from fixtures.files import FileFixture
 from fixtures.users import UserFixture
 
 
-class CourseFicture(BaseModel):
-    request: CreateCourseRequestSchema | List[CreateCourseRequestSchema]
-    response: CreateCourseResponseSchema | List[CreateCourseResponseSchema]
+class CourseFixture(BaseModel):
+    request: CreateCourseRequestSchema
+    response: CreateCourseResponseSchema
 
     @property
     def id(self) -> str:
         return self.response.course.id
+
+
+class CoursesFixture(BaseModel):
+    request: List[CreateCourseRequestSchema]
+    response: List[CreateCourseResponseSchema]
 
 
 @pytest.fixture
@@ -28,10 +33,10 @@ def function_course(
         courses_client: CoursesClient,
         function_file: FileFixture,
         function_user: UserFixture
-) -> CourseFicture:
+) -> CourseFixture:
     request = CreateCourseRequestSchema(created_by_user_id=function_user.id, preview_file_id=function_file.id)
     response = courses_client.create_course(request)
-    return CourseFicture(request=request, response=response)
+    return CourseFixture(request=request, response=response)
 
 
 @pytest.fixture
@@ -39,7 +44,7 @@ def function_three_courses(
         courses_client: CoursesClient,
         function_file: FileFixture,
         function_user: UserFixture
-) -> CourseFicture:
+) -> CoursesFixture:
     courses_number = 3
     responses = []
     requests = []
@@ -49,4 +54,4 @@ def function_three_courses(
         requests.append(request)
         responses.append(response)
 
-    return CourseFicture(request=requests, response=responses)
+    return CoursesFixture(request=requests, response=responses)

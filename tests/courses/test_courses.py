@@ -8,7 +8,7 @@ from clients.courses.courses_client import CoursesClient
 from clients.courses.courses_schema import (UpdateCourseRequestSchema, UpdateCourseResponseSchema,
                                             GetCoursesQuerySchema, GetCoursesResponseSchema,
                                             CreateCourseRequestSchema, CreateCourseResponseSchema)
-from fixtures.courses import CourseFicture
+from fixtures.courses import CourseFixture, CoursesFixture
 from fixtures.files import FileFixture
 from fixtures.users import UserFixture
 from tools.allure.epics import AllureEpic
@@ -34,7 +34,7 @@ class TestCourses:
     @allure.story(AllureStory.GET_ENTITIES)
     @allure.sub_suite(AllureStory.GET_ENTITIES)
     @allure.severity(Severity.CRITICAL)
-    def test_get_courses(self, courses_client: CoursesClient, function_course: CourseFicture,
+    def test_get_courses(self, courses_client: CoursesClient, function_course: CourseFixture,
                          function_user: UserFixture):
         request = GetCoursesQuerySchema(user_id=function_user.id)
         response = courses_client.get_courses_api(request)
@@ -51,7 +51,7 @@ class TestCourses:
     @allure.sub_suite(AllureStory.GET_ENTITIES)
     @allure.severity(Severity.CRITICAL)
     def test_get_three_courses(self, courses_client: CoursesClient,
-                               function_three_courses: CourseFicture,
+                               function_three_courses: CoursesFixture,
                                function_user: UserFixture):
         request = GetCoursesQuerySchema(user_id=function_user.id)
         response = courses_client.get_courses_api(request)
@@ -67,7 +67,7 @@ class TestCourses:
     @allure.story(AllureStory.UPDATE_ENTITY)
     @allure.sub_suite(AllureStory.UPDATE_ENTITY)
     @allure.severity(Severity.CRITICAL)
-    def test_update_course(self, function_course: CourseFicture, courses_client: CoursesClient):
+    def test_update_course(self, function_course: CourseFixture, courses_client: CoursesClient):
         request = UpdateCourseRequestSchema()
         response = courses_client.update_course_api(request=request, course_id=function_course.id)
         response_data = UpdateCourseResponseSchema.model_validate_json(response.text)

@@ -30,7 +30,7 @@ class Settings(BaseSettings):
     allure_results_dir: DirectoryPath
 
     @classmethod
-    def initialize(cls) -> Self:
+    def initialize(cls) -> "Settings":
         allure_results_dir = DirectoryPath("./allure-results")
         allure_results_dir.mkdir(exist_ok=True)
 

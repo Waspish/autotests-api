@@ -4,18 +4,24 @@ import pytest
 from pydantic import BaseModel
 
 from clients.exercises.exercises_client import ExerciseClient, get_exercises_client
-from clients.exercises.exercises_schema import CreateExerciseRequestSchema, CreateExerciseResponseSchema
-from fixtures.courses import CourseFicture
+from clients.exercises.exercises_schema import CreateExerciseRequestSchema, \
+    CreateExerciseResponseSchema
+from fixtures.courses import CourseFixture
 from fixtures.users import UserFixture
 
 
 class ExerciseFixture(BaseModel):
-    request: CreateExerciseRequestSchema | List[CreateExerciseRequestSchema]
-    response: CreateExerciseResponseSchema | List[CreateExerciseResponseSchema]
+    request: CreateExerciseRequestSchema
+    response: CreateExerciseResponseSchema
 
     @property
     def id(self) -> str:
         return self.response.exercise.id
+
+
+class ExercisesFixture(BaseModel):
+    request: List[CreateExerciseRequestSchema]
+    response: List[CreateExerciseResponseSchema]
 
 
 @pytest.fixture
@@ -24,7 +30,8 @@ def exercises_client(function_user: UserFixture) -> ExerciseClient:
 
 
 @pytest.fixture
-def function_exercise(exercises_client: ExerciseClient, function_course: CourseFicture) -> ExerciseFixture:
+def function_exercise(exercises_client: ExerciseClient,
+                      function_course: CourseFixture) -> ExerciseFixture:
     request = CreateExerciseRequestSchema(course_id=function_course.id)
     response = exercises_client.create_exercise(request)
     return ExerciseFixture(request=request, response=response)
@@ -33,8 +40,8 @@ def function_exercise(exercises_client: ExerciseClient, function_course: CourseF
 @pytest.fixture
 def function_three_exercises(
         exercises_client: ExerciseClient,
-        function_course: CourseFicture,
-) -> ExerciseFixture:
+        function_course: CourseFixture,
+) -> ExercisesFixture:
     exercises_number = 3
     requests = []
     responses = []
@@ -44,4 +51,4 @@ def function_three_exercises(
         requests.append(request)
         responses.append(response)
 
-    return ExerciseFixture(request=requests, response=responses)
+    return ExercisesFixture(request=requests, response=responses)

@@ -9,8 +9,8 @@ from clients.exercises.exercises_client import ExerciseClient
 from clients.exercises.exercises_schema import CreateExerciseRequestSchema, CreateExerciseResponseSchema, \
     GetExerciseRequestSchema, GetExerciseResponseSchema, UpdateExerciseRequestSchema, UpdateExerciseResponseSchema, \
     GetExercisesRequestSchema, GetExercisesResponseSchema
-from fixtures.courses import CourseFicture
-from fixtures.exercises import ExerciseFixture
+from fixtures.courses import CourseFixture
+from fixtures.exercises import ExerciseFixture, ExercisesFixture
 from tools.allure.epics import AllureEpic
 from tools.allure.features import AllureFeature
 from tools.allure.stories import AllureStory
@@ -36,7 +36,7 @@ class TestExercises:
     @allure.severity(Severity.BLOCKER)
     def test_create_exercise(
             self,
-            function_course: CourseFicture,
+            function_course: CourseFixture,
             exercises_client: ExerciseClient
     ):
         request = CreateExerciseRequestSchema(course_id=function_course.response.course.id)
@@ -121,9 +121,9 @@ class TestExercises:
     @allure.severity(Severity.CRITICAL)
     def test_get_three_exercises(
             self,
-            function_three_exercises: ExerciseFixture,
+            function_three_exercises: ExercisesFixture,
             exercises_client: ExerciseClient,
-            function_course: CourseFicture
+            function_course: CourseFixture
     ):
         request = GetExercisesRequestSchema(course_id=function_course.id)
         response = exercises_client.get_exercises_api(request)
@@ -146,7 +146,7 @@ class TestExercises:
             self,
             function_exercise: ExerciseFixture,
             exercises_client: ExerciseClient,
-            function_course: CourseFicture
+            function_course: CourseFixture
     ):
         request = GetExercisesRequestSchema(course_id=function_course.id)
         response = exercises_client.get_exercises_api(request)
