@@ -1,0 +1,10 @@
+curl -X 'POST' 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA5LTIxVDE5OjM3OjI3LjAyMTY4MSIsInVzZXJfaWQiOiI5YjY0ODg5ZS1hYTA3LTQ2ODItOTU5Mi1lMTM4NmI3ODJiYzcifQ.C6YoVt8bA7G6bcB3pl9Kgd0DB_qwQXJZlOtbpS7iI44' \
+ -H 'content-length: 474' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Постоянный скользить призыв выбирать.","description":"Опасность пространство солнце кожа эффект возможно второй. Сынок палец угодный пища. Носок рис угроза вскакивать.","createdByUserId":"9b64889e-aa07-4682-9592-e1386b782bc7","previewFileId":"50292433-687a-4714-84ac-a14a427d8846","maxScore":93,"minScore":23,"estimatedTime":"5 weeks"}'

@@ -1,0 +1,10 @@
+curl -X 'POST' 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA5LTIxVDE5OjM3OjI1Ljk2NjE5OSIsInVzZXJfaWQiOiIwOTdmM2Q4ZS0xZDdmLTQ0YjYtYjE3MS1mZGM5NTJjODQyMTQifQ.zpg7_Okd62SBRjHqGGchuDdPDm8dR5nXSRuVPefOP5U' \
+ -H 'content-length: 467' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Дорогой сынок посидеть неправда палец.","description":"Второй выраженный терапия строительство слишком. Налоговый нервно единый очко изменение заложить поставить.","createdByUserId":"097f3d8e-1d7f-44b6-b171-fdc952c84214","previewFileId":"b964846f-1a83-4c14-95c5-4f229829c394","maxScore":93,"minScore":13,"estimatedTime":"5 weeks"}'

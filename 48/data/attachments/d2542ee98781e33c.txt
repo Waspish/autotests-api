@@ -1,0 +1,10 @@
+curl -X 'POST' 'http://localhost:8000/api/v1/exercises' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA5LTIxVDE5OjM3OjI3LjAyMTY4MSIsInVzZXJfaWQiOiI5YjY0ODg5ZS1hYTA3LTQ2ODItOTU5Mi1lMTM4NmI3ODJiYzcifQ.C6YoVt8bA7G6bcB3pl9Kgd0DB_qwQXJZlOtbpS7iI44' \
+ -H 'content-length: 525' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Поговорить назначить перебивать слать.","description":"Секунда сравнение нажать костер. Выраженный дьявол ныне выбирать.\nЗаявление изба интеллектуальный. Кпсс развитый намерение прошептать коричневый упор растеряться.","courseId":"5b7de5e5-48fe-404a-a41f-8db4427068a7","maxScore":71,"minScore":14,"orderIndex":67,"estimatedTime":"8 weeks"}'

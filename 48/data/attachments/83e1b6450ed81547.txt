@@ -1,0 +1,10 @@
+curl -X 'POST' 'http://localhost:8000/api/v1/exercises' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA5LTIxVDE5OjM3OjI1LjY1NzE1MCIsInVzZXJfaWQiOiJmMGVlYzViOS1hZGRkLTRkNTktYWNkMy1jM2ZmNjY3MzAyZWMifQ.VPGbPRpFzJcPZk1u-EwZPjIUF-k67REeIMxqntMw0pE' \
+ -H 'content-length: 519' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Июнь сходить нож полюбить мотоцикл вздрагивать войти.","description":"Заявление дыхание угодный степь. Головной отметить житель ремень построить монета. Дыхание вывести выражение механический левый наткнуться зачем.","courseId":"32cd8b10-c3b4-4446-9562-2dd2191fc1d5","maxScore":61,"minScore":14,"orderIndex":45,"estimatedTime":"5 weeks"}'

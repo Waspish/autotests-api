@@ -1,0 +1,10 @@
+curl -X 'POST' 'http://localhost:8000/api/v1/exercises' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA5LTIxVDE5OjM3OjI1Ljk2NjE5OSIsInVzZXJfaWQiOiIwOTdmM2Q4ZS0xZDdmLTQ0YjYtYjE3MS1mZGM5NTJjODQyMTQifQ.zpg7_Okd62SBRjHqGGchuDdPDm8dR5nXSRuVPefOP5U' \
+ -H 'content-length: 549' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Более лапа означать кпсс доставать наступать.","description":"Неожиданный посвятить материя прошептать инструкция неправда. Потянуться выгнать инфекция ремень спорт неожиданный. Девка непривычный доставать спешить провал дрогнуть.","courseId":"3bad9b21-0a3f-4be6-8288-e259d68668ad","maxScore":87,"minScore":25,"orderIndex":78,"estimatedTime":"9 weeks"}'

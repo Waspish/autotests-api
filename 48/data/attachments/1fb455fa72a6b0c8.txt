@@ -1,0 +1,10 @@
+curl -X 'POST' 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA5LTIxVDE5OjM3OjIyLjM2OTAzMyIsInVzZXJfaWQiOiI0ZmZlMGMyMi0zZDhkLTQ1NzEtYTllOC1hOWUzYjg2NTU4NTYifQ.g4XuP4XxCoGQX5UxcUdJecTJ8xn8464-IYMNdzbJRss' \
+ -H 'content-length: 548' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Ломать жить исследование поговорить тюрьма миллиард.","description":"Прежний вообще устройство. Лететь изображать понятный ложиться князь. Написать мотоцикл прежде изменение подробность темнеть привлекать.","createdByUserId":"4ffe0c22-3d8d-4571-a9e8-a9e3b8655856","previewFileId":"dbf964b3-b5ab-4fad-8ca0-4b4b9ec66bf6","maxScore":61,"minScore":10,"estimatedTime":"7 weeks"}'

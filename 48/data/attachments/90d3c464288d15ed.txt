@@ -1,0 +1,10 @@
+curl -X 'POST' 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA5LTIxVDE5OjM3OjI1LjY1NzE1MCIsInVzZXJfaWQiOiJmMGVlYzViOS1hZGRkLTRkNTktYWNkMy1jM2ZmNjY3MzAyZWMifQ.VPGbPRpFzJcPZk1u-EwZPjIUF-k67REeIMxqntMw0pE' \
+ -H 'content-length: 530' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Бабочка видимо поговорить радость мотоцикл угроза пропаганда парень.","description":"Эпоха очко поставить правление уточнить. Полностью применяться результат инвалид военный голубчик смертельный.","createdByUserId":"f0eec5b9-addd-4d59-acd3-c3ff667302ec","previewFileId":"75d3b2f9-efb3-44f3-b8bc-ff3444d7aa65","maxScore":68,"minScore":30,"estimatedTime":"9 weeks"}'

@@ -1,0 +1,10 @@
+curl -X 'POST' 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA5LTIxVDE5OjM3OjI0LjY3MjAxMyIsInVzZXJfaWQiOiJhZTIwNzg5OC01NzFkLTQwYjMtYjYwZS0wODUyMWM1YTU3ZjEifQ.hw6slgKmv1vo9ZoY9WQbWPeWyoylLXyl_JtWifbBEyA' \
+ -H 'content-length: 474' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Ведь выдержать недостаток решение.","description":"Пастух вряд уронить отъезд белье банда ботинок дальний. Войти фонарик мгновение более ребятишки развернуться какой.","createdByUserId":"ae207898-571d-40b3-b60e-08521c5a57f1","previewFileId":"1fb6e17a-1668-4a48-896d-889322a95b10","maxScore":87,"minScore":26,"estimatedTime":"10 weeks"}'

@@ -1,0 +1,10 @@
+curl -X 'POST' 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA5LTIxVDE5OjM3OjI0LjAxNjQxNiIsInVzZXJfaWQiOiJmZDI5OTMwMS01YjA5LTRkYjUtYmJjMC1kNjhmZDVkZWE3OGMifQ.VYkbk-viYrclCg3OnC6X7C8WVRdR6AOZ3srwWMB11rA' \
+ -H 'content-length: 468' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Термин предоставить привлекать умирать.","description":"Полоска радость банда аллея наткнуться функция порт. Правление термин протягивать редактор художественный.","createdByUserId":"fd299301-5b09-4db5-bbc0-d68fd5dea78c","previewFileId":"78cf21ed-8d3a-4112-843d-949db4d67a61","maxScore":86,"minScore":12,"estimatedTime":"2 weeks"}'

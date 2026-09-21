@@ -1,0 +1,10 @@
+curl -X 'POST' 'http://localhost:8000/api/v1/courses' \
+ -H 'host: localhost:8000' \
+ -H 'accept: */*' \
+ -H 'accept-encoding: gzip, deflate' \
+ -H 'connection: keep-alive' \
+ -H 'user-agent: python-httpx/0.28.1' \
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA5LTIxVDE5OjM3OjI3LjMzMDM1MSIsInVzZXJfaWQiOiI4OGIyZTFmZi1hZDQ3LTRiOTQtOTM0Ny1hMzlmODc2ZDZhNWMifQ.L8Zd4XC9DapdpRRZEAX4kv2S4DBVVfrWdQblUvoiIJI' \
+ -H 'content-length: 544' \
+ -H 'content-type: application/json' \
+ -d '{"title":"Желание бочок сынок карандаш кожа естественный природа.","description":"Развернуться слишком витрина выражаться прелесть правление. Боец пасть дрогнуть процесс очутиться. Инвалид зима палата протягивать.","createdByUserId":"88b2e1ff-ad47-4b94-9347-a39f876d6a5c","previewFileId":"fba15571-85e3-40dc-883c-8cfc302bed05","maxScore":100,"minScore":19,"estimatedTime":"4 weeks"}'
